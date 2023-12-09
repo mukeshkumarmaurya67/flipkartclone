@@ -1,0 +1,335 @@
+.navbar {
+    background: white;
+
+    .navbar-brand {
+        width: 180px;
+        height: 100px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .navbar-toggler {
+        .navbar-toggler-icon {}
+    }
+
+    .navbar-collapse {
+        justify-content: end;
+        gap: 20px;
+
+        form {
+            position: relative;
+
+            .form-control {
+                width: calc(100vw - 850px);
+                padding-left: 34px;
+                color: black;
+                background-color: rgb(237, 237, 237);
+                line-height: 100%;
+                caret-color: tomato;
+                caret-shape: underscore;
+
+                &::-webkit-input-placeholder {
+                    padding-left: 10px;
+                    color: #fbb03b;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    border-color: transparent;
+
+                }
+            }
+
+            .search-icon {
+                position: absolute;
+                top: calc(50% - 12px);
+                left: 10px;
+
+            }
+        }
+
+        .navbar-nav {
+            gap: 20px;
+
+            .nav-item {
+                .nav-link {
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+
+                    font-weight: 500;
+                    letter-spacing: .1;
+                    font-size: 16px;
+
+                    .dropdown-menu {
+                        margin: 0 !important;
+                    }
+
+                    &.dropdown-toggle {
+                        &:hover+ {
+                            .dropdown-menu {
+                                display: block !important;
+
+
+                            }
+
+                        }
+                    }
+                }
+            }
+
+            .dropdown-menu {
+                left: 50%;
+                transform: translate(-50%, 0%);
+                border-radius: 4px;
+                min-width: 180px;
+
+
+                hr {
+                    margin: 5px 0;
+                }
+
+                .dropdown-item {
+                    position: relative;
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    padding: 8px 12px;
+                    font-size: 14px;
+                    transition: 0.5s all linear;
+                    cursor: pointer;
+
+                    &:active {
+                        background: #80669d;
+                    }
+
+                    &:hover {
+                        padding: 8px 0 8px 35px;
+                        font-weight: 500;
+                        .icon-box{
+                            opacity: 1;
+                            transition: .7s all linear;
+                            svg{
+                                color: #800000;
+                            }
+                        }
+                    }
+
+                    .icon-box {
+                        position: fixed;
+                        opacity: 0;
+                        left: 5px;
+                    }
+
+                    .login-cstmr {
+                        color: black;
+                        margin-left: -5px;
+                        font-weight: 500;
+                    }
+
+                    .sgnp {
+                        color: #2874f0;
+                        font-weight: 500;
+                        font-size: 14px;
+                        text-decoration: none;
+                        position: absolute;
+                        right: 5px;
+                        transition: 1s all linear;
+
+                        &:hover {
+                            transform: rotateY(360deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#signup-signin-modal {
+    .modal-dialog {
+        .modal-content {
+            max-width: 750px;
+            min-width: 650px;
+
+            .modal-body {
+                padding: 0;
+                transition: .7s all linear;
+
+                .sign-wrapper {
+                    .sign-content {
+                        display: flex;
+
+                        .sign-content-l {
+                            flex: 0 0 40%;
+                            max-width: 40%;
+                            background: #5783db;
+                            padding: 40px 33px;
+                            position: relative;
+                            height: 528px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+
+                            .sign-content-l-desc {
+
+
+                                .sign-content-l-title {
+                                    margin: 0;
+                                    font-size: 26px;
+                                    font-weight: 500;
+                                    color: #fff;
+                                    line-height: 1.4;
+                                }
+
+                                .sign-content-l-para {
+                                    margin: 0;
+                                    font-size: 18px;
+                                    line-height: 150%;
+                                    color: #dbdbdb;
+                                    margin-top: 16px;
+                                }
+                            }
+
+
+                            .sign-content-l-img {
+                                width: 100%;
+                                max-height: 180px;
+                                margin-top: auto;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+
+                        }
+
+                        .sign-content-r {
+                            flex: 0 0 60%;
+                            max-width: 60%;
+                            padding: 56px 35px 16px;
+                            position: relative;
+
+                            .sign-content-r-content {
+                                display: flex;
+                                flex-direction: column;
+                                row-gap: 12px;
+
+                                .signform {
+                                    .form-group {
+                                        margin-bottom: 12px;
+
+                                        .form-label {
+                                            margin-bottom: -10px;
+                                        }
+
+                                        .form-control {
+                                            background: #fff;
+                                            border: none;
+                                            border-bottom: 1px solid #e0e0e0;
+                                            border-radius: 0;
+                                            padding: 0;
+                                            letter-spacing: 10px;
+
+
+
+                                            &:focus-visible {
+                                                outline: 0;
+                                            }
+
+                                            &:active {}
+
+                                            &:focus {
+                                                box-shadow: none;
+
+                                            }
+                                        }
+
+
+
+                                    }
+
+                                    .tnc {
+                                        color: #878787;
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                        padding-left: 8px;
+                                        line-height: 100%;
+
+                                        a {
+                                            color: #4681f4;
+                                        }
+                                    }
+
+                                    .continue-btn {
+                                        margin-top: 24px;
+                                        border-radius: 0;
+                                    }
+
+                                    .before-otp {}
+
+                                    .after-otp {
+                                        display: none;
+
+                                        p {
+                                            text-align: center;
+                                            font-size: 14px;
+                                            margin-bottom: 16px;
+
+                                            a {
+                                                text-decoration: none;
+                                                color: #2874f0;
+                                                font-weight: bold;
+                                            }
+                                        }
+
+                                        .input-grp {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 5px;
+
+                                            .inpt {
+                                                text-align: center;
+                                                padding: 0 5px;
+                                                border: none;
+                                                border-bottom: 2px solid gray;
+                                                max-width: 40px;
+                                                height: 35px;
+
+                                                &:focus-visible {
+                                                    outline: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+
+
+
+                            }
+
+                            .existing-cstmr {
+                                position: absolute;
+                                bottom: 10%;
+                                text-align: center;
+                                width: calc(100% - 70px);
+                                color: #4681f4;
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

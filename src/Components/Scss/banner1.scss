@@ -1,0 +1,87 @@
+.banner-wrapper {
+    .owl-theme {
+        .item {
+            height: 265px;
+            width: 100%;
+
+            @media(max-width:767px) {
+                height: 150px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+        }
+
+        .owl-nav {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            top: calc(50% - 40px);
+
+            @media (max-width:767px) {
+                display: none;
+            }
+
+            .owl-prev,.owl-next {
+              height: 75px;
+              width: 25px;
+                span{
+                    font-weight: 600;
+                    font-size: 36px;
+                }
+            }
+        }
+
+        .owl-dots {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50px);
+            background: transparent;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: .7s all;
+
+            @media(max-width: 767px) {
+                transform: translate(-50%, -30px);
+                gap: 4px;
+            }
+
+            .owl-dot {
+                span {
+                    width: 12px;
+                    height: 12px;
+                    margin: 2px 7px;
+                    border-radius: 50%;
+                    background-color: #a399b2;
+                    background-image: linear-gradient(147deg, #a399b2 0%, #4d4855 74%);
+
+                    @media(max-width:767px) {
+                        width: 8px;
+                        height: 8px;
+                    }
+                }
+
+                &.active {
+                    span {
+                        width: 14px;
+                        height: 14px;
+                        background-color: #310e68;
+                        background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+
+                        @media(max-width: 767px) {
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

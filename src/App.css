@@ -1,0 +1,12 @@
+.wrapper{
+  position: relative;
+}
+.chat{
+  position: fixed;
+ bottom: 20px;
+ right: 16px;
+ z-index: 9999;
+}
+/* .modal-backdrop {
+  z-index: 0;
+} */

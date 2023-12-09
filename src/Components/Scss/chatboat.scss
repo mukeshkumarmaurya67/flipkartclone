@@ -1,0 +1,201 @@
+.chatboat-wrapper {
+    .chatboat-contents {
+
+        .chatboat-link {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+            transition: .7s all linear;
+
+            @media(max-width: 767px) {
+                width: 42px;
+                height: 42px;
+            }
+
+
+            &:hover {
+                img {
+                    filter: drop-shadow(2px 4px 6px rgb(0, 140, 255));
+                    transform: scale(1.1, 1.1);
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                filter: drop-shadow(2px 4px 6px rgb(0, 255, 191));
+            }
+        }
+
+        .modal {
+
+
+
+            .modal-dialog {
+                margin-right: unset;
+                margin-top: 0;
+                margin-bottom: 0;
+                max-width: 25vw;
+                margin-left: auto;
+                -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+                -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+                -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+                transition: opacity 1 linear, left 0.7s ease-out;
+
+                @media(max-width: 767px) {
+                    min-width: 100vw;
+                }
+
+                .modal-content {
+                    border-radius: 0;
+                    height: 100vh;
+                    background: #0F2027;
+                    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
+                    background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+
+                    .modal-body {
+                        padding: 0;
+
+                        .chat-body-wrapper {
+                            position: relative;
+
+                            .btn-close {
+                                position: absolute;
+                                top: 5px;
+                                right: 5px;
+                            }
+
+                            .chat-body-top-section {
+
+                                display: flex;
+                                justify-content: center;
+                                height: 25vh;
+                                align-items: center;
+                                border-bottom: 1px solid #1a085c;
+
+                                .chat-body-top-section-title {}
+
+                                .chat-body-top-section-img {
+                                    width: 150px;
+                                    height: 150px;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: contain;
+                                    }
+                                }
+
+                            }
+
+
+
+                            .chat-body-bottom-section {
+                                padding: 10px;
+                                height: calc(75vh - 52px);
+
+
+                                .chat-field-section {
+                                    margin: 5px;
+                                    overflow: auto;
+                                    height: calc(75vh - 80px);
+
+                                    .recieved-chat-field,
+                                    .send-chat-field {
+                                        background-color: #f3f4f7;
+                                        background-image: linear-gradient(315deg, #f3f4f7 0%, #caccd1 74%);
+                                        padding: 5px 10px;
+                                        max-width: 75%;
+                                        border-radius: 8px;
+                                        margin-bottom: 8px;
+
+                                        .chat-text {
+                                            white-space: wrap;
+                                            margin-bottom: 4px;
+                                            font-size: 14px;
+                                        }
+
+                                        .time {
+                                            font-size: 10px;
+                                            font-weight: 500;
+                                            display: block;
+                                            text-align: end;
+                                        }
+                                    }
+
+                                    .send-chat-field {
+                                        margin-left: auto;
+                                    }
+
+                                }
+                            }
+
+                            .chat-body-footer {
+
+                                height: 50px;
+                                display: flex;
+
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .input-field {
+                                    width: calc(100% - 100px);
+                                    position: relative;
+
+                                    .chat-input {
+                                        padding: 10px 50px 10px 12px;
+                                        width: 100%;
+
+                                        &:focus-visible {
+                                            border: none;
+                                            outline: 0;
+                                        }
+                                    }
+
+                                    .icon-box {
+                                        width: 32px;
+                                        height: 32px;
+                                        position: absolute;
+                                        right: 8px;
+                                        top: calc(50% - 16px);
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                        }
+                                    }
+                                }
+
+
+                                .send-btn {
+                                    width: 100px;
+                                    background: url("https://media.istockphoto.com/id/1303810938/photo/green-leather-texture-background-for-design-web.jpg?s=612x612&w=0&k=20&c=IBXLMV2ESEnbQXwP6ypIFOW0eMBkHQNl498d6a9v_uk=");
+                                    padding: 8px 12px;
+                                    color: white;
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                    opacity: 0.9;
+                                    border-radius: 4px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.right {
+                .modal-dialog {
+                    -webkit-transform: translate3d(0%, 0, 0);
+                    -ms-transform: translate3d(0%, 0, 0);
+                    -o-transform: translate3d(0%, 0, 0);
+                    transform: translate3d(0%, 0, 0);
+                }
+            }
+        }
+    }
+}
