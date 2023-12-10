@@ -16,6 +16,59 @@ import bob8 from '../Images/bob8.png';
 
 
 const BestOfBeauty = () => {
+
+    const boe = [
+        {
+            category: "Best Of Beauty slider",
+            products: "Eye Kajal",
+            desc: "From 99",
+            image: bob1
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Face Brush",
+            desc: "From 269",
+            image: bob2
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Nail Art",
+            desc: "From 349",
+            image: bob3
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Lipistics",
+            desc: "Starts from 249",
+            image: bob4
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Eye Liner",
+            desc: "From 499",
+            image: bob5
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Face pack",
+            desc: "shop now",
+            image: bob6
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Face kit",
+            desc: "From 3999",
+            image: bob7
+        },
+        {
+            category: "Best Of Beauty slider",
+            products: "Essential Oil",
+            desc: "From 299",
+            image: bob8
+        }
+    ];
+
+
     let itemlenght=7;
     if(window.screen.width<991){
       itemlenght=4;
@@ -34,51 +87,20 @@ const BestOfBeauty = () => {
                     <div className="row">
                         <h2 className="best-of-title">Best of beauty</h2>
                         <div className="col-12">
+
                             <OwlCarousel items={itemlenght}
                                 className="owl-theme"
                                 nav
                                 margin={8} >
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob1} alt="bob1" /></div>
-                                    <p className='card-para'>Eye Kajal</p>
-                                    <h3 className="card-title">From 99</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob2} alt="bob2" /></div>
-                                    <p className='card-para'>Face Brush</p>
-                                    <h3 className="card-title">From 269</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob3} alt="bob3" /></div>
-                                    <p className='card-para'>Nail Art</p>
-                                    <h3 className="card-title">From 349</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob4} alt="bob4" /></div>
-                                    <p className='card-para'>Lipistics</p>
-                                    <h3 className="card-title">Starts from 249</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob5} alt="bob5" /></div>
-                                    <p className='card-para'>Eye Liner</p>
-                                    <h3 className="card-title">From 499</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob6} alt="bob6" /></div>
-                                    <p className='card-para'>Face pack</p>
-                                    <h3 className="card-title">shop now</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob7} alt="bob7" /></div>
-                                    <p className='card-para'>Face kit</p>
-                                    <h3 className="card-title">From 3999</h3>
-                                </div>
-                                <div className="item card">
-                                    <div className="img-box"><img src={bob8} alt="bob8" /></div>
-                                    <p className='card-para'>Essential Oil</p>
-                                    <h3 className="card-title">From 299</h3>
-                                </div>
-
+                                {
+                                    boe.map((e, index) => 
+                                            <div className="item card" key={index}>
+                                                <div className="img-box"><img src={e.image} alt={e.products} /></div>
+                                                <p className='card-para'>{e.products}</p>
+                                                <h3 className="card-title">{e.desc}</h3>
+                                            </div>
+                                    )
+                                }
                             </OwlCarousel>
                         </div>
                     </div>

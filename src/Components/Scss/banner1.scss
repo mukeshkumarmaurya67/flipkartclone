@@ -1,7 +1,7 @@
 .banner-wrapper {
     .owl-theme {
         .item {
-            height: 265px;
+            height: 350px;
             width: 100%;
 
             @media(max-width:767px) {
@@ -51,6 +51,10 @@
             @media(max-width: 767px) {
                 transform: translate(-50%, -30px);
                 gap: 4px;
+                background: #19875438;
+                opacity: 0.8;
+                padding: 1px 4px;
+                border-radius: 4px;
             }
 
             .owl-dot {
@@ -65,6 +69,7 @@
                     @media(max-width:767px) {
                         width: 8px;
                         height: 8px;
+                        margin: 2px 4px;
                     }
                 }
 

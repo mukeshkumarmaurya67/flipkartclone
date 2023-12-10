@@ -29,6 +29,7 @@
     padding: 8px 4px;
     border: 1px solid rgb(195, 192, 192);
     border-radius: 4px;
+    overflow: hidden;
 
     img {
         transition: 0.7s all;
@@ -85,15 +86,16 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background-color: #000000;
-    background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
-
+    // background-color: #000000;
+    // background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
+    background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background-color: #310e68;
     background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    background: transparent;
 }
 
 /* Handle on hover */

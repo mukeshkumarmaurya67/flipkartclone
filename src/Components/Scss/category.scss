@@ -9,9 +9,15 @@
     .category-list {
 
         &.nav {
-            justify-content: center;
+            justify-content: space-between;
             flex-wrap: nowrap;
             gap: 12px;
+
+            @media(max-width:1366px) {
+                gap: 1em;
+                max-width: calc(100vw - 100px);
+                overflow-x:scroll;
+            }
 
             .nav-item {
                 .nav-link {
@@ -19,6 +25,10 @@
                     flex-direction: column;
                     row-gap: 4px;
                     align-items: center;
+
+                    @media(max-width:767px) {
+                        padding: 8px;
+                    }
 
                     .category-list-icon {
                         background-color: rgb(247, 241, 229);
