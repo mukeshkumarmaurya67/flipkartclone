@@ -86,16 +86,15 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    // background-color: #000000;
-    // background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
-    background: transparent;
+    background-color: #000000;
+    background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
+    
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background-color: #310e68;
     background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
-    background: transparent;
 }
 
 /* Handle on hover */
@@ -106,4 +105,32 @@
 
 img{
     width: 100%;height: 100%;
+}
+
+
+// Custom Edit checkbox  
+
+.edit-group {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    width: 32px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 2px;
+    justify-content: end;
+    align-items: end;
+
+
+    #edit {
+        height: 18px;
+        width: 18px;
+        cursor: pointer;
+    }
+
+    label {
+        font-size: 14px;
+        color: #c9c9c9;
+    }
 }
