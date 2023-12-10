@@ -22,12 +22,14 @@ const ProductDetails = (props) => {
         fetchData()
     }, [0]);
 
-    let addcls = () => {
-        let x = document.querySelectorAll(".img-box");
-        x.forEach(box => {
-            box.classList.remove('active');
-            box.classList.add('active');
-        });
+
+    let addcls = (event) => {
+        let x = document.getElementById("main-img");
+        for (const i of document.querySelectorAll(".img-box")) {
+            i.classList.remove("active");
+        }
+        event.currentTarget.classList.add("active");
+        x.src = event.currentTarget.firstChild.src;
     }
 
     return (
@@ -43,14 +45,16 @@ const ProductDetails = (props) => {
                                 <div className="col-lg-4">
 
                                     <div className="page-details-img-section card">
-                                        <div className="main-image-section-box">
-                                            <img src={require(`../Images/Products/${e.image[0]}`)} />
+                                        <div className="main-image-section-box" key={index}>
+                                            <img id="main-img" src={require(`../Images/Products/${e.image[0]}`)} />
                                         </div>
                                         <div className="image-list">
                                             {
                                                 e.image.map((e, index) => {
                                                     return (
-                                                        <div className="img-box" key={index} onClick={addcls}>
+                                                        <div key={index} onClick={addcls} className={
+                                                            index === 0 ? "img-box active" : "img-box"
+                                                        }>
                                                             <img src={require(`../Images/Products/${e}`)} />
                                                         </div>
                                                     )
