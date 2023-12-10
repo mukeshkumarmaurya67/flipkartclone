@@ -9,11 +9,12 @@ import banner2 from '../Images/banner2.jpg';
 import banner3 from '../Images/banner3.jpg';
 import banner4 from '../Images/banner4.jpg';
 import banner5 from '../Images/banner5.jpg';
+import banner6 from '../Images/banner1.jpg';
 
 const Banner1 = () => {
+    const bannerimg= [banner1,banner2,banner3,banner4,banner5,banner6];
     return (
         <>
-
             <div className="banner-wrapper">
                 <div className="container">
                     <div className="row">
@@ -24,44 +25,14 @@ const Banner1 = () => {
                                 nav
                                 autoplay
                                 margin={8} >
-                                <div className="item"><img src={banner1} alt="banner1" /></div>
-                                <div className="item"><img src={banner2} alt="banner2" /></div>
-                                <div className="item"><img src={banner3} alt="banner3" /></div>
-                                <div className="item"><img src={banner4} alt="banner4" /></div>
-                                <div className="item"><img src={banner5} alt="banner5" /></div>
+                                    {
+                                        bannerimg.map(e=><div className="item"><img src={e} alt="e" /></div>)
+                                    }
+
                             </OwlCarousel>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="container row">
-                <div className="col-4">
-
-                </div>
-
-
-
-
-
-                <div className="col-4">
-
-
-                </div>
-
-
-
-
-
-
-
-
-                <div className="col-4">
-
-
-
-                </div>
-
             </div>
         </>
     )

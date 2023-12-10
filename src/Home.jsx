@@ -11,7 +11,7 @@ import MobileFooterMenu from './Components/Home Components/MobileFooterMenu';
 import SpecialOfFashion from './Components/Home Components/SpecialOfFashion';
 import SpecialOfSale from './Components/Home Components/SpecialOfSale';
 import SpecialOfTravel from './Components/Home Components/SpecialOfTravel';
-import Chatboat from './Components/Pages/Chatboat';
+import Chatboat from './Components/Home Components/Chatboat';
 import './Components/Scss/main.scss'
 function Home() {
   return (
@@ -22,16 +22,16 @@ function Home() {
           <Category />
           <Banner1 />
           <BestOfElectronics />
-          <BestOfKitchen />
-          <BestOfBeauty />
           <SpecialOfSale />
+          <BestOfKitchen />
           <SpecialOfFashion />
+          <BestOfBeauty />
           <SpecialOfTravel />
         </div>
         <Footer />
         <MobileFooterMenu />
         <div className="chat">
-          <Chatboat />
+         <Chatboat />
         </div>
       </div>
 
