@@ -1,0 +1,83 @@
+.page-details-wrapper {
+    margin-bottom: 12px;
+
+    .page-details-img-section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+        background-color: #f9fcff;
+        background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+
+        .main-image-section-box {
+            // max-width: 350px;
+            // height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid rgb(210, 209, 209);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .image-list {
+            display: flex;
+            gap: 12px;
+            justify-content: start;
+            align-items: center;
+            padding: 4px 8px;
+            overflow-x: auto;
+            max-width: 400px;
+            cursor: pointer;
+
+            .img-box {
+                width: 72px;
+                height: 72px;
+                box-shadow: 0 0 1px 1px gray;
+                overflow: hidden;
+
+                &.active {
+                    background-color: #d7e6f4;
+                    background-image: linear-gradient(147deg, #d3dae0 0%, #a3bbd4 74%);
+                    box-shadow: 0 0 2px 2px rgb(227, 172, 172);
+
+                    img {
+                        transform: scale(1.2, 1.2);
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .product-details-section {
+        .products-details-type {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .spescific {
+            font-weight: 500;
+            font-size: 14px;
+            padding-left: 4px;
+            color: black;
+
+            .specific-value {
+                font-weight: 400;
+                padding-left: 12px;
+                font-size: 14px;
+                color: rgb(47, 47, 47);
+                display: inline-block;
+            }
+        }
+    }
+}

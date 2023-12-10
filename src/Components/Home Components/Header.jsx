@@ -84,7 +84,7 @@ document.querySelector(".after-otp").style.display = "block";
                     <a href='#signup-signin-modal' role='button' data-bs-toggle="modal" onClick={signupfun} className='sgnp'>Signup</a></li>
                   <hr />
                   <li className='dropdown-item'><Link to='/profile'><div className="icon-box"><ManageAccountsIcon /></div> My Profile</Link></li>
-                  <li className='dropdown-item'><a href='#'><div className="icon-box"><ProductionQuantityLimitsIcon /></div> Orders</a></li>
+                  <li className='dropdown-item'><Link to='/product-details'><div className="icon-box"><ProductionQuantityLimitsIcon /></div> Products</Link></li>
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><FavoriteIcon /></div> Wishlist</a></li>
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><EmojiEventsIcon /></div> Rewards</a></li>
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><LocalOfferIcon /></div> Giftcards</a></li>
