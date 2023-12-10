@@ -9,12 +9,13 @@
         background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
 
         .main-image-section-box {
-            // max-width: 350px;
-            // height: 350px;
+
+            height: 350px;
             display: flex;
             justify-content: center;
             align-items: center;
             border-bottom: 1px solid rgb(210, 209, 209);
+            overflow: hidden;
 
             img {
                 width: 100%;
@@ -27,9 +28,10 @@
             display: flex;
             gap: 12px;
             justify-content: start;
+            flex-wrap: nowrap;
             align-items: center;
             padding: 4px 8px;
-            overflow-x: auto;
+            overflow: auto;
             max-width: 400px;
             cursor: pointer;
 
@@ -59,6 +61,13 @@
     }
 
     .product-details-section {
+        .product-details-section-part1 {
+            .product-name {
+                font-size: 20px;
+
+            }
+        }
+
         .products-details-type {
             font-size: 20px;
             font-weight: 600;
