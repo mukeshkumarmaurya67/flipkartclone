@@ -5,3 +5,4 @@ $('#banner1-slider').owlCarousel({
     nav: true,
     items: 2,
 })
+console.log("")
