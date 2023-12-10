@@ -102,7 +102,7 @@ const BestOfElectronics = () => {
                                     )
                                 }
                             </OwlCarousel>
-                            <img src={require ('../Images/beauty.png')} alt='trimmer' />
+                            <img src={require('../Images/beauty.png')} alt='trimmer' className='d-none' />
                         </div>
                     </div>
                 </div>

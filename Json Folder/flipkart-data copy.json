@@ -1,0 +1,125 @@
+[
+    {
+        "Electronic": {
+            "mobile": {
+                "Moto": {},
+                "Samsung": [
+                    {
+                        "name": "SAMSUNG Galaxy S22 5G (Phantom White, 128 GB)  (8 GB RAM)",
+                        "price": "39,999",
+                        "image": [
+                            "samsung-s22-1.png",
+                            "samsung-s22-2.png",
+                            "samsung-s22-3.png",
+                            "samsung-s22-4.png",
+                            "samsung-s22-5.png"
+                        ],
+                        "id": 1,
+                        "description": "Explore a new range of night photography features on this Samsung Galaxy S22 5G smartphone. You can click stunning images even in low light with the Nightography mode. It is designed with a pro-grade camera which comprises a big pixel sensor that welcomes more light for mind-blowing photography. Built with impressive software and hardware, this phone is a game-changer. With a 120 Hz refresh rate and dynamic AMOLED 2x display, you are going to experience immersive screen time. This phone operates on a Snapdragon 8 Gen 1 processor that delivers quick and hassle- free navigation. This device is protected by Corning Gorilla Glass Victus and has an IP68 waterproof rating.",
+                        "specification": [
+                            {
+                                "power-source": "120 watt",
+                                "model-number": "Galaxy S22 5G",
+                                "color": "White",
+                                "operating System": "Android 12",
+                                "storage": "128gb",
+                                "ram": "8gb",
+                                "bluetooth Support": "Yes",
+                                "bluetooth Version": "V5.2",
+                                "music player": "yes",
+                                "audio formats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                                "video formats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                                "battery capacity": "3700 mAh"
+                            }
+                        ],
+                        "dimension": [
+                            {
+                                "Width": "70.6 mm",
+                                "Height": "146 mm",
+                                "Depth": "7.6 mm",
+                                "Weight": "167 gm"
+                            }
+                        ],
+                        "warranty": [
+                            {
+                                "Warranty Summary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+                                "Warranty Service Type": "Manufacturer Defect Only",
+                                "Covered in Warranty": "Manufacturing Defect",
+                                "Domestic Warranty": "1 Year"
+                            }
+                        ],
+                        "filter": [
+                            {
+                                "color": "white",
+                                "category": "Electronics",
+                                "subcategory": "mobile",
+                                "offer-type": "best-selling"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
+                        "price": "1,34,999",
+                        "image": [
+                            "samsung-s23-ultra-1.png",
+                            "samsung-s23-ultra-2.png",
+                            "samsung-s23-ultra-3.png",
+                            "samsung-s23-ultra-4.png",
+                            "samsung-s23-ultra-5.png"
+                        ],
+                        "id": 2,
+                        "description": "Get a smartphone for yourself that can detect your moods and react appropriately. The Samsung Galaxy Ultra's potent processor and advanced camera sensor can handle low light and noise reduction. The phone's Snapdragon 8 Gen 2 processor, which also provides a long battery life to carry you through even the busiest days, also enables quick gaming and video streaming. You can also launch Expert RAW to take high-resolution RAW photos that are vivid and packed with information. Moreover, Dynamic AMOLED 2X offers clear, brilliant details in both bright and low-light conditions. Additionally, to smooth up gaming and save power, the refresh rate is automatically optimised with 120 Hz technology.",
+                        "specification": [
+                            {
+                                "power-source": "160 watt",
+                                "model-number": "Galaxy S23 Ultra 5G",
+                                "color": "Green",
+                                "operating System": "Android 13",
+                                "storage": "256gb",
+                                "ram": "12gb",
+                                "bluetooth Support": "Yes",
+                                "bluetooth Version": "V5.3",
+                                "music player": "yes",
+                                "audio formats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                                "video formats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                                "battery capacity": "4800 mAh"
+                            }
+                        ],
+                        "dimension": [
+                            {
+                                "Width": "78.1 mm",
+                                "Height": "163.4 mm",
+                                "Depth": "8.9 mm",
+                                "Weight": "233 g"
+                            }
+                        ],
+                        "warranty": [
+                            {
+                                "Warranty Summary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+                                "Warranty Service Type": "Manufacturer Defect Only",
+                                "Covered in Warranty": "Manufacturing Defect",
+                                "Domestic Warranty": "1 Year"
+                            }
+                        ],
+                        "filter": [
+                            {
+                                "color": "green",
+                                "category": "mobile",
+                                "offer-type": "best-selling"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Laptop": {},
+            "Tablets": {}
+        }
+    },
+    {
+        "Fashion": {
+            "mens": {},
+            "womens": {},
+            "kids"{}
+        }
+    },
+]
