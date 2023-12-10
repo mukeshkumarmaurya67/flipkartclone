@@ -8,7 +8,7 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 
 const Footer = () => {
-const footerData = [
+  const footerData = [
     {
       title: "ABOUT",
       list: [
@@ -50,12 +50,12 @@ const footerData = [
     },
   ];
 
-    return (
-        <footer className="footer-wrapper">
-                        <div className="footer-contents">
-                            <div className="footer-content-top">
-                                <div className="footer-content-t-l">
-                                    {footerData.map((ele, index) => (
+  return (
+    <footer className="footer-wrapper">
+      <div className="footer-contents">
+        <div className="footer-content-top">
+          <div className="footer-content-t-l">
+            {footerData.map((ele, index) => (
               <ul>
                 <h3
                   className={
@@ -74,77 +74,77 @@ const footerData = [
                     {ele}
                   </li>
                 ))}
-                                    </ul>
-))}
-                                </div>
+              </ul>
+            ))}
+          </div>
 
-                                <div className="footer-content-t-r">
-                                    <div className="footer-content-t-r-l">
-                                        <li className="footer-title">Mail Us:</li>
-<li className="footer-para">
+          <div className="footer-content-t-r">
+            <div className="footer-content-t-r-l">
+              <li className="footer-title">Mail Us:</li>
+              <li className="footer-para">
                 Dumikart Internet Private Limited, Buildings Alyssa, Begonia &
                 Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
                 Village, Bengaluru, 560103, Karnataka, India
               </li>
-                                    </div>
-                                    <ul>
-                                        <li className="footer-title">Registered Office Address:</li>
+            </div>
+            <ul>
+              <li className="footer-title">Registered Office Address:</li>
 
-                                        <li className="footer-para">
+              <li className="footer-para">
                 Dumikart Internet Private Limited, Buildings Alyssa, Begonia &
                 Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
                 Village, Bengaluru, 560103, Karnataka, India CIN :
                 U51109KA2012PTC066107 Telephone:{" "}
                 <a href="tel:044-45614700">044-45614700</a>{" "}
               </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="footer-content-bottom">
-                                <ul>
-                                    <li className="fcb">
-                                        <div className="icon-box">
-                                            <AutoGraphIcon style={{ width: " 14px", height: "14px" }} />
-                                        </div>
-                                        <div className="fcb-title">Become a Seller</div>
-                                    </li>
-                                    <li className="fcb">
-                                        <div className="icon-box">
-                                            <AutoFixHighIcon style={{ width: " 14px", height: "14px" }} />
-                                        </div>
-                                        <div className="fcb-title">Advertise</div>
-                                    </li>
-                                    <li className="fcb">
-                                        <div className="icon-box">
-                                            <CardGiftcardIcon style={{ width: " 14px", height: "14px" }} />
-                                        </div>
-                                        <div className="fcb-title">Gift Cards</div>
-                                    </li>
-                                    <li className="fcb">
-                                        <div className="icon-box">
-                                            <HelpOutlineIcon style={{ width: " 14px", height: "14px" }} />
-                                        </div>
-                                        <div className="fcb-title">Help Center</div>
-                                    </li>
-                                    <li className="fcb">
-                                        <div className="icon-box"></div>
-                                        <div className="fcb-title">
+            </ul>
+          </div>
+        </div>
+        <div className="footer-content-bottom">
+          <ul>
+            <li className="fcb">
+              <div className="icon-box">
+                <AutoGraphIcon style={{ width: " 14px", height: "14px" }} />
+              </div>
+              <div className="fcb-title">Become a Seller</div>
+            </li>
+            <li className="fcb">
+              <div className="icon-box">
+                <AutoFixHighIcon style={{ width: " 14px", height: "14px" }} />
+              </div>
+              <div className="fcb-title">Advertise</div>
+            </li>
+            <li className="fcb">
+              <div className="icon-box">
+                <CardGiftcardIcon style={{ width: " 14px", height: "14px" }} />
+              </div>
+              <div className="fcb-title">Gift Cards</div>
+            </li>
+            <li className="fcb">
+              <div className="icon-box">
+                <HelpOutlineIcon style={{ width: " 14px", height: "14px" }} />
+              </div>
+              <div className="fcb-title">Help Center</div>
+            </li>
+            <li className="fcb">
+              <div className="icon-box"></div>
+              <div className="fcb-title">
                 <CopyrightIcon
                   style={{ width: " 16px", height: "16px", color: "red" }}
                 />{" "}
                 2023-25 Dumikart.com
               </div>
-                                    </li>
-                                    <li className="fcb">
-                                        <div className="icon-box">
-                                            <img src={pm} alt="Payment Method" />
-                                        </div>
-                                                                           </li>
-                                </ul>
-                            </div>
-                        </div>
-        </footer>
-    );
+            </li>
+            <li className="fcb">
+              <div className="icon-box">
+                <img src={pm} alt="Payment Method" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
