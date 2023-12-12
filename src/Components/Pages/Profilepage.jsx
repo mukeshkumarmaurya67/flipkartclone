@@ -38,7 +38,7 @@ const Profilepage = () => {
     let formsubmit = () => {
 
     }
-
+    console.log("images")
     return (
         <>
             <Header />
@@ -56,7 +56,7 @@ const Profilepage = () => {
                                         <div className="profile-img">
                                             <input type="file" className='edit-img' accept="image/png, image/jpeg,image/jpg" disabled={toggledisabled} />
                                             <div className="profile-img-box">
-                                                {console.log(images)}
+                                               
                                                 <img src={require(`../Images/Products/${images}`)} alt='Profile Pic' 
                                             onChange={obj=>setImages(obj.target.value)} value={images} />   
                                             </div>
