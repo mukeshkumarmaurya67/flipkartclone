@@ -1,15 +1,44 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Home Components/Header';
 import '../Scss/profile.scss';
 
 const Profilepage = () => {
-    let toglesbmt = (e) => {
-        let x = document.getElementById("sbmt");
-        x.classList.toggle("d-none");
+    let [fname, setFname] = useState("");
+    let [lname, setLname] = useState("");
+    let [mail, setMail] = useState("");
+    let [toggledisabled, settoggledisabled] = useState(1);
+    let [images, setImages] = useState("");
+
+    let toglesbmt = () => {
+        toggledisabled == 0 ? settoggledisabled(1) : settoggledisabled(0);
     }
-    let editaddress = (event) => {
+    let [userdetails, setUserdetails] = useState({});
+
+    let fetchData = () => {
+        fetch("http://localhost:3000/profiledetails")
+            .then(r => r.json())
+            .then(x => {
+                setUserdetails(x)
+                setFname(x.fname);
+                setLname(x.lname);
+                setMail(x.mail);
+                setImages(x.pimage)
+            })
 
     }
+    useEffect(() => {
+        fetchData()
+    }, [1])
+
+
+
+    let editaddress = (event) => {
+    }
+
+    let formsubmit = () => {
+
+    }
+
     return (
         <>
             <Header />
@@ -23,38 +52,52 @@ const Profilepage = () => {
                                         <input type="checkbox" id="edit" onClick={toglesbmt} />
                                         <label for="html">Edit</label>
                                     </div>
-                                    <div className="profile-img">
-                                        <div className="profile-img-box">
+                                    <form className="profile-dettails" on onSubmit={formsubmit}>
+                                        <div className="profile-img">
+                                            <input type="file" className='edit-img' accept="image/png, image/jpeg,image/jpg" disabled={toggledisabled} />
+                                            <div className="profile-img-box">
+                                                {console.log(images)}
+                                                <img src={require(`../Images/Products/${images}`)} alt='Profile Pic' 
+                                            onChange={obj=>setImages(obj.target.value)} value={images} />   
+                                            </div>
+                                            <div className="form-group">
+                                                <label></label>
+                                            </div>
+                                        </div>
+                                        <div className="profile-name card-title">Mukesh Kumar Maurya</div>
 
-                                            <img src={require('../Images/profile-pic.jpg')} alt='Profile Pic' />
-                                        </div>
-                                        <div className="form-group">
-                                            <label></label>
-                                        </div>
-                                    </div>
-                                    <div className="profile-name card-title">Mukesh Kumar Maurya</div>
-                                    <form className="profile-dettails">
+
                                         <div className="form-group">
                                             <label className="card-title">
-                                                Email:
+                                                First Name:
                                             </label>
-                                            <input type="text" className='form-control tgl' disabled value="mukeshkumarmaurya70@gmail.com" />
+                                            <input type="text" className='form-control tgl' disabled={toggledisabled} value={fname} onChange={obj => setFname(obj.target.value)} />
                                         </div>
                                         <div className="form-group">
                                             <label className="card-title">
-                                                Mobile Number
+                                                Last Name:
                                             </label>
-                                            <input type="text" className='form-control tgl' disabled value="+91-7019138442" />
+                                            <input type="text" className='form-control tgl' disabled={toggledisabled} onChange={obj => setLname(obj.target.value)} value={lname} />
                                         </div>
                                         <div className="form-group">
                                             <label className="card-title">
-                                                Account Status
+                                                Change Mail Id:
                                             </label>
-                                            <input type="text" className='form-control' disabled value="Active" />
+                                            <input type="text" className='form-control tgl' disabled={toggledisabled} value={mail} onChange={obj => setMail(obj.target.value)} />
                                         </div>
+                                        <div className="form-group">
+                                            <label className="card-title">
+                                                Gender:
+                                            </label>
+                                            <div className="gender-box">
+                                                <input type='radio' name='gender' disabled={toggledisabled} value=" male" /> <span className='text-white ms-1 me-3'>Male</span>
+                                                <input type='radio' name='gender' disabled={toggledisabled} value="female" /> <span className='text-white ms-1'>Female</span>
+                                            </div>
+                                        </div>
+
                                         <div className="sbmt-box">
 
-                                            <input type="submit" className='sbmt-btn d-none' value="Submit" id='sbmt' />
+                                            <input type="submit" className='sbmt-btn' value="Submit" disabled={toggledisabled} id='sbmt' />
                                         </div>
                                     </form>
 
@@ -65,12 +108,12 @@ const Profilepage = () => {
                             <div className="col-12">
                                 <div className="account-scetion">
                                     <div className="account-section-content">
-                                        <h3 className="account-title">Account Details</h3>
+                                        <h3 className="account-title lg-title">Account Details</h3>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12">
-                                <h3 className="address-section-content">Address Details</h3>
+                                <h3 className="address-section-content lg-title">Address Details</h3>
                                 <div className="address-section">
 
                                     <div className="address-card-wrapper ">
@@ -80,8 +123,8 @@ const Profilepage = () => {
                                                 <label for="html">Edit</label>
                                             </div>
                                             <span className='addres-type bg-success'>Home</span>
-                                            <h4 className='name-contact'><span>Mukesh</span><span>+91-7019138442</span></h4>
-                                            <address>315 GANESHNALAYA , GROUND FLOOR, 4TH CROSS , BASCOW NAGAR ,T. C PALAYA, Bengaluru, Karnataka - 560036</address>
+                                            <h4 className='name-contact sm-title'><span>Mukesh</span><span>+91-7019138442</span></h4>
+                                            <address className='sm-para'>315 GANESHNALAYA , GROUND FLOOR, 4TH CROSS , BASCOW NAGAR ,T. C PALAYA, Bengaluru, Karnataka - 560036</address>
                                         </div>
                                     </div>
 
@@ -92,8 +135,8 @@ const Profilepage = () => {
                                                 <label for="html">Edit</label>
                                             </div>
                                             <span className='addres-type bg-warning'>Office</span>
-                                            <h4 className='name-contact'><span>Mukesh</span><span>+91-7738898065</span></h4>
-                                            <address>#503 ,5th Floor Mayuransh Elanza Near Shyamal cross  Ahemdabad Gujrat - 380051</address>
+                                            <h4 className='name-contact sm-title'><span>Mukesh</span><span>+91-7738898065</span></h4>
+                                            <address className='sm-para'>#503 ,5th Floor Mayuransh Elanza Near Shyamal cross  Ahemdabad Gujrat - 380051</address>
                                         </div>
                                     </div>
 
@@ -104,8 +147,8 @@ const Profilepage = () => {
                                                 <label for="html">Edit</label>
                                             </div>
                                             <span className='addres-type bg-info'>Work</span>
-                                            <h4 className='name-contact'><span>Mukesh</span><span>+91-7738898065</span></h4>
-                                            <address>#503 ,5th Floor Mayuransh Elanza Near Shyamal cross  Ahemdabad Gujrat - 380051</address>
+                                            <h4 className='name-contact sm-title'><span>Mukesh</span><span>+91-7738898065</span></h4>
+                                            <address className='sm-para'>#503 ,5th Floor Mayuransh Elanza Near Shyamal cross  Ahemdabad Gujrat - 380051</address>
                                         </div>
                                     </div>
                                 </div>
