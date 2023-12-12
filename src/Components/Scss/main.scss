@@ -25,6 +25,101 @@
     }
 }
 
+.xxs-title {
+    font-size: 10px;
+    font-weight: 500;
+    color:#040406;
+}
+
+.xs-title {
+    font-size: 12px;
+    font-weight: 500;
+    color:#040406;
+}
+
+.sm-title {
+    font-size: 14px;
+    font-weight: 500;
+    color:#040406;
+}
+
+.md-title {
+    font-size: 16px;
+    font-weight: 500;
+    color:#040406;
+
+    @media(max-width: 767px) {
+        font-size: 14px;
+    }
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color:#040406;
+
+    @media(max-width: 76px) {
+        font-size: 16px;
+    }
+}
+
+.lg-title {
+    font-size: 20px;
+    font-weight: 500;
+    color:#040406;
+
+    @media(max-width: 76px) {
+        font-size: 16px;
+    }
+}
+
+.xl-title {
+    font-size: 24px;
+    font-weight: 500;
+    color:#040406;
+
+    @media(max-width: 76px) {
+        font-size: 18px;
+    }
+}
+
+.sm-para {
+    font-size: 14px;
+    color: #28231d;
+}
+
+.xs-para {
+    font-size: 12px;
+    color: #28231d;
+}
+
+.para {
+    font-size: 16px;
+    color: #28231d;
+
+    @media(max-width: 76px) {
+        font-size: 14px;
+    }
+}
+
+.lg-para {
+    font-size: 18px;
+    color: #28231d;
+
+    @media(max-width: 76px) {
+        font-size: 14px;
+    }
+}
+
+.xl-para {
+    font-size: 20px;
+    color: #28231d;
+
+    @media(max-width: 76px) {
+        font-size: 16px;
+    }
+}
+
 .card {
     padding: 8px 4px;
     border: 1px solid rgb(195, 192, 192);
@@ -88,7 +183,7 @@
 ::-webkit-scrollbar-track {
     background-color: #000000;
     background-image: linear-gradient(326deg, #000000 0%, #ce203c 74%);
-    
+
 }
 
 /* Handle */
@@ -103,8 +198,9 @@
     background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
 }
 
-img{
-    width: 100%;height: 100%;
+img {
+    width: 100%;
+    height: 100%;
 }
 
 
