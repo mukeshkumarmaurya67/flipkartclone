@@ -99,7 +99,7 @@ const Chatboat = () => {
                                         </div>
                                         <div className="chat-body-footer">
                                             <div className='input-field'>
-                                                <input type='text' className='chat-input' placeholder='type here.....' required />
+                                                <input type='text' className='chat-input' placeholder='Type here.....' required />
                                                 <a type='file' href='#' className="icon-box">
                                                     <img src={fileattcher} alt="file Attachment" />
                                                 </a>
