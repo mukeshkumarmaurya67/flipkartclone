@@ -96,8 +96,8 @@ const BestOfBeauty = () => {
                                     boe.map((e, index) => 
                                             <div className="item card" key={index}>
                                                 <div className="img-box"><img src={e.image} alt={e.products} /></div>
-                                                <p className='card-para'>{e.products}</p>
-                                                <h3 className="card-title">{e.desc}</h3>
+                                                <p className='para text-center w-100'>{e.products}</p>
+                                                <h3 className="title text-center w-100">{e.desc}</h3>
                                             </div>
                                     )
                                 }

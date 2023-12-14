@@ -12,7 +12,6 @@
                 justify-content: center;
                 align-items: center;
 
-
                 .edit-img {
                     position: absolute;
                     min-height: 100px;
@@ -37,7 +36,6 @@
                         object-fit: cover;
                     }
                 }
-
             }
 
             .profile-name {
@@ -77,23 +75,85 @@
         }
     }
 
+    .tab-content-section {
+        padding: 12px 0;
+
+        .nav {
+            flex-direction: column;
+            row-gap: 12px;
+            background-color: #f9fcff;
+            background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+            padding: 4px 8px;
+
+            .nav-item {
+                .icon-box {
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 10px;
+                }
+
+                .nav-link {
+                    display: inline-block;
+                    width: 100%;
+                    text-align: start;
+                    padding-left: 4px;
+                    position: relative;
+                    transition: 1.5s all linear;
+
+                    &::after {
+                        content: url("../Images/Icons/arrow-right.png");
+                        position: absolute;
+                        top: calc(50% - 10px);
+                        opacity: 0;
+                    }
+
+                    &.active {
+                        background-color: #d2d8d6;
+                        background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+                        color: rgb(7, 7, 67);
+
+                        &::after {
+                            opacity: 1;
+                            right: 0;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            .card {
+                height: 100%;
+
+
+            }
+        }
+    }
+
     .address-section {
         .address-section-content {}
+
+
 
         display: flex;
         gap: 10px;
         flex-wrap: wrap;
-        max-height: 360px;
+        max-height: 260px;
         overflow-y: auto;
+        justify-content: space-between;
 
         .address-card-wrapper {
-            flex: 0 0 calc(50% - 10px);
+            flex: 0 0 calc(33% - 5px);
             margin-bottom: 16px;
-            height: 100%;
+
 
             .card {
                 padding: 12px;
-                height: inherit;
+                height: 100%;
 
                 .addres-type {
                     display: inline-block;
@@ -103,15 +163,69 @@
                     width: 100px;
                     margin-bottom: 12px;
                     color: white;
-                    
-                }
 
-                address {}
+                }
 
                 .name-contact {
 
                     display: flex;
                     gap: 16px;
+                }
+            }
+        }
+
+
+    }
+
+    .grid-scetion {
+        padding: 16px 8px;
+        padding-right: 0;
+        .grid-section-content {
+            .title {
+                margin-bottom: 12px;
+            }
+            .content-section {
+                .content-section-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 12px;
+                    margin-bottom: 8px;
+                    background-color: #f9fcff;
+                    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+                    margin-bottom: 16px;
+
+                    :last-child {
+                        color: rgb(19, 19, 157) !important;
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+                .card {
+                    background-color: #f9fcff;
+                    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+
+                    .img-box {
+                        height: 130px;
+                        width: 100%;
+                        margin-bottom: 8px;
+
+                        img {
+                            object-fit: cover;
+
+                            &:hover {
+                                transform: unset;
+                            }
+                        }
+                    }
+
+                    .sm-title {
+                        width: inherit;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
                 }
             }
         }

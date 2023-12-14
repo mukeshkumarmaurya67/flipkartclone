@@ -37,62 +37,32 @@ const Category = () => {
                                         <span className="categorylist-name">Mobiles</span>
                                     </a>
                                 </li>
-                                <li className="category-list-content nav-item dropdown">
-                                    <a href="#fashown-dropdown" className="nav-link" data-bs-toggle="dropdown">
+                                <li className="category-list-content nav-item">
+                                    <a href="" className="nav-link">
                                         <div className="category-list-icon">
                                             <img src={fashion} alt="fashion" />
                                         </div>
-                                        <span className="categorylist-name dropdown-toggle">Fashion</span>
+                                        <span className="categorylist-name">Fashion</span>
                                     </a>
-                                    <ul className="dropdown-menu" id="fashown-dropdown">
-                                        <li className="dropdown-item">Mens Fashion</li>
-                                        <li className="dropdown-item">Womens Fashion</li>
-                                        <li className="dropdown-item">Kids Fashion</li>
-                                        <li className="dropdown-item">Unisex Fashion</li>
-                                        <li className="dropdown-item">Womens Shoes</li>
-                                        <li className="dropdown-item">Mens Shoes</li>
-                                        <li className="dropdown-item">Kids Shoes</li>
-                                        <li className="dropdown-item">Ethnic Wears</li>
-                                        <li className="dropdown-item">All</li>
-                                    </ul>
+                                    
                                 </li>
-                                <li className="category-list-content nav-item dropdown">
-                                    <a href="#electronics-dropdown" className="nav-link" data-bs-toggle="dropdown">
+                                <li className="category-list-content nav-item ">
+                                    <a href="" className="nav-link">
                                         <div className="category-list-icon">
                                             <img src={electronics} alt="electronics" />
                                         </div>
-                                        <span className="categorylist-name dropdown-toggle">Electronics</span>
+                                        <span className="categorylist-name">Electronics</span>
                                     </a>
-                                    <ul className="dropdown-menu" id="electronics-dropdown">
-                                        <li className="dropdown-item">Mens Fashion</li>
-                                        <li className="dropdown-item">Womens Fashion</li>
-                                        <li className="dropdown-item">Kids Fashion</li>
-                                        <li className="dropdown-item">Unisex Fashion</li>
-                                        <li className="dropdown-item">Womens Shoes</li>
-                                        <li className="dropdown-item">Mens Shoes</li>
-                                        <li className="dropdown-item">Kids Shoes</li>
-                                        <li className="dropdown-item">Ethnic Wears</li>
-                                        <li className="dropdown-item">All</li>
-                                    </ul>
+
                                 </li>
-                                <li className="category-list-content nav-item dropdown">
-                                    <a href="#homefurniture-dropdown" className="nav-link" data-bs-toggle="dropdown">
+                                <li className="category-list-content nav-item">
+                                    <a href="" className="nav-link" >
                                         <div className="category-list-icon">
                                             <img src={furniture} alt="furniture" />
                                         </div>
-                                        <span className="categorylist-name dropdown-toggle">Home & Furnitures</span>
+                                        <span className="categorylist-name">Home & Furnitures</span>
                                     </a>
-                                    <ul className="dropdown-menu" id="homefurniture-dropdown">
-                                        <li className="dropdown-item">Mens Fashion</li>
-                                        <li className="dropdown-item">Womens Fashion</li>
-                                        <li className="dropdown-item">Kids Fashion</li>
-                                        <li className="dropdown-item">Unisex Fashion</li>
-                                        <li className="dropdown-item">Womens Shoes</li>
-                                        <li className="dropdown-item">Mens Shoes</li>
-                                        <li className="dropdown-item">Kids Shoes</li>
-                                        <li className="dropdown-item">Ethnic Wears</li>
-                                        <li className="dropdown-item">All</li>
-                                    </ul>
+
                                 </li>
                                 <li className="category-list-content nav-item">
                                     <a href="" className="nav-link">
@@ -110,52 +80,23 @@ const Category = () => {
                                         <span className="categorylist-name">Travel</span>
                                     </a>
                                 </li>
-                                <li className="category-list-content nav-item dropdown">
-                                    <a href="#beauty-dropdown" className="nav-link" data-bs-toggle="dropdown" area>
+                                <li className="category-list-content nav-item">
+                                    <a href="" className="nav-link">
                                         <div className="category-list-icon">
                                             <img src={beauty} alt="beauty" />
                                         </div>
-                                        <span className="categorylist-name dropdown-toggle">Beauty,Toys & More</span>
+                                        <span className="categorylist-name">Beauty,Toys & More</span>
                                     </a>
-                                    <ul className="dropdown-menu" id="beauty-dropdown">
-                                        <li className="dropdown-item dropdown">
-                                            <a href='#mensfashion' className="dropdown-link dropdown-toggle" data-bs-toggle="dropdown">Mens Fashion</a>
 
-                                            <ul className="dropdown-menu" id="mensfashion">
-                                                <li className="dropdown-item">Shirt</li>
-                                                <li className="dropdown-item">Jeans</li>
-                                                <li className="dropdown-item">Jackets</li>
-                                                <li className="dropdown-item">T-shirts</li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Womens Fashion</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Kids Fashion</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Unisex Fashion</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Womens Shoes</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Mens Shoes</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Kids Shoes</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link">Ethnic Wears</a> </li>
-                                        <li className="dropdown-item"><a href='#' className="dropdown-link"> All</a></li>
-                                    </ul>
                                 </li>
-                                <li className="category-list-content nav-item dropdown">
-                                    <a href="#twoWheeler-dropdown" className="nav-link" data-bs-toggle="dropdown" area>
+                                <li className="category-list-content nav-item">
+                                    <a href="" className="nav-link">
                                         <div className="category-list-icon">
                                             <img src={twowheeler} alt="twowheeler" />
                                         </div>
-                                        <span className="categorylist-name dropdown-toggle">Two Wheelers</span>
+                                        <span className="categorylist-name">Two Wheelers</span>
                                     </a>
-                                    <ul className="dropdown-menu" id="twoWheeler-dropdown">
-                                        <li className="dropdown-item">Mens Fashion</li>
-                                        <li className="dropdown-item">Womens Fashion</li>
-                                        <li className="dropdown-item">Kids Fashion</li>
-                                        <li className="dropdown-item">Unisex Fashion</li>
-                                        <li className="dropdown-item">Womens Shoes</li>
-                                        <li className="dropdown-item">Mens Shoes</li>
-                                        <li className="dropdown-item">Kids Shoes</li>
-                                        <li className="dropdown-item">Ethnic Wears</li>
-                                        <li className="dropdown-item">All</li>
-                                    </ul>
+
                                 </li>
                             </ul>
                         </div>

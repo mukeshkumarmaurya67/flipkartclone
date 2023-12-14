@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../Home Components/Header';
 import '../Scss/pagedetails.scss';
-import '../Scss/main.scss'
+import '../Scss/main.scss';
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 
 const ProductDetails = (props) => {
 
@@ -10,12 +11,12 @@ const ProductDetails = (props) => {
 
 
     let fetchData = () => {
-        fetch("http://localhost:3000/product")
+        fetch("http://localhost:10001/product")
             .then(r => r.json())
             .then(server => {
                 setData(server);
             }
-            )
+        )
     }
 
     useEffect(() => {
@@ -35,15 +36,12 @@ const ProductDetails = (props) => {
     return (
         <>
             <Header />
-
-
             {
                 data.map((e, index) => {
                     return (
                         <div className="page-details-wrapper">
                             <div className="container row">
                                 <div className="col-lg-4">
-
                                     <div className="page-details-img-section card">
                                         <div className="main-image-section-box" key={index}>
                                             <img id="main-img" src={require(`../Images/Products/${e.image[0]}`)} />
@@ -63,52 +61,50 @@ const ProductDetails = (props) => {
                                             }
                                         </div>
                                     </div>
-
                                 </div>
                                 <div className="col-lg-8">
                                     <div className="product-details-section">
                                         <div className="product-details-section-part1 mb-3">
                                             <h3 className="product-name">{e.name}</h3>
-                                            <p className="product-price">{e.price}</p>
-                                            <p className="some-bank-offer">some-bank-offer</p>
+                                            <p className="product-price sm-title mb-1"><CurrencyRupeeIcon /> <del className='sm-para'>{e.price}</del> {e.price-e.price*15/100} </p>
+                                            <p className="some-bank-offer md-title">Bank Offer</p>
                                         </div>
-
                                         <div className="product-details-section-part2 mb-3">
-                                            <h2 className="products-details-type">Product Description:</h2>
-                                            <p className="desc">{e.description}</p>
+                                            <h2 className="products-details-type title">Product Description:</h2>
+                                            <p className="desc sm-para">{e.description}</p>
                                         </div>
                                         <div className="product-details-section-part3 mb-3">
-                                            <h2 className="products-details-type">Specifications</h2>
+                                            <h2 className="products-details-type title">Specifications</h2>
                                             {/* {console.log({e.specification.color})} */}
-                                            <p className="spescific">Power Source: <span className='specific-value'>{e.specification.powersource}</span></p>
-                                            <p className="spescific">Model number: <span className='specific-value'>{e.specification.modelnumber}</span></p>
-                                            <p className="spescific">Operating System: <span className='specific-value'>{e.specification.operatingsystem}</span></p>
-                                            <p className="spescific">Color: <span className='specific-value'>{e.specification.color}</span></p>
-                                            <p className="spescific">Storage: <span className='specific-value'>{e.specification.storage}</span></p>
-                                            <p className="spescific">Ram: <span className='specific-value'>{e.specification.ram}</span></p>
-                                            <p className="spescific">Bluetooth Support: <span className='specific-value'>{e.specification.bluetoothsupport}</span></p>
-                                            <p className="spescific">Bluetooth Version: <span className='specific-value'>{e.specification.bluetoothversion}</span></p>
-                                            <p className="spescific">Music Player: <span className='specific-value'>{e.specification.musicplayer}</span></p>
-                                            <p className="spescific">Audio Format: <span className='specific-value'>{e.specification.audioformats}</span></p>
-                                            <p className="spescific">Video Format: <span className='specific-value'>{e.specification.videoformats}</span></p>
-                                            <p className="spescific">Power Capacity: <span className='specific-value'>{e.specification.batterycapacity}</span></p>
+                                            <p className="spescific sm-title">Power Source: <span className='specific-value sm-para'>{ e.specification.powersource}</span></p>
+                                            <p className="spescific sm-title">Model number: <span className='specific-value sm-para'>{e.specification.modelnumber}</span></p>
+                                            <p className="spescific sm-title">Operating System: <span className='specific-value sm-para'>{e.specification.operatingsystem}</span></p>
+                                            <p className="spescific sm-title">Color: <span className='specific-value sm-para'>{e.specification.color}</span></p>
+                                            <p className="spescific sm-title">Storage: <span className='specific-value sm-para'>{e.specification.storage}</span></p>
+                                            <p className="spescific sm-title">Ram: <span className='specific-value sm-para'>{e.specification.ram}</span></p>
+                                            <p className="spescific sm-title">Bluetooth Support: <span className='specific-value sm-para'>{e.specification.bluetoothsupport}</span></p>
+                                            <p className="spescific sm-title">Bluetooth Version: <span className='specific-value sm-para'>{e.specification.bluetoothversion}</span></p>
+                                            <p className="spescific sm-title">Music Player: <span className='specific-value sm-para'>{e.specification.musicplayer}</span></p>
+                                            <p className="spescific sm-title">Audio Format: <span className='specific-value sm-para'>{e.specification.audioformats}</span></p>
+                                            <p className="spescific sm-title">Video Format: <span className='specific-value sm-para'>{e.specification.videoformats}</span></p>
+                                            <p className="spescific sm-title">Power Capacity: <span className='specific-value sm-para'>{e.specification.batterycapacity}</span></p>
 
                                         </div>
                                         <div className="product-details-section-part3">
-                                            <h2 className="products-details-type">Dimensions</h2>
-                                            <p className="spescific">Width:<span className='specific-value'>{e.dimension.Width}</span></p>
-                                            <p className="spescific">Height:<span className='specific-value'>{e.dimension.Height}</span></p>
-                                            <p className="spescific">Depth:<span className='specific-value'>{e.dimension.Depth}</span></p>
-                                            <p className="spescific">Weight:<span className='specific-value'>{e.dimension.Weight}</span></p>
+                                            <h2 className="products-details-type title">Dimensions</h2>
+                                            <p className="spescific sm-title">Width:<span className='specific-value sm-para'>{e.dimension.Width}</span></p>
+                                            <p className="spescific sm-title">Height:<span className='specific-value sm-para'>{e.dimension.Height}</span></p>
+                                            <p className="spescific sm-title">Depth:<span className='specific-value sm-para'>{e.dimension.Depth}</span></p>
+                                            <p className="spescific sm-title">Weight:<span className='specific-value sm-para'>{e.dimension.Weight}</span></p>
 
                                         </div>
                                         <div className="product-details-section-part3">
-                                            <h2 className="products-details-type">Warranty</h2>
-                                            <p className="spescific">Warranty Summary:<span className='specific-value'>{e.warranty.Warrantysummary}</span></p>
-                                            <p className="spescific">Warranty Service Type:<span className='specific-value'>{e.warranty.Warrantyservicetype}</span></p>
-                                            <p className="spescific">Covered Warranty:<span className='specific-value'>{e.warranty.Coveredwarranty}</span></p>
-                                            <p className="spescific">Domestic Warranty:<span className='specific-value'>{e.warranty.domesticwarranty}</span></p>
-                                            <p className="spescific">Not Covered In Warranty:<span className='specific-value'>{e.warranty.notwarranty}</span></p>
+                                            <h2 className="products-details-type title">Warranty</h2>
+                                            <p className="spescific sm-title">Warranty Summary:<span className='specific-value sm-para'>{e.warranty.Warrantysummary}</span></p>
+                                            <p className="spescific sm-title">Warranty Service Type:<span className='specific-value sm-para'>{e.warranty.Warrantyservicetype}</span></p>
+                                            <p className="spescific sm-title">Covered Warranty:<span className='specific-value sm-para'>{e.warranty.Coveredwarranty}</span></p>
+                                            <p className="spescific sm-title">Domestic Warranty:<span className='specific-value sm-para'>{e.warranty.domesticwarranty}</span></p>
+                                            <p className="spescific sm-title">Not Covered In Warranty:<span className='specific-value sm-para'>{e.warranty.notwarranty}</span></p>
                                         </div>
                                     </div>
                                 </div>

@@ -1,8 +1,10 @@
-.btn {
+.btns {
     padding: 10px;
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    border-radius: 0;
+    text-decoration: none;
 }
 
 .btn-purple {
@@ -34,6 +36,22 @@
         background: #ED0800;
         color: white;
             border: 1px solid #ED0800;
+    }
+
+}
+.btn-yellow {
+    background: #e1b71f;
+    color: white;
+
+    &:hover {
+        background: #e1b71f;
+        color: white;
+    }
+
+    &:active {
+        background: #e1b71f;
+        color: white;
+        border: 1px solid #e1b71f;
     }
 
 }
@@ -72,10 +90,12 @@
 
 .btn-md {
     width: 80px;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 5px 6px;
 }
 
 .btn-sm {
     width: 50px;
     font-size: 12px;
+ 
 }
