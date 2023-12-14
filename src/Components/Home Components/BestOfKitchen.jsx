@@ -39,43 +39,43 @@ const BestOfKitchen = () => {
                                 margin={8} >
                                 <div className="item card">
                                     <div className="img-box"><img src={boc1} alt="boc1" /></div>
-                                    <p className='card-para'>Hotpots</p>
-                                    <h3 className="card-title">From 799</h3>
+                                    <p className='para w-100 text-center'>Hotpots</p>
+                                    <h3 className="title w-100 text-center">From 799</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc2} alt="boc2" /></div>
-                                    <p className='card-para'>Copper pots</p>
-                                    <h3 className="card-title">From 1263</h3>
+                                    <p className='para w-100 text-center'>Copper pots</p>
+                                    <h3 className="title w-100 text-center">From 1263</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc3} alt="boc3" /></div>
-                                    <p className='card-para'>Mixer & Grinder</p>
-                                    <h3 className="card-title">From 1349</h3>
+                                    <p className='para w-100 text-center'>Mixer & Grinder</p>
+                                    <h3 className="title w-100 text-center">From 1349</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc4} alt="boc4" /></div>
-                                    <p className='card-para'>Juicer</p>
-                                    <h3 className="card-title">shop now</h3>
+                                    <p className='para w-100 text-center'>Juicer</p>
+                                    <h3 className="title w-100 text-center">shop now</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc5} alt="boc5" /></div>
-                                    <p className='card-para'>Tea Pots Sets</p>
-                                    <h3 className="card-title">From 499</h3>
+                                    <p className='para w-100 text-center'>Tea Pots Sets</p>
+                                    <h3 className="title w-100 text-center">From 499</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc6} alt="boc6" /></div>
-                                    <p className='card-para'>Ceramic Utensils</p>
-                                    <h3 className="card-title">shop now</h3>
+                                    <p className='para w-100 text-center'>Ceramic Utensils</p>
+                                    <h3 className="title w-100 text-center">shop now</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc7} alt="boc7" /></div>
-                                    <p className='card-para'>Dining Sets</p>
-                                    <h3 className="card-title">From 7999</h3>
+                                    <p className='para w-100 text-center'>Dining Sets</p>
+                                    <h3 className="title w-100 text-center">From 7999</h3>
                                 </div>
                                 <div className="item card">
                                     <div className="img-box"><img src={boc8} alt="boc8" /></div>
-                                    <p className='card-para'>Chimney</p>
-                                    <h3 className="card-title">6999</h3>
+                                    <p className='para w-100 text-center'>Chimney</p>
+                                    <h3 className="title w-100 text-center">6999</h3>
                                 </div>
 
                             </OwlCarousel>

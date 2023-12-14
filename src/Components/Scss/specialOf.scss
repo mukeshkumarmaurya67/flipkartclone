@@ -53,7 +53,7 @@
 
                     .img-box {
                         width: 100%;
-                        height: 100%;
+                        height:445px;
                         overflow: hidden;
 
                         @media(max-width: 767px) {
@@ -63,6 +63,8 @@
                         img {
                             width: 100%;
                             height: 100%;
+                            border-image: fill 0 linear-gradient(#0003, #000);
+                            object-fit: contain;
 
                         }
                     }

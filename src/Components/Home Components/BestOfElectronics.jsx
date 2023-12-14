@@ -96,8 +96,8 @@ const BestOfElectronics = () => {
                                     boe.map((e, index) => 
                                             <div className="item card" key={index}>
                                                 <div className="img-box"><img src={e.image} alt={e.products} /></div>
-                                                <p className='card-para'>{e.products}</p>
-                                                <h3 className="card-title">{e.desc}</h3>
+                                                <p className='para w-100 text-center'>{e.products}</p>
+                                                <h3 className="title w-100 text-center">{e.desc}</h3>
                                             </div>
                                     )
                                 }

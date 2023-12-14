@@ -29,22 +29,26 @@
     font-size: 10px;
     font-weight: 500;
     color:#040406;
+    margin-bottom:0;
 }
 
 .xs-title {
     font-size: 12px;
+    margin-bottom:0;
     font-weight: 500;
     color:#040406;
 }
 
 .sm-title {
     font-size: 14px;
+    margin-bottom:0;
     font-weight: 500;
     color:#040406;
 }
 
 .md-title {
     font-size: 16px;
+    margin-bottom:0;
     font-weight: 500;
     color:#040406;
 
@@ -55,6 +59,7 @@
 
 .title {
     font-size: 18px;
+    margin-bottom:0;
     font-weight: 500;
     color:#040406;
 
@@ -65,6 +70,7 @@
 
 .lg-title {
     font-size: 20px;
+    margin-bottom:0;
     font-weight: 500;
     color:#040406;
 
@@ -75,6 +81,7 @@
 
 .xl-title {
     font-size: 24px;
+    margin-bottom:0;
     font-weight: 500;
     color:#040406;
 
@@ -84,18 +91,24 @@
 }
 
 .sm-para {
+    font-weight: 400;
+    margin-bottom:0;
     font-size: 14px;
     color: #28231d;
 }
 
 .xs-para {
+    font-weight: 400;
+    margin-bottom:0;
     font-size: 12px;
     color: #28231d;
 }
 
 .para {
     font-size: 16px;
+    margin-bottom:0;
     color: #28231d;
+    font-weight: 400;
 
     @media(max-width: 76px) {
         font-size: 14px;
@@ -104,7 +117,9 @@
 
 .lg-para {
     font-size: 18px;
+    margin-bottom:0;
     color: #28231d;
+    font-weight: 400;
 
     @media(max-width: 76px) {
         font-size: 14px;
@@ -112,6 +127,8 @@
 }
 
 .xl-para {
+    font-weight: 400;
+    margin-bottom:0;
     font-size: 20px;
     color: #28231d;
 
@@ -135,8 +152,6 @@
     }
 
     .card-title {
-        font-size: 16px;
-        font-weight: 500;
         text-align: center;
         text-transform: capitalize;
         margin: 0;
@@ -148,13 +163,13 @@
     }
 
     .card-para {
-        font-size: 14px;
+
         text-align: center;
         margin: 0;
         text-transform: capitalize;
 
         @media (max-width: 767px) {
-            font-size: 12px;
+
 
         }
     }

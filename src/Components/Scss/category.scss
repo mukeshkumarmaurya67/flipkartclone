@@ -1,6 +1,11 @@
 .categogry-wrapper {
     background: white;
     padding: 16px 0;
+    &.inner-category{
+        position: sticky;
+        top: 86px;
+        z-index:2;
+    }
 
     @media(max-width:767px) {
         display: none;
@@ -16,7 +21,7 @@
             @media(max-width:1366px) {
                 gap: 1em;
                 max-width: calc(100vw - 100px);
-                overflow-x:scroll;
+                overflow-x: scroll;
             }
 
             .nav-item {
@@ -31,16 +36,18 @@
                     }
 
                     .category-list-icon {
-                        background-color: rgb(247, 241, 229);
-                        width: 100px;
+                        width: 80px;
                         height: 80px;
-                        border-radius: 4px;
+                        border-radius: 50%;
+                        background-color: #f8ceec;
+                        background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 
                         img {
                             width: 100%;
                             height: 100%;
                             object-fit: contain;
-                            filter: drop-shadow(2px 2px 4px rgb(170, 72, 177));
+                            filter: drop-shadow(2px 2px 4px rgb(66, 132, 182));
+                            transform: scale(1.1,1.1);
                         }
 
                     }
@@ -54,7 +61,9 @@
                     overflow: visible;
                 }
 
-                &.dropdown-menu {}
+                .dropdown-menu {
+                    z-index: 1;
+                }
             }
         }
     }

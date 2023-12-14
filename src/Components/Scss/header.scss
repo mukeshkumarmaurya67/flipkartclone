@@ -1,9 +1,13 @@
 .navbar {
     background: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
     .navbar-brand {
-        width: 180px;
-        height: 100px;
+        width: 100px;
+        height: 70px;
+        padding-left: 34px;
 
         img {
             width: 100%;
@@ -30,7 +34,8 @@
                 background-color: rgb(237, 237, 237);
                 line-height: 100%;
                 caret-color: tomato;
-                caret-shape: underscore;
+
+                padding: 10px 34px;
 
                 &::-webkit-input-placeholder {
                     padding-left: 10px;
@@ -67,6 +72,7 @@
 
                     .dropdown-menu {
                         margin: 0 !important;
+                        z-index: 1;
                     }
 
                     &.dropdown-toggle {
@@ -74,7 +80,7 @@
                             .dropdown-menu {
                                 display: block !important;
 
-
+                            
                             }
 
                         }
