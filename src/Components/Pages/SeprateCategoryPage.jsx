@@ -145,7 +145,7 @@ const SeprateCategoryPage = () => {
                                                             <li className="dropdown-item sm-para">All</li>
                                                         </ul>
                                                         <ul>
-                                                            <li className="dropdown-item sm-title">Health Care Appliances</li>
+                                                            <li className="dropdown-item sm-title">Health Care Gadgets</li>
                                                             <li className="dropdown-item sm-para">Smart Watches</li>
                                                             <li className="dropdown-item sm-para">Smart Glasses</li>
                                                             <li className="dropdown-item sm-para">Smart Bands   </li>
