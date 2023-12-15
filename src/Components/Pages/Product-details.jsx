@@ -78,8 +78,9 @@ const ProductDetails = (props) => {
                                             {/* {console.log({e.specification.color})} */}
                                             <p className="spescific sm-title">Power Source: <span className='specific-value sm-para'>{ e.specification.powersource}</span></p>
                                             <p className="spescific sm-title">Model number: <span className='specific-value sm-para'>{e.specification.modelnumber}</span></p>
-                                            <p className="spescific sm-title">Operating System: <span className='specific-value sm-para'>{e.specification.operatingsystem}</span></p>
+                                            <p className="spescific sm-title">Brand: <span className='specific-value sm-para'>{e.specification.brand}</span></p>
                                             <p className="spescific sm-title">Color: <span className='specific-value sm-para'>{e.specification.color}</span></p>
+                                            <p className="spescific sm-title">Operating System: <span className='specific-value sm-para'>{e.specification.operatingsystem}</span></p>
                                             <p className="spescific sm-title">Storage: <span className='specific-value sm-para'>{e.specification.storage}</span></p>
                                             <p className="spescific sm-title">Ram: <span className='specific-value sm-para'>{e.specification.ram}</span></p>
                                             <p className="spescific sm-title">Bluetooth Support: <span className='specific-value sm-para'>{e.specification.bluetoothsupport}</span></p>

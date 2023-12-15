@@ -33,7 +33,7 @@ const Footer = () => {
       ],
     },
     {
-      title: "CONSUMER POLICY",
+      title: "Consumer Policy",
       list: [
         "Cancellation & Returns",
         "Terms Of Use",
@@ -45,7 +45,7 @@ const Footer = () => {
       ],
     },
     {
-      title: "SOCIAL",
+      title: "Social",
       list: ["Facebook", "Twitter", "YouTube", "Instagram"],
     },
   ];

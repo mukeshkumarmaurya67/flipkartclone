@@ -16,6 +16,7 @@
                 {
                     "powersource": "120 watt",
                     "modelnumber": "Galaxy S22 5G",
+                    "brand":"Samsung",
                     "color": "White",
                     "operatingsystem": "Android 12",
                     "storage": "128gb",
@@ -62,6 +63,7 @@
                 {
                     "powersource": "160 watt",
                     "modelnumber": "Galaxy S23 Ultra 5G",
+                    "brand":"Samsung",
                     "color": "Green",
                     "operatingsystem": "Android 13",
                     "storage": "256gb",
@@ -108,6 +110,7 @@
                 {
                     "powersource": "120 watt",
                     "modelnumber": "Alienware M16",
+                    "brand":"Dell",
                     "color": "Lunar Light",
                     "operatingsystem": "Core i9 12th Gen",
                     "storage": "1 TB",
@@ -154,6 +157,7 @@
                 {
                     "powersource": "120v -260v ",
                     "modelnumber": "Dazzle Steel, GL-B257HDSY",
+                    "brand":"LG",
                     "color": "Silver gray",
                     "operatingsystem": "",
                     "storage": "655 L",
@@ -201,6 +205,7 @@
                 {
                     "powersource": "80 watt ",
                     "modelnumber": "MTUX3HN/A",
+                    "brand":"Apple",
                     "color": "Natural Titanium",
                     "operatingsystem": "iOS 17",
                     "storage": "256 gb",

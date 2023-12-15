@@ -1,5 +1,6 @@
 .navbar {
-    background: white;
+    background-color: #1b2845;
+    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
     position: sticky;
     top: 0;
     z-index: 2;
@@ -34,8 +35,8 @@
                 background-color: rgb(237, 237, 237);
                 line-height: 100%;
                 caret-color: tomato;
-
-                padding: 10px 34px;
+                border-radius: 2px;
+                padding: 9px 34px;
 
                 &::-webkit-input-placeholder {
                     padding-left: 10px;
@@ -70,6 +71,16 @@
                     letter-spacing: .1;
                     font-size: 16px;
 
+                    .icon-box {
+                        svg{
+                            color: rgb(243, 236, 236) !important;
+                        }
+                    }
+
+                    span {
+                        color: white;
+                    }
+
                     .dropdown-menu {
                         margin: 0 !important;
                         z-index: 1;
@@ -80,7 +91,7 @@
                             .dropdown-menu {
                                 display: block !important;
 
-                            
+
                             }
 
                         }
