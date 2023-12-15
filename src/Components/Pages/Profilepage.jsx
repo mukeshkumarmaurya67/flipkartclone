@@ -66,7 +66,7 @@ const Profilepage = () => {
     return (
         <>
             <Header />
-            <div className="profile-page-wrapper">
+            <div className="profile-page-wrapper pt-3">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3">

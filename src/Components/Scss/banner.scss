@@ -1,27 +1,28 @@
 .common-banner-section {
     .banner-img {
-        height: 260px;
+        height: 240px;
         width: 100%;
 
         img {
-            object-fit: cover;
+            // object-fit: cover;
         }
     }
 }
 
-.common-banner-title-section{
+.common-banner-title-section {
 
-    .common-banner-title{
-        
-        .banner-title{
-            font-size: 78px;
-            color:#123464;
-            font-weight: 600;
-            text-transform: capitalize;
-            text-align: center;
-            padding: 24px;
+    .common-banner-title {
+        height: 176px;
+        width: 100%;
+    }
 
-
-        }
+    .banner-title {
+        font-size: 78px;
+        color: #123464;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 24px;
     }
 }
+

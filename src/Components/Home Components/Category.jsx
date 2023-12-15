@@ -22,7 +22,7 @@ const Category = () => {
                         <div className="col-12">
                             <ul className="category-list nav">
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="grocery">
                                         <div className="category-list-icon">
                                             <img src={grocery} alt="Grocery" />
                                         </div>
@@ -30,7 +30,7 @@ const Category = () => {
                                     </a>
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="mobile">
                                         <div className="category-list-icon">
                                             <img src={mobiles} alt="mobiles" />
                                         </div>
@@ -38,7 +38,7 @@ const Category = () => {
                                     </a>
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="fashion">
                                         <div className="category-list-icon">
                                             <img src={fashion} alt="fashion" />
                                         </div>
@@ -47,7 +47,7 @@ const Category = () => {
                                     
                                 </li>
                                 <li className="category-list-content nav-item ">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="electronics">
                                         <div className="category-list-icon">
                                             <img src={electronics} alt="electronics" />
                                         </div>
@@ -56,7 +56,7 @@ const Category = () => {
 
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link" >
+                                    <a href="#/seprate-category" className="nav-link" value="furniture">
                                         <div className="category-list-icon">
                                             <img src={furniture} alt="furniture" />
                                         </div>
@@ -65,7 +65,7 @@ const Category = () => {
 
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="appliances">
                                         <div className="category-list-icon">
                                             <img src={appliances} alt="appliances" />
                                         </div>
@@ -73,7 +73,7 @@ const Category = () => {
                                     </a>
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="travel">
                                         <div className="category-list-icon">
                                             <img src={travel} alt="travel" />
                                         </div>
@@ -81,7 +81,7 @@ const Category = () => {
                                     </a>
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="beauty">
                                         <div className="category-list-icon">
                                             <img src={beauty} alt="beauty" />
                                         </div>
@@ -90,7 +90,7 @@ const Category = () => {
 
                                 </li>
                                 <li className="category-list-content nav-item">
-                                    <a href="" className="nav-link">
+                                    <a href="#/seprate-category" className="nav-link" value="twowheeler"> 
                                         <div className="category-list-icon">
                                             <img src={twowheeler} alt="twowheeler" />
                                         </div>

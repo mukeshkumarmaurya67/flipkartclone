@@ -59,7 +59,7 @@ document.querySelector(".after-otp").style.display = "block";
 
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="#/">
             <img src={logo} alt='Brand Logo' />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

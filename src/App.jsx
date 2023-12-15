@@ -15,6 +15,7 @@ const App = () => {
                     <Route exact path='/profile' element={<Profilepage />} ></Route>
                     <Route exact path='/product-details' element={<ProductDetails />}></Route>
                     <Route exact path='/seprate-category' element={<SeprateCategoryPage />}></Route>
+                    <Route exact path='/seprate-category' element={<SeprateCategoryPage />} ></Route>
                 </Routes>
             </HashRouter>
         </>
