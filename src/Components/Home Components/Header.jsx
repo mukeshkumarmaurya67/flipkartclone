@@ -82,7 +82,7 @@ document.querySelector(".after-otp").style.display = "block";
                 <ul className='dropdown-menu' aria-labelledby="loginDropdown">
                   <li className='dropdown-item'><span class="login-cstmr" onClick={loginfun}>Login</span>
                     <a href='#signup-signin-modal' role='button' data-bs-toggle="modal" onClick={signupfun} className='sgnp'>Signup</a></li>
-                  <hr />
+                 
                   <li className='dropdown-item'><Link to='/profile'><div className="icon-box"><ManageAccountsIcon /></div> My Profile</Link></li>
                   <li className='dropdown-item'><Link to='/product-details'><div className="icon-box"><ProductionQuantityLimitsIcon /></div> Products</Link></li>
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><FavoriteIcon /></div> Wishlist</a></li>
@@ -92,7 +92,7 @@ document.querySelector(".after-otp").style.display = "block";
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#/cart">
                   <div className="icon-box">
                     <AddShoppingCartIcon style={{ color: 'black' }} />
                   </div>

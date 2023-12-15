@@ -4,6 +4,7 @@ import Home from './Home';
 import Profilepage from './Components/Pages/Profilepage';
 import ProductDetails from './Components/Pages/Product-details';
 import SeprateCategoryPage from './Components/Pages/SeprateCategoryPage';
+import Cart from './Components/Pages/Cart';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                     <Route exact path='/product-details' element={<ProductDetails />}></Route>
                     <Route exact path='/seprate-category' element={<SeprateCategoryPage />}></Route>
                     <Route exact path='/seprate-category' element={<SeprateCategoryPage />} ></Route>
+                    <Route exact path='/cart' element={<Cart />} ></Route>
                 </Routes>
             </HashRouter>
         </>
