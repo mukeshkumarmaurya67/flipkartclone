@@ -168,7 +168,7 @@ const Cart = () => {
                                 </div>
                                 <div className="place-order">
                                     <span className='total-price'>₹34,291</span>
-                                    <a href="/" className='btns btn-red '>Place Order</a>
+                                    <a href="#/payment" className='btns btn-red '>Place Order</a>
                                 </div>
                             </div>
                         </div>

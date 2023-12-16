@@ -174,10 +174,11 @@
 
 
 .form-control {
-    &:focus {
-        border: none;
-        box-shadow: none;
+    :focus {
+        border: none !important;
+        box-shadow: none !important;
         border: 1px solid #ED0800;
+        
     }
 
 }
