@@ -10,7 +10,10 @@ import Paymentpage from './Components/Pages/Paymentpage';
 const App = () => {
     return (
         <>
-     
+     <p>dbvvghvhud</p>
+     <p>dbvvghvhud</p>
+     <p>dbvvghvhud</p>
+
             <HashRouter>
                 <Routes>
                     <Route exact path='/' element={<Home />}></Route>
