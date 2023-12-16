@@ -5,7 +5,8 @@ import '../Scss/profile.scss';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import SettingsAccessibilityIcon from '@mui/icons-material/SettingsAccessibility';
-import '../Scss/button.scss'
+import '../Scss/button.scss';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const Profilepage = () => {
     let [fname, setFname] = useState("");
@@ -214,7 +215,7 @@ const Profilepage = () => {
                                                                 <div className="card" title='product name'>
 
                                                                     <div className="img-box">
-                                                                        <img src="https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s20/buy/S20-FE_Mint_SKUimage_MO_img.jpg" alt="" />
+                                                                        <img src={require(`../Images/Products/samsung-s20-1.png`)} alt="" />
                                                                     </div>
                                                                     <div className="sm-title">Samsugn Galaxy s20</div>
                                                                     <div className="sm-para">49999.00</div>
@@ -226,7 +227,7 @@ const Profilepage = () => {
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
                                                                     <div className="img-box">
-                                                                        <img src="https://www.suryaelectronics.in/img/Product/Main/SamsungHomeappliancesFAFL.jpg" alt="" /></div>
+                                                                        <img src={require(`../Images/Products/samsung-washing-machine-1.png`)}  alt="" /></div>
                                                                     <div className="sm-title">Samsung Washing Machine</div>
                                                                     <div className="sm-para">24999.00</div>
                                                                     <div className="btn-group d-flex gap-1 mt-1">
@@ -237,7 +238,7 @@ const Profilepage = () => {
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
                                                                     <div className="img-box">
-                                                                        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/c/m/b/m-lmsh002233-lee-original-imaggwusgty4zwbt.jpeg?q=90" alt="" /></div>
+                                                                        <img src={require(`../Images/Products/lee-shirt-1.png`)}  alt="" /></div>
                                                                     <div className="sm-title">Lee Shirts</div>
                                                                     <div className="sm-para">1875.00</div>
                                                                     <div className="btn-group d-flex gap-1 mt-1">
@@ -248,8 +249,30 @@ const Profilepage = () => {
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
                                                                     <div className="img-box">
-                                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ84fYaXKDCelEJ2ze0UcCf04qJ3r1wZBF33w&usqp=CAU" alt="" /></div>
+                                                                        <img src={require(`../Images/Products/doormate-1.png`)} /></div>
                                                                     <div className="sm-title">Door Mate</div>
+                                                                    <div className="sm-para">249.00</div>
+                                                                    <div className="btn-group d-flex gap-1 mt-1">
+                                                                        <a href='#' className="btns w-100 btn-md btn-yellow">Buy Again</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-lg-2 col-md-3 col-sm-4">
+                                                                <div className="card">
+                                                                    <div className="img-box">
+                                                                        <img src={require(`../Images/Products/handblender-1.png`)} alt="" /></div>
+                                                                    <div className="sm-title">Wonderchef Handblenders</div>
+                                                                    <div className="sm-para">1699.00</div>
+                                                                    <div className="btn-group d-flex gap-1 mt-1">
+                                                                        <a href='#' className="btns w-100 btn-md btn-yellow">Buy Again</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-lg-2 col-md-3 col-sm-4">
+                                                                <div className="card">
+                                                                    <div className="img-box">
+                                                                        <img src={require(`../Images/Products/wildstone-perfume-1.png`)}alt="" /></div>
+                                                                    <div className="sm-title">Wildstone Mens Perfume</div>
                                                                     <div className="sm-para">249.00</div>
                                                                     <div className="btn-group d-flex gap-1 mt-1">
                                                                         <a href='#' className="btns w-100 btn-md btn-yellow">Buy Again</a>
@@ -268,35 +291,77 @@ const Profilepage = () => {
                                                         <div className="row">
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
+                                                                    <div className="icon-box">
+                                                                        <DeleteIcon />
+                                                                    </div>
                                                                     <div className="img-box">
-                                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBHsohj3mz2pWVIpK9KdU_XnB03e496nv0dQ&usqp=CAU" alt="" /></div>
+                                                                        <img src={require(`../Images/Products/screenguard-1.png`)}  alt="" /></div>
                                                                     <div className="sm-title">Oppo Reno 5 Tempered Glass</div>
                                                                     <div className="sm-para">269.00</div>
+                                                                    <a className='btns btn-yellow btn-sm w-100 mt-2 '>Add To Cart</a>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
+                                                                <div className="icon-box">
+                                                                        <DeleteIcon />
+                                                                    </div>
                                                                     <div className="img-box">
-                                                                        <img src="https://www.jiomart.com/images/product/original/rv2trrumms/set-of-4-different-mens-bracelet-cuff-leatherite-material-adjustable-in-different-colors-for-mens-boys-guys-gents-by-goldnera-product-images-rv2trrumms-0-202210271609.jpg?im=Resize=(500,630)" alt="" /></div>
+                                                                        <img src={require(`../Images/Products/men-bracelete-1.png`)}  alt="" /></div>
                                                                     <div className="sm-title">Mens Bracelet</div>
                                                                     <div className="sm-para">499.00</div>
+                                                                    <a className='btns btn-yellow btn-sm w-100 mt-2'>Add To Cart</a>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
+                                                                <div className="icon-box">
+                                                                        <DeleteIcon />
+                                                                    </div>
                                                                     <div className="img-box">
-                                                                        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/jean/g/r/p/32-wmjn007011-wrangler-original-imagsaz6u2pzzvkz.jpeg?q=90" alt="" /></div>
+                                                                        <img src={require(`../Images/Products/wrangler-jeans-pant-1.png`)}  alt="" /></div>
                                                                     <div className="sm-title">Wrangler Jeans</div>
                                                                     <div className="sm-para">2499.00</div>
+                                                                    <a className='btns btn-yellow btn-sm w-100 mt-2'>Add To Cart</a>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-2 col-md-3 col-sm-4">
                                                                 <div className="card">
+                                                                <div className="icon-box" title='Delete'>
+                                                                        <DeleteIcon />
+                                                                    </div>
                                                                     <div className="img-box">
-                                                                        <img src="https://5.imimg.com/data5/VQ/OZ/JE/SELLER-38159922/original-mi-5000-mah-slim-power-bank-500x500.jpg" alt="" />
+                                                                        <img src={require(`../Images/Products/mi-powerbank-1.png`)}  alt="" />
                                                                     </div>
                                                                     <div className="sm-title">Power Banks 5000 mh</div>
                                                                     <div className="sm-para">699.00</div>
+                                                                    <a className='btns btn-yellow btn-sm w-100 mt-2'>Add To Cart</a>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-lg-2 col-md-3 col-sm-4">
+                                                                <div className="card">
+                                                                <div className="icon-box" title='Delete'>
+                                                                        <DeleteIcon />
+                                                                    </div>
+                                                                    <div className="img-box">
+                                                                        <img src={require(`../Images/Products//iron-1.png`)}  alt="" />
+                                                                    </div>
+                                                                    <div className="sm-title">Philips Iron</div>
+                                                                    <div className="sm-para">2999.00</div>
+                                                                    <a className='btns btn-yellow btn-sm w-100 mt-2'>Add To Cart</a>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-lg-2 col-md-3 col-sm-4">
+                                                                <div className="card">
+                                                                <div className="icon-box" title='Delete'>
+                                                                        <DeleteIcon />
+                                                                    </div>
+                                                                    <div className="img-box">
+                                                                        <img src={require(`../Images/Products/casio-watch-1.png`)} alt="" />
+                                                                    </div>
+                                                                    <div className="sm-title">Casio Protrek Sl 100</div>
+                                                                    <div className="sm-para">24999.00</div>
+                                                                    <a className='btns btn-yellow btn-sm w-100 mt-2'>Add To Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>

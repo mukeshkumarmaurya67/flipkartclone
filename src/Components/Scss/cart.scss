@@ -34,15 +34,17 @@
             }
 
             .products-area-m {
-                .price-offer{
+                .price-offer {
                     display: flex;
                     align-items: center;
                     justify-content: start;
                     gap: 8px;
-                    .md-para{
+
+                    .md-para {
                         margin-bottom: 0;
                     }
                 }
+
                 .md-title {
                     margin-bottom: 12px;
                 }
@@ -66,28 +68,33 @@
             bottom: 0;
             display: flex;
             justify-content: space-between;
-            align-items: center ;
+            align-items: center;
             width: 100%;
             background: white;
             box-shadow: 1px 3px 13px -1px rgba(0, 0, 0, 0.3);
-            .btn-red{
+
+            .btn-red {
                 width: 200px;
                 // color: black;
                 font-size: 16px;
-                @media(max-width:767px){
+
+                @media(max-width:767px) {
                     width: 150px;
                     font-size: 14px;
                 }
 
             }
-            .total-price{
+
+            .total-price {
                 opacity: 0;
-                @media(max-width:767px){
+
+                @media(max-width:767px) {
                     opacity: 1;
                 }
             }
         }
-        .save-remove{
+
+        .save-remove {
             text-decoration: none;
         }
     }
@@ -121,10 +128,11 @@
         background-color: white;
         padding: 12px;
         position: sticky;
-    top: 70px;
+        top: 70px;
+
         .price-detail-title {
-          padding: 16px;
-          border-bottom: 1px solid rgba(0, 0, 0,0.1);
+            padding: 16px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
 
         .price-detail-group {
@@ -132,13 +140,14 @@
             justify-content: space-between;
             align-items: center;
             padding: 4px 16px;
-&.total-amount{
-    padding: 16px;
-    border: 1px dotted rgba(0, 0, 0,0.3);
-    border-left: 0;
-    border-right: 0;
-    margin: 8px 0;
-}
+
+            &.total-amount {
+                padding: 16px;
+                border: 1px dotted rgba(0, 0, 0, 0.3);
+                border-left: 0;
+                border-right: 0;
+                margin: 8px 0;
+            }
         }
     }
 }

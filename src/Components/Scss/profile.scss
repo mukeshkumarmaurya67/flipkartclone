@@ -128,8 +128,23 @@
         .tab-pane {
             .card {
                 height: 100%;
+                position: relative;
 
-
+                .icon-box {
+                    position: absolute;
+                    right: 4px;
+                    top: 4px;
+                    width: 26px;
+                    height: 26px;
+                    background: rgb(238, 238, 238);
+                    border: 1px solid rgba(208, 89, 89, 0.3);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    color: rgb(123, 19, 19);
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -178,12 +193,14 @@
     }
 
     .grid-scetion {
-     
+
         padding-right: 0;
+
         .grid-section-content {
             .title {
                 margin-bottom: 12px;
             }
+
             .content-section {
                 .content-section-header {
                     display: flex;
@@ -212,7 +229,7 @@
                         margin-bottom: 8px;
 
                         img {
-                            object-fit: cover;
+                            object-fit: contain;
 
                             &:hover {
                                 transform: unset;

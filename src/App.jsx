@@ -5,6 +5,7 @@ import Profilepage from './Components/Pages/Profilepage';
 import ProductDetails from './Components/Pages/Product-details';
 import SeprateCategoryPage from './Components/Pages/SeprateCategoryPage';
 import Cart from './Components/Pages/Cart';
+import Paymentpage from './Components/Pages/Paymentpage';
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                     <Route exact path='/seprate-category' element={<SeprateCategoryPage />}></Route>
                     <Route exact path='/seprate-category' element={<SeprateCategoryPage />} ></Route>
                     <Route exact path='/cart' element={<Cart />} ></Route>
+                    <Route exact path='/payment' element={<Paymentpage />} ></Route>
                 </Routes>
             </HashRouter>
         </>

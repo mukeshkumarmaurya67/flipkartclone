@@ -1,0 +1,161 @@
+.payment-wrapper {
+    margin-top: 12px;
+
+    .payment-section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+
+        .payment-title {
+            background: white;
+
+            .title {
+                padding: 24px;
+                font-size: 24px;
+                text-align: center;
+                line-height: 100%;
+            }
+        }
+
+        .payment-type-content {
+            background: white;
+            padding: 4px 0;
+
+            .nav {
+                justify-content: space-between;
+                padding: 0 4px;
+
+                .nav-item {
+
+                    .nav-link {
+                        min-width: 100px;
+                        box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.1);
+                        border-bottom-right-radius: 4px;
+                        transition: .4s all linear;
+
+                        .icon-box {
+                            width: 32px;
+                            height: 32px;
+                            margin-bottom: 4px;
+
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+
+                        .sm-title {
+                            font-size: 16px;
+                            text-align: start;
+                        }
+
+                        &.active {
+                            box-shadow: 1px 0px 3px 3px rgba(21, 17, 28, 0.631372549);
+                        }
+                    }
+                }
+            }
+        }
+
+        .tab-content {
+
+            #card {
+
+                .forms {
+
+                    .form-group {
+                        margin-bottom: 16px;
+
+                        .form-label {
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+
+                        .form-control {
+                            border-radius: 4px;
+                        }
+
+
+                    }
+
+                    .f-group {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .form-group {
+                            flex: 0 0 49%;
+
+                            .form-control {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #netbanking {
+                .forms {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .form-group {
+                        flex: 0 0 33%;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        display: inline-block;
+
+                        .icon-box {
+                            width: 72px;
+                            height: 72px;
+                            display: inline-block;
+
+                            img {
+                                width: 100%;
+                                object-fit: contain;
+                                height: 100%;
+                            }
+                        }
+
+                        label {font-size: 12px;font-weight: 500;}
+                    }
+                }
+            }
+        }
+
+    }
+
+    .cart-right-content {
+        background-color: white;
+        padding: 12px;
+        position: sticky;
+        top: 70px;
+
+        .price-detail-title {
+            padding: 16px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .price-detail-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 16px;
+
+            &.total-amount {
+                padding: 16px;
+                border: 1px dotted rgba(0, 0, 0, 0.3);
+                border-left: 0;
+                border-right: 0;
+                margin: 8px 0;
+            }
+        }
+    }
+
+    .place-order {
+        .btns {
+            width: 100%;
+            display: inline-block;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+    }
+}
