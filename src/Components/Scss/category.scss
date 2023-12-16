@@ -78,7 +78,7 @@
 
                         .container-fluid {
                             .row {
-                                :nth-child(2n) {
+                                >:nth-child(2n) {
                                     background: rgb(244, 242, 242);
                                 }
                             }
