@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import '../Scss/bestOf.scss';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import '../Scss/main.scss';
 
-import camera from '../Images/camera.png';
-import descktop from '../Images/descktop.png';
-import keyboard from '../Images/keyboard.png';
-import pendrive from '../Images/pendrive.png';
-import hardisk from '../Images/hardisk.png';
+
+import camera from '../Images/camera-1.png';
+import descktop from '../Images/descktop-1.png';
+import keyboard from '../Images/keyboard-1.png';
+import pendrive from '../Images/pendrive-1.png';
+import hardisk from '../Images/hardisk-1.png';
 import powerbank from '../Images/powerbank.png';
 import printer from '../Images/printer.png';
 import trimmer from '../Images/trimmer.png';
@@ -83,10 +82,10 @@ const BestOfElectronics = () => {
 
     return (
         <>
-            <div className="best-of-wrapper">
+            <div className="best-of-wrapper box">
                 <div className="container">
                     <div className="row">
-                        <h2 className="best-of-title">Best of electronics</h2>
+                        <h2 className="best-of-title title">Best of electronics</h2>
                         <div className="col-12">
                             <OwlCarousel items={itemlenght}
                                 className="owl-theme"

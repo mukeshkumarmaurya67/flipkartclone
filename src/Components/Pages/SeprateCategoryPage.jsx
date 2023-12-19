@@ -1,8 +1,5 @@
 import React from 'react';
 import Header from '../Home Components/Header';
-import '../Scss/main.scss';
-import '../Scss/banner.scss';
-import '../Scss/seprate-category-page.scss';
 import grocery from '../Images/grocery.png';
 import appliances from '../Images/appliances.png';
 import beauty from '../Images/beauty.png';

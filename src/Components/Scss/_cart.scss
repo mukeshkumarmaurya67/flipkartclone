@@ -13,12 +13,12 @@
                 justify-content: space-between;
                 padding: 16px;
                 padding-right: 4px;
-                background-color: white;
+                background-color: $white-bg;
             }
         }
 
         .products-area {
-            background: white;
+            background: $white-bg;
             padding: 24px;
 
             .products-area-l {
@@ -70,7 +70,7 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            background: white;
+            background: $white-bg;
             box-shadow: 1px 3px 13px -1px rgba(0, 0, 0, 0.3);
 
             .btn-red {
@@ -125,7 +125,7 @@
 
 
     .cart-right-content {
-        background-color: white;
+        background-color: $white-bg;
         padding: 12px;
         position: sticky;
         top: 70px;

@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Scss/header.scss';
-import '../Scss/button.scss';
+
 
 import logo from '../Images/brand-logo.png';
 import signinimg from '../Images/signin-bg.png';
@@ -17,6 +16,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { Link } from 'react-router-dom';
 
 
@@ -43,14 +43,21 @@ const Header = () => {
   }
 
   let hideBeforeOtp = () => {
-document.querySelector(".before-otp").style.display = "block";
-document.querySelector(".after-otp").style.display = "none";
+    document.querySelector(".before-otp").style.display = "block";
+    document.querySelector(".after-otp").style.display = "none";
 
   }
   let hideAfterOtp = () => {
-document.querySelector(".before-otp").style.display="none";
-document.querySelector(".after-otp").style.display = "block";
+    document.querySelector(".before-otp").style.display = "none";
+    document.querySelector(".after-otp").style.display = "block";
   }
+
+
+  let darkmodeToggle = () => {
+    let x = document.querySelector("body");
+    x.classList.toggle("dark-bg");
+  }
+
 
   return (
     <>
@@ -82,7 +89,7 @@ document.querySelector(".after-otp").style.display = "block";
                 <ul className='dropdown-menu' aria-labelledby="loginDropdown">
                   <li className='dropdown-item'><span class="login-cstmr" onClick={loginfun}>Login</span>
                     <a href='#signup-signin-modal' role='button' data-bs-toggle="modal" onClick={signupfun} className='sgnp'>Signup</a></li>
-                 
+
                   <li className='dropdown-item'><Link to='/profile'><div className="icon-box"><ManageAccountsIcon /></div> My Profile</Link></li>
                   <li className='dropdown-item'><Link to='/product-details'><div className="icon-box"><ProductionQuantityLimitsIcon /></div> Products</Link></li>
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><FavoriteIcon /></div> Wishlist</a></li>
@@ -109,8 +116,11 @@ document.querySelector(".after-otp").style.display = "block";
                 </a>
 
               </li>
+              <li class="nav-item" id='darkmode'>
+                <button class="nav-link " onClick={darkmodeToggle}><DarkModeIcon style={{ color: 'black' }} /></button>
+              </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><MoreVertIcon style={{ color: 'black' }} /></a>
+                <a class="nav-link" href="#/viewallpage" ><MoreVertIcon style={{ color: 'black' }} /></a>
               </li>
             </ul>
 

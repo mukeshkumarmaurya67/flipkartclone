@@ -1,5 +1,5 @@
 .categogry-wrapper {
-    background: white;
+    background: $white-bg;
     padding: 16px 0;
 
     &.inner-category {}
@@ -37,7 +37,7 @@
                         height: 72px;
                         border-radius: 50%;
                         background-color: #f8ceec;
-                        background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+                        background-image:$pink-gradient;
 
                         img {
                             width: 100%;
@@ -50,7 +50,7 @@
                     }
 
                     .categorylist-name {
-                        color: black;
+                        color: $black-text;
                         font-size: 14px;
                         font-weight: 600;
                     }
@@ -71,7 +71,7 @@
                     .large-dropdown-menu {
                         padding: 8px 0 !important;
                         margin: 0 25% !important;
-                        background: white;
+                        background: $white-bg;
                         padding: 0;
                         border: 1px solid rgba(0, 0, 0, 0.3);
                         border-radius: 4px;

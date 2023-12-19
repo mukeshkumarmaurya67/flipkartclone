@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import '../Scss/main.scss';
-import '../Scss/button.scss';
-import '../Scss/cart.scss'
 import Header from '../Home Components/Header';
 
 const Cart = () => {
@@ -22,12 +19,12 @@ const Cart = () => {
                                         <a href="#" className="btns btn-md">Change</a>
                                     </div>
                                 </div>
-                                <div className="products-area">
+                                <div className="products-area box">
                                     <div className="container">
                                         <div className="row">
 
                                             <div className="col-lg-3 ">
-                                                <div className="products-area-l">
+                                                <div className="products-area box-l">
                                                     <div className="img-box">
                                                         <img src={require(`../Images/Products/freeze-sidebyside-1.png`)} alt="LG Refrigerator" />
                                                     </div>
@@ -35,12 +32,12 @@ const Cart = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-5">
-                                                <div className="products-area-m">
+                                                <div className="products-area box-m">
                                                     <h2 className="md-title">Zelfo Back Cover for OnePlus 10R (5G)</h2>
-                                                    <p className="md-para">Black, Silicon, Pack of: 1</p>
-                                                    <p className="md-para">Seller:RoyalCommunicationsIndia</p>
+                                                    <p className="sm-para">Black, Silicon, Pack of: 1</p>
+                                                    <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
                                                     <div className="price-offer md-title">
-                                                        <del className='md-para'>999</del>
+                                                        <del className='sm-para'>999</del>
                                                         <span>₹425</span>
                                                         <span className="offer ">57% Off</span>
                                                         <span className="coupon">1 offer applied</span>
@@ -49,7 +46,7 @@ const Cart = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
-                                                <div className="products-area-r">
+                                                <div className="products-area box-r">
                                                     <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
                                                 </div>
                                             </div>
@@ -70,12 +67,12 @@ const Cart = () => {
 
                                     </div>
                                 </div>
-                                <div className="products-area">
+                                <div className="products-area box">
                                     <div className="container">
                                         <div className="row">
 
                                             <div className="col-lg-3 ">
-                                                <div className="products-area-l">
+                                                <div className="products-area box-l">
                                                     <div className="img-box">
                                                         <img src={require(`../Images/Products/dell-alienware-m16-1.png`)} alt="Dell Alienware" />
                                                     </div>
@@ -83,12 +80,12 @@ const Cart = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-5">
-                                                <div className="products-area-m">
+                                                <div className="products-area box-m">
                                                     <h2 className="md-title">Zelfo Back Cover for OnePlus 10R (5G)</h2>
-                                                    <p className="md-para">Black, Silicon, Pack of: 1</p>
-                                                    <p className="md-para">Seller:RoyalCommunicationsIndia</p>
+                                                    <p className="sm-para">Black, Silicon, Pack of: 1</p>
+                                                    <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
                                                     <div className="price-offer md-title">
-                                                        <del className='md-para'>999</del>
+                                                        <del className='sm-para'>999</del>
                                                         <span>₹425</span>
                                                         <span className="offer ">57% Off</span>
                                                         <span className="coupon">1 offer applied</span>
@@ -97,7 +94,7 @@ const Cart = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
-                                                <div className="products-area-r">
+                                                <div className="products-area box-r">
                                                     <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
                                                 </div>
                                             </div>
@@ -118,12 +115,12 @@ const Cart = () => {
 
                                     </div>
                                 </div>
-                                <div className="products-area">
+                                <div className="products-area box">
                                     <div className="container">
                                         <div className="row">
 
                                             <div className="col-lg-3 ">
-                                                <div className="products-area-l">
+                                                <div className="products-area box-l">
                                                     <div className="img-box">
                                                         <img src={require(`../Images/Products/iphone-15pro-max-1.png`)} alt="Iphone 15 Pro" />
                                                     </div>
@@ -131,12 +128,12 @@ const Cart = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-5">
-                                                <div className="products-area-m">
+                                                <div className="products-area box-m">
                                                     <h2 className="md-title">Zelfo Back Cover for OnePlus 10R (5G)</h2>
-                                                    <p className="md-para">Black, Silicon, Pack of: 1</p>
-                                                    <p className="md-para">Seller:RoyalCommunicationsIndia</p>
+                                                    <p className="sm-para">Black, Silicon, Pack of: 1</p>
+                                                    <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
                                                     <div className="price-offer md-title">
-                                                        <del className='md-para'>999</del>
+                                                        <del className='sm-para'>999</del>
                                                         <span>₹425</span>
                                                         <span className="offer ">57% Off</span>
                                                         <span className="coupon">1 offer applied</span>
@@ -145,7 +142,7 @@ const Cart = () => {
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
-                                                <div className="products-area-r">
+                                                <div className="products-area box-r">
                                                     <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
                                                 </div>
                                             </div>

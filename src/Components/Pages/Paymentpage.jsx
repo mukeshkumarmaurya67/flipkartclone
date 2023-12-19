@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../Home Components/Header';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
-import '../Scss/Paymentpage.scss';
 
 
 const Paymentpage = () => {
@@ -84,7 +83,12 @@ const Paymentpage = () => {
                                         <form action="" className='forms'>
                                             <div className="form-group">
                                                 <label className="form-label">Card number</label>
+                                                <div className='card-num-field'>
                                                 <input type="text" className="form-control w-100" placeholder='1234 1234 1234 1234' />
+                                                <div className="img-box">
+                                                    <img src={require(`../Images/Icons/payment-method.png`)} alt='Payment Method'/>
+                                                </div>
+                                                </div>
                                             </div>
                                             <div className="f-group">
                                                 <div className="form-group">
@@ -104,16 +108,6 @@ const Paymentpage = () => {
                                             </div>
                                         </form>
                                     </div>
-
-
-
-
-
-
-
-
-
-
 
 
                                     <div className="tab-pane show" id='paytm'>

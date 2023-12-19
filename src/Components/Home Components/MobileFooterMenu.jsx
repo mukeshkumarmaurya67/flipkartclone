@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Scss/mobileFooterMenu.scss';
 import HomeIcon from '@mui/icons-material/Home';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';

@@ -11,7 +11,6 @@ import SpecialOfFashion from "./Components/Home Components/SpecialOfFashion";
 import SpecialOfSale from "./Components/Home Components/SpecialOfSale";
 import SpecialOfTravel from "./Components/Home Components/SpecialOfTravel";
 import Chatboat from "./Components/Home Components/Chatboat";
-import "./Components/Scss/main.scss";
 import { useContext } from "react";
 import { globalContext } from "./App";
 
