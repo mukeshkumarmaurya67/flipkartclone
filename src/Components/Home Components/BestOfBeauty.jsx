@@ -1,9 +1,9 @@
 import React from 'react';
-import '../Scss/bestOf.scss';
+
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import '../Scss/main.scss';
+
 
 import bob1 from '../Images/bob1.png';
 import bob2 from '../Images/bob2.png';
@@ -82,10 +82,10 @@ const BestOfBeauty = () => {
 
   return (
     <>
-            <div className="best-of-wrapper">
+            <div className="best-of-wrapper box">
                 <div className="container">
                     <div className="row">
-                        <h2 className="best-of-title">Best of beauty</h2>
+                        <h2 className="best-of-title title">Best of beauty</h2>
                         <div className="col-12">
 
                             <OwlCarousel items={itemlenght}

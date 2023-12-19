@@ -1,5 +1,5 @@
-import React from 'react';import '../Scss/specialOf.scss';
-import '../Scss/main.scss';
+import React from 'react';
+
 import smf1 from '../Images/smf1.png';
 import smf2 from '../Images/smf2.png';
 import smf3 from '../Images/smf3.png';
@@ -13,12 +13,12 @@ import rb2 from '../Images/rb2.png';
 const SpecialOfFashion = () => {
     return (
         <>
-            <div className="special-of-wrapper">
+            <div className="special-of-wrapper box">
                 <div className="container">
                     <div className="row g-2">
 
                         <div className="col-lg-4 col-sm-12">
-                            <h2 className="special-of-title">Mens Fashion</h2>
+                            <h2 className="special-of-title title">Mens Fashion</h2>
                             <div className="special-content-box">
                                 <div className="special-content">
                                     <div className="card">
@@ -48,7 +48,7 @@ const SpecialOfFashion = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12">
-                            <h2 className="special-of-title">Womens Fashion</h2>
+                            <h2 className="special-of-title title">Womens Fashion</h2>
                             <div className="special-content-box">
                                 <div className="special-content">
                                     <div className="card">

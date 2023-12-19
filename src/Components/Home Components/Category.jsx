@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Scss/category.scss'
 
 import grocery from '../Images/grocery.png';
 import appliances from '../Images/appliances.png';

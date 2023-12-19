@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Header from "../Home Components/Header";
-import "../Scss/main.scss";
-import "../Scss/profile.scss";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import ContactsIcon from "@mui/icons-material/Contacts";
 import SettingsAccessibilityIcon from "@mui/icons-material/SettingsAccessibility";
-import "../Scss/button.scss";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useContext } from "react";
 import { globalContext } from "../../App";
@@ -163,7 +160,7 @@ const Profilepage = () => {
                 </div>
               </div>
               <div className="tab-content-section">
-                <ul class="nav " id="myTab" role="tablist">
+                <ul class="nav box" id="myTab" role="tablist ">
                   <li class="nav-item" role="presentation">
                     <button
                       class="nav-link sm-title active"

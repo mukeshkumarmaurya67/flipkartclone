@@ -1,6 +1,4 @@
 import React from 'react';
-import '../Scss/main.scss';
-import '../Scss/chatboat.scss';
 import chat from '../Images/chat.png';
 import chatboat from '../Images/chat-logo.png';
 import fileattcher from '../Images/file-attachment.png';

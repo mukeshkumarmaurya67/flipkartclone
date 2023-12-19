@@ -12,43 +12,42 @@
             ],
             "id": 1,
             "description": "Explore a new range of night photography features on this Samsung Galaxy S22 5G smartphone. You can click stunning images even in low light with the Nightography mode. It is designed with a pro-grade camera which comprises a big pixel sensor that welcomes more light for mind-blowing photography. Built with impressive software and hardware, this phone is a game-changer. With a 120 Hz refresh rate and dynamic AMOLED 2x display, you are going to experience immersive screen time. This phone operates on a Snapdragon 8 Gen 1 processor that delivers quick and hassle- free navigation. This device is protected by Corning Gorilla Glass Victus and has an IP68 waterproof rating.",
-            "specification": 
-                {
-                    "powersource": "120 watt",
-                    "modelnumber": "Galaxy S22 5G",
-                    "brand":"Samsung",
-                    "color": "White",
-                    "operatingsystem": "Android 12",
-                    "storage": "128gb",
-                    "ram":"8gb",
-                    "bluetoothsupport": "Yes",
-                    "bluetoothversion": "V5.2",
-                    "musicplayer": "yes",
-                    "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-                    "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-                    "batterycapacity": "3700 mAh"
-                }
-            ,
-            "dimension": 
-                {
-                    "Width": "70.6 mm",
-                    "Height": "146 mm",
-                    "Depth": "7.6 mm",
-                    "Weight": "167 gm"
-                }
-            ,
-            "warranty": 
-                {
-                    "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
-                    "Warrantyservicetype": "Manufacturer Defect Only",
-                    "Coveredwarranty": "Manufacturing Defect",
-                    "Domesticwarranty": "1 Year"
-                }
-            ,
-            "filter":{"color":"white","category":"Electronics","subcategory":"mobile","offer-type":"best-selling"}
+            "specification": {
+                "powersource": "120 watt",
+                "modelnumber": "Galaxy S22 5G",
+                "brand": "Samsung",
+                "color": "White",
+                "operatingsystem": "Android 12",
+                "storage": "128gb",
+                "ram": "8gb",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.2",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "3700 mAh"
+            },
+            "dimension": {
+                "Width": "70.6 mm",
+                "Height": "146 mm",
+                "Depth": "7.6 mm",
+                "Weight": "167 gm"
+            },
+            "warranty": {
+                "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+                "Warrantyservicetype": "Manufacturer Defect Only",
+                "Coveredwarranty": "Manufacturing Defect",
+                "Domesticwarranty": "1 Year"
+            },
+            "filter": {
+                "color": "white",
+                "category": "Electronics",
+                "subcategory": "mobile",
+                "offer-type": "best-selling"
+            }
         },
         {
-            "name": "SASUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
+            "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
             "price": 134999,
             "image": [
                 "samsung-s23-ultra-1.png",
@@ -59,40 +58,38 @@
             ],
             "id": 2,
             "description": "Get a smartphone for yourself that can detect your moods and react appropriately. The Samsung Galaxy Ultra's potent processor and advanced camera sensor can handle low light and noise reduction. The phone's Snapdragon 8 Gen 2 processor, which also provides a long battery life to carry you through even the busiest days, also enables quick gaming and video streaming. You can also launch Expert RAW to take high-resolution RAW photos that are vivid and packed with information. Moreover, Dynamic AMOLED 2X offers clear, brilliant details in both bright and low-light conditions. Additionally, to smooth up gaming and save power, the refresh rate is automatically optimised with 120 Hz technology.",
-            "specification": 
-                {
-                    "powersource": "160 watt",
-                    "modelnumber": "Galaxy S23 Ultra 5G",
-                    "brand":"Samsung",
-                    "color": "Green",
-                    "operatingsystem": "Android 13",
-                    "storage": "256gb",
-                    "ram":"12gb",
-                    "bluetoothsupport": "Yes",
-                    "bluetoothversion": "V5.3",
-                    "musicplayer": "yes",
-                    "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-                    "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-                    "batterycapacity": "4800 mAh"
-                }
-            ,
-            "dimension": 
-                {
-                    "Width": "78.1 mm",
-                    "Height": "163.4 mm",
-                    "Depth": "8.9 mm",
-                    "Weight": "233 g"
-                }
-            ,
-            "warranty": 
-                {
-                    "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
-                    "Warrantyservicetype": "Manufacturer Defect Only",
-                    "Coveredwarranty": "Manufacturing Defect",
-                    "Domesticwarranty": "1 Year"
-                }
-            ,
-            "filter":{"color":"green","category":"mobile","offer-type":"best-selling"}
+            "specification": {
+                "powersource": "160 watt",
+                "modelnumber": "Galaxy S23 Ultra 5G",
+                "brand": "Samsung",
+                "color": "Green",
+                "operatingsystem": "Android 13",
+                "storage": "256gb",
+                "ram": "12gb",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.3",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "4800 mAh"
+            },
+            "dimension": {
+                "Width": "78.1 mm",
+                "Height": "163.4 mm",
+                "Depth": "8.9 mm",
+                "Weight": "233 g"
+            },
+            "warranty": {
+                "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+                "Warrantyservicetype": "Manufacturer Defect Only",
+                "Coveredwarranty": "Manufacturing Defect",
+                "Domesticwarranty": "1 Year"
+            },
+            "filter": {
+                "color": "green",
+                "category": "mobile",
+                "offer-type": "best-selling"
+            }
         },
         {
             "name": "DELL Alienware Intel Core i9 12th Gen 12900H (32 GB/1 TB HDD/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070 Ti/165 Hz)",
@@ -106,40 +103,38 @@
             ],
             "id": 3,
             "description": " You can experience a new performance level on this Dell Alienware laptop. Featuring a 12th Gen Intel Core processor and an NVIDIA GeForce RTX graphics, this laptop is bound to create a wholesome gaming experience. The NIVIDIA G-SYNC and Advanced Optimus enables lag-free gaming and long-lasting battery life. With 144 Hz of refresh rate and Dolby Vision, you can enjoy smooth and vivid visuals. The ComfortView Plus technology provides high-quality images, while the Windows Hello facial recognition ensures enhanced security to your system. The highly responsive keyboard provides comfort and easy access during your gaming sessions.",
-            "specification": 
-                {
-                    "powersource": "120 watt",
-                    "modelnumber": "Alienware M16",
-                    "brand":"Dell",
-                    "color": "Lunar Light",
-                    "operatingsystem": "Core i9 12th Gen",
-                    "storage": "1 TB",
-                    "ram":"32 GB",
-                    "bluetoothsupport": "Yes",
-                    "bluetoothversion": "V5.3",
-                    "musicplayer": "yes",
-                    "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-                    "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-                    "batterycapacity": "4800 mAh"
-                }
-            ,
-            "dimension": 
-                {
-                    "Width": "399 mm",
-                    "Height": "299 mm",
-                    "Depth": "2.14 inch",
-                    "Weight": "2.3 kg"
-                }
-            ,
-            "warranty": 
-                {
-                    "Warrantysummary": "1 Year Onsite Premium Support Plus (Includes ADP)",
-                    "Warrantyservicetype": "Onsite",
-                    "Coveredwarranty": "Manufacturing Defect",
-                    "Domesticwarranty": "1 Year"
-                }
-            ,
-            "filter":{"color":"black","category":"laptop","offer-type":"best-selling"}
+            "specification": {
+                "powersource": "120 watt",
+                "modelnumber": "Alienware M16",
+                "brand": "Dell",
+                "color": "Lunar Light",
+                "operatingsystem": "Core i9 12th Gen",
+                "storage": "1 TB",
+                "ram": "32 GB",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.3",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "4800 mAh"
+            },
+            "dimension": {
+                "Width": "399 mm",
+                "Height": "299 mm",
+                "Depth": "2.14 inch",
+                "Weight": "2.3 kg"
+            },
+            "warranty": {
+                "Warrantysummary": "1 Year Onsite Premium Support Plus (Includes ADP)",
+                "Warrantyservicetype": "Onsite",
+                "Coveredwarranty": "Manufacturing Defect",
+                "Domesticwarranty": "1 Year"
+            },
+            "filter": {
+                "color": "black",
+                "category": "laptop",
+                "offer-type": "best-selling"
+            }
         },
         {
             "name": "LG 655 L Frost Free Side by Side Refrigerator with Smart Inverter Compressor, Express Freeze & Multi Air-Flow  (Dazzle Steel, GL-B257HDSY)",
@@ -153,41 +148,39 @@
             ],
             "id": 4,
             "description": "A refrigerator with multiple cooling features certainly adds to the pleasure of summer. Designed with a number of exciting features, you get to witness Express Freeze, which increases the amount of ice. You can easily adjust the humidity inside the fridge with a simple switch and quickly troubleshoot issues with the Smart Diagnosis mechanism. In addition to multiple air vents and an intelligent inverter compressor, you also get door alarm and child lock safety features integrated into this LG refrigerator. The bio-shield gasket and tempered-glass framework further enhance the durability of this appliance.",
-            "specification": 
-                {
-                    "powersource": "120v -260v ",
-                    "modelnumber": "Dazzle Steel, GL-B257HDSY",
-                    "brand":"LG",
-                    "color": "Silver gray",
-                    "operatingsystem": "",
-                    "storage": "655 L",
-                    "ram":"",
-                    "bluetoothsupport": "Yes",
-                    "bluetoothversion": "V5.3",
-                    "musicplayer": "yes",
-                    "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-                    "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-                    "batterycapacity": "4800 mAh"
-                }
-            ,
-            "dimension": 
-                {
-                    "Width": "1790 mm",
-                    "Height": "735 mm",
-                    "Depth": "913 mm",
-                    "Weight": "103 kg"
-                }
-            ,
-            "warranty": 
-                {
-                    "Warrantysummary": "1 Year Warranty on Product and 10 Years Warranty on Compressor (T&C)",
-                    "Warrantyservicetype": "Technician Visit",
-                    "Coveredwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship",
-                    "domesticwarranty": "3 Year",
-                    "notwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship"
-                }
-            ,
-            "filter":{"color":"silver","category":"Freeze","offer-type":"sale-offer"}
+            "specification": {
+                "powersource": "120v -260v ",
+                "modelnumber": "Dazzle Steel, GL-B257HDSY",
+                "brand": "LG",
+                "color": "Silver gray",
+                "operatingsystem": "",
+                "storage": "655 L",
+                "ram": "",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.3",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "4800 mAh"
+            },
+            "dimension": {
+                "Width": "1790 mm",
+                "Height": "735 mm",
+                "Depth": "913 mm",
+                "Weight": "103 kg"
+            },
+            "warranty": {
+                "Warrantysummary": "1 Year Warranty on Product and 10 Years Warranty on Compressor (T&C)",
+                "Warrantyservicetype": "Technician Visit",
+                "Coveredwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship",
+                "domesticwarranty": "3 Year",
+                "notwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship"
+            },
+            "filter": {
+                "color": "silver",
+                "category": "Freeze",
+                "offer-type": "sale-offer"
+            }
         },
         {
             "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
@@ -201,42 +194,238 @@
             ],
             "id": 5,
             "description": "iPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
-            "specification": 
-                {
-                    "powersource": "80 watt ",
-                    "modelnumber": "MTUX3HN/A",
-                    "brand":"Apple",
-                    "color": "Natural Titanium",
-                    "operatingsystem": "iOS 17",
-                    "storage": "256 gb",
-                    "ram":"8gb",
-                    "bluetoothsupport": "Yes",
-                    "bluetoothversion": "V5.3",
-                    "musicplayer": "yes",
-                    "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-                    "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-                    "batterycapacity": "4800 mAh"
-                }
-            ,
-            "dimension": 
-                {
-                    "Width": "70.6 mm",
-                    "Height": "146.6 mm",
-                    "Depth": "8.25  mm",
-                    "Weight": "187  g"
-                }
-            ,
-            "warranty": 
-                {
-                    "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
-                    "Warrantyservicetype": "Technician Visit",
-                    "Coveredwarranty": "",
-                    "domesticwarranty": "1 Year",
-                    "notwarranty": ""
-                }
-            ,
-            "filter":{"color":"gray","category":"mobile","offer-type":"sale-offer"}
+            "specification": {
+                "powersource": "80 watt ",
+                "modelnumber": "MTUX3HN/A",
+                "brand": "Apple",
+                "color": "Natural Titanium",
+                "operatingsystem": "iOS 17",
+                "storage": "256 gb",
+                "ram": "8gb",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.3",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "4800 mAh"
+            },
+            "dimension": {
+                "Width": "70.6 mm",
+                "Height": "146.6 mm",
+                "Depth": "8.25  mm",
+                "Weight": "187  g"
+            },
+            "warranty": {
+                "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+                "Warrantyservicetype": "Technician Visit",
+                "Coveredwarranty": "",
+                "domesticwarranty": "1 Year",
+                "notwarranty": ""
+            },
+            "filter": {
+                "color": "gray",
+                "category": "mobile",
+                "offer-type": "sale-offer"
+            }
+        },
+        {
+            "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
+            "price": 79990.00,
+            "image": [
+                "camera-1.png",
+                "camera-2.png",
+                "camera-3.png",
+                "camera-4.png",
+                "camera-5.png",
+                "camera-6.png"
+            ],
+            "id": 6,
+            "description": "Born from a desire for flagship performance and innovation in a more compact and streamlined connected camera, the D7500 delivers the game-changing resolution, ISO range, image processing and energy efficiency of the award-winning D500 in an enthusiast-level DSLR. Simply put, the D7500 is built to outperform any camera in its class with top-tier image quality, blazing speed, flawless autofocus, 4K Ultra HD video and pro-grade creative tools�all in a comfortable, rugged design. This is a camera for the new generation of creators.,suitable_for-Enthusiast,processor-EXPEED 5 Image processing,sensor_type-APS-C/Dx Format",
+            "specification": {
+                "powersource": "80 watt ",
+                "modelnumber": "D7500",
+                "brand": "Nikon",
+                "color": "Black",
+                "operatingsystem": "Tyzon",
+                "storage": "256 gb",
+                "ram": "2gb",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.3",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "5000 mAh"
+            },
+            "dimension": {
+                "Width": "70.6 mm",
+                "Height": "146.6 mm",
+                "Depth": "8.25  mm",
+                "Weight": "187  g"
+            },
+            "warranty": {
+                "Warrantysummary": "2 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+                "Warrantyservicetype": "Technician Visit",
+                "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on Camera Body and Lens",
+                "domesticwarranty": "1 Year",
+                "notwarranty": "Warranty Does Not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer"
+            },
+            "filter": {
+                "color": "Black",
+                "category": "electronics",
+                "offer-type": "best-off",
+                "sub-category": "camera"
+            }
+        },
+        {
+            "name": "HP M22f 21.5-inches, 54.6 cm, FHD Monitor Eye Safe Certified Full HD IPS 3-Sided Micro-Edge Monitor, 75Hz, AMD Free Sync with 1xVGA, 1xHDMI 1.4 Ports, 300 nits (Silver, 1920 x 1080 Pixels)",
+            "price": 59990.00,
+            "image": [
+                "descktop-1.png",
+                "descktop-2.png",
+                "descktop-3.png",
+                "descktop-4.png",
+                "descktop-5.png"
+            ],
+            "id": 7,
+            "description": "IPS Display: 21.5-inch (54.6 cm) Full HD (1920 x 1080) IPS Anti Glare Display, 300 nits Brightness, upto 75Hz Refresh Rate|Aspect Ratio: 16:9.Brightness 300 nits. Not VESA mount compatible. HP Eye Ease with Eyesafe Certication: An always-on blue light fllter that keeps your eyes comfortable with zero impact on color accuracy. Sustainable design: Designed with sustainability in mind, the plastic enclosures are made with 85% recycled materials and 5% recycled ocean bound plastics. Other Features: 5ms Response Time, 1000:1 Contrast Ratio, On-screen controls; AMD FreeSync; Low blue light mode; Anti-glare | Ports: 1 VGA; 1 HDMI 1.4 (with HDCP support)| Viewing Angle: 178°| Power Supply required:100 - 240 VAC 50/60 Hz| One year manufacturer warranty",
+            "specification": {
+                "powersource": "120 watt ",
+                "modelnumber": "HP M22f FHD Monitor",
+                "brand": "HP",
+                "color": "Silver White",
+                "operatingsystem": "Windows",
+                "storage": "1 Tb",
+                "ram": "16gb",
+                "bluetoothsupport": "Yes",
+                "bluetoothversion": "V5.3",
+                "musicplayer": "yes",
+                "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+                "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+                "batterycapacity": "5000 mAh"
+            },
+            "dimension": {
+                "Width": "270.6 mm",
+                "Height": "346.6 mm",
+                "Depth": "18.25 mm",
+                "Weight": "2.87 Kg"
+            },
+            "warranty": {
+                "Warrantysummary": "One year manufacturer warranty",
+                "Warrantyservicetype": "Technician Visit",
+                "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+                "domesticwarranty": "1 Year",
+                "notwarranty": "Warranty Does Not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer"
+            },
+            "filter": {
+                "color": "Silver White",
+                "category": "electronics",
+                "offer-type": "best-off",
+                "sub-category": "Desktop"
+            }
+        },
+        {
+            "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
+            "price": 429.00,
+            "image": [
+                "pendrive-1.png",
+                "pendrive-2.png",
+                "pendrive-3.png",
+                "pendrive-4.png"
+            ],
+            "id": 8,
+            "description": "Backing up, transferring, sharing, and storing files is convenient with this SanDisk Blade 64GB pendrive Easy to useCompact in design and with generous storage space, this flash drive lets you start storing and transferring files immediately.",
+            "specification": {
+                "powersource": "16 volt ",
+                "modelnumber": "Cruze Blade SDCZ50",
+                "brand": "Sandisk",
+                "color": "Silver Black",
+                "operatingsystem": "Na",
+                "storage": "64gb",
+                "ram": "NA",
+                "bluetoothsupport": "NA",
+                "bluetoothversion": "NA",
+                "musicplayer": "yes",
+                "audioformats": "NA",
+                "videoformats": "NA",
+                "batterycapacity": "5000 mAh"
+            },
+            "dimension": {
+                "Width": "70.6 mm",
+                "Height": "46.6 mm",
+                "Depth": "12.25 mm",
+                "Weight": "2.87 gm"
+            },
+            "warranty": {
+                "Warrantysummary": "Manufacturing Defects only",
+                "Warrantyservicetype": "Carry-in",
+                "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+                "domesticwarranty": "5 Year",
+                "notwarranty": "Physically Damaged"
+            },
+            "filter": {
+                "color": "Silver White",
+                "category": "electronics",
+                "offer-type": "best-off",
+                "sub-category": "Desktop"
+            }
+        },
+        {
+            "name": "DELL Wired Keyboard KB216 (Zb_03) ",
+            "price": 429.00,
+            "image": [
+                "keyboard-1.png",
+                "keyboard-2.png",
+                "keyboard-3.png",
+                "keyboard-4.png",
+                "keyboard-5.png",
+                "keyboard-6.png"
+
+
+            ],
+            "id": 9,
+            "description": "Are you looking for a keyboard as well as a mouse? Take a look at the Dell keyboard and mouse combo. It is designed in such a way to keep you feeling comfortable as well as productive with durable keys on the keyboard for everyday use. The mouse provides accurate control of the cursor on all surfaces. This combo comes with a warranty of one year and is available at an affordable price.",
+            "specification": {
+                "powersource": "12 volts ",
+                "modelnumber": "KB216",
+                "brand": "Dell",
+                "color": "Black",
+                "operatingsystem": "Windows, Linux,Ios,Android",
+                "storage": "Na",
+                "ram": "NA",
+                "bluetoothsupport": "NA",
+                "bluetoothversion": "NA",
+                "musicplayer": "yes",
+                "audioformats": "NA",
+                "videoformats": "NA",
+                "batterycapacity": "Na"
+            },
+            "dimension": {
+                "Width": "170.6 mm",
+                "Height": "6.6 mm",
+                "Depth": "28.25 mm",
+                "Weight": "208.87 gm"
+            },
+            "warranty": {
+                "Warrantysummary": "Manufacturing Defects only",
+                "Warrantyservicetype": "Carry-in",
+                "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+                "domesticwarranty": "1 Year",
+                "notwarranty": "Physically Damaged"
+            },
+            "filter": {
+                "color": "black",
+                "category": "electronics",
+                "offer-type": "best-off",
+                "sub-category": "keyboard"
+            }
         }
     ],
-    "profiledetails":{"pimage":"profile.jpg","fname":"Mukesh","lname":"Kumar","mail":"mukeshkumarmaurya70@gmail.com","gender":"male","id":1}
+    "profiledetails": {
+        "pimage": "profile.jpg",
+        "fname": "Mukesh",
+        "lname": "Kumar",
+        "mail": "mukeshkumarmaurya70@gmail.com",
+        "gender": "male",
+        "id": 1
+    }
 }

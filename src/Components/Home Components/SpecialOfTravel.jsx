@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Scss/specialOf.scss';
-import '../Scss/main.scss';
+
 import sot1 from '../Images/sot1.png';
 import sot2 from '../Images/sot2.png';
 import sot3 from '../Images/sot3.png';
@@ -14,12 +13,12 @@ import rb3 from '../Images/rb3.png';
 const SpecialOfTravel = () => {
     return (
         <>
-            <div className="special-of-wrapper">
+            <div className="special-of-wrapper box">
                 <div className="container">
                     <div className="row g-2">
 
                         <div className="col-lg-4 col-sm-12">
-                            <h2 className="special-of-title">Book Tickets</h2>
+                            <h2 className="special-of-title title">Book Tickets</h2>
                             <div className="special-content-box">
                                 <div className="special-content">
                                     <div className="card">
@@ -49,7 +48,7 @@ const SpecialOfTravel = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12">
-                            <h2 className="special-of-title">Book Hotels</h2>
+                            <h2 className="special-of-title title">Book Hotels</h2>
                             <div className="special-content-box">
                                 <div className="special-content">
                                     <div className="card">

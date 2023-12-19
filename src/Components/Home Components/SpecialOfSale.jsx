@@ -1,6 +1,5 @@
 import React from 'react';
-import '../Scss/specialOf.scss';
-import '../Scss/main.scss';
+
 import sbs1 from '../Images/sbs1.png';
 import sbs2 from '../Images/sbs2.png';
 import sbs3 from '../Images/sbs3.png';
@@ -15,12 +14,12 @@ import rb1 from '../Images/rb1.png';
 const SpecialOfSale = () => {
     return (
         <>
-            <div className="special-of-wrapper">
+            <div className="special-of-wrapper box">
                 <div className="container">
                     <div className="row g-2">
 
                         <div className="col-lg-4 col-sm-12">
-                            <h2 className="special-of-title">Special Bank Sale</h2>
+                            <h2 className="special-of-title title">Special Bank Sale</h2>
                             <div className="special-content-box">
                                 <div className="special-content">
                                     <div className="card">
@@ -51,7 +50,7 @@ const SpecialOfSale = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12">
-                            <h2 className="special-of-title">Offer by Seller</h2>
+                            <h2 className="special-of-title title">Offer by Seller</h2>
                             <div className="special-content-box">
                                 <div className="special-content">
                                     <div className="card">

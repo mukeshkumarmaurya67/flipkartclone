@@ -1,5 +1,4 @@
 import React from "react";
-import "../Scss/footer.scss";
 import pm from "../Images/payment-method.svg";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
 import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
