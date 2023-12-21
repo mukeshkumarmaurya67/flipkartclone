@@ -7,13 +7,26 @@ import SeprateCategoryPage from "./Components/Pages/SeprateCategoryPage";
 import Cart from "./Components/Pages/Cart";
 import Paymentpage from "./Components/Pages/Paymentpage";
 import ViewAllPage from "./Components/Pages/ViewAllPage";
-// import '././Components/Css/style.css'
+
+
+
 
 
 
 let globalContext = createContext();
 
 const App = () => {
+
+    let x=document.querySelector("body").classList.contains("light-mode");
+    if(x==true){
+        require('././Components/Scss/style.css');
+    } 
+
+    else{
+       require('././Components/Scss/dark-style.css');
+    }
+
+
     let [data, setData] = useState([]);
     let fetchData = () => {
         fetch("http://localhost:10001/product")

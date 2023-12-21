@@ -9,8 +9,23 @@
         .viewall-r-section {
             .all-products-section {
                 .card {
+                    position: relative;
+
+                    .icon-box {
+                        position: absolute;
+                        right: 5px;
+                        top: 5px;
+                        z-index: 1;
+                        cursor: pointer;
+
+                        .wishlist {
+                            fill: rgb(162, 162, 162);
+                        }
+                    }
+
                     .img-box {
-                        height: 150px;
+                        height: 175px;
+
 
                         img {
                             object-fit: contain;
@@ -21,9 +36,11 @@
                         width: 100%;
                         padding: 0 4px;
                         overflow: hidden;
-                        display: -webkit-box;
-                        -webkit-line-clamp: 2;
-                        -webkit-box-orient: vertical;
+                        // display: -webkit-box;
+                        // -webkit-line-clamp: 2;
+                        // -webkit-box-orient: vertical;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
                         margin-bottom: 4px;
                     }
 
@@ -31,6 +48,32 @@
                         margin-bottom: 4px;
                         padding: 0 4px;
                     }
+
+                    .boxs {
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        padding-left: 4px;
+                        margin-bottom: 4px;
+
+                        .star-box {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 4px;
+                            gap: 4px;
+                            background-color: green;
+                            color: $white-text;
+                            padding: 2px 6px;
+                            border-radius: 4px;
+
+                            .star {
+                                width: 16px;
+                                height: 16px;
+
+                            }
+                        }
+                    }
+
                 }
             }
         }

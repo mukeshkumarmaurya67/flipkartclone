@@ -1,10 +1,80 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Home Components/Header';
+import StarIcon from '@mui/icons-material/Star';
 
 const Cart = () => {
 
     let [count, setCount] = useState(1)
 
+    let [cartitem, setCartitem] = useState([]);
+
+    let fetchData = () => {
+        fetch(" http://localhost:10001/cartproducts")
+            .then(r => r.json())
+            .then(x => setCartitem(x))
+    }
+    useEffect(() => {
+        fetchData();
+    }, [0])
+
+
+
+    const deleteItem = (del) => {
+        var url = "http://localhost:10001/cartproducts/" + del; // change
+        var postData = {
+            headers: { 'Content-Type': 'application/json' },
+            method: "DELETE"
+        }
+        fetch(url, postData)
+            .then(response => response.json())
+            .then(serverres => {
+                fetchData()
+            })
+    }
+
+    let [ladterdata, setLaterData] = useState([]);
+
+    let fdata = () => {
+        fetch("http://localhost:10001/saveforlater")
+            .then(r => r.json())
+            .then(x => {
+                setLaterData(x)
+            })
+    }
+    useEffect(() => {
+        fdata();
+    }, [0])
+
+
+    let saveLater = (adding) => {
+        var url = "http://localhost:10001/saveforlater";
+        var postData = {
+            headers: { 'Content-Type': 'application/json' },
+            method: 'POST',
+            body: JSON.stringify(adding)
+        }
+        fetch(url, postData)
+            .then(response => response.json())
+            .then(tempfile => {
+                fdata();
+            })
+    }
+
+    let addtocart = (addingc) => {
+        var url = "http://localhost:10001/cartproducts";
+        var postData = {
+            headers: { 'Content-Type': 'application/json' },
+            method: 'POST',
+            body: JSON.stringify(addingc)
+        }
+        fetch(url, postData)
+            .then(response => response.json())
+            .then(tempfile => {
+                fetchData()
+            })
+
+
+    }
     return (
         <>
             <Header />
@@ -19,150 +89,69 @@ const Cart = () => {
                                         <a href="#" className="btns btn-md">Change</a>
                                     </div>
                                 </div>
-                                <div className="products-area box">
-                                    <div className="container">
-                                        <div className="row">
+                                {
+                                    cartitem.map((e, index) => {
+                                        return (
+                                            <div className="products-area box" key={e.id}>
+                                                <div className="container">
+                                                    <div className="row">
 
-                                            <div className="col-lg-3 ">
-                                                <div className="products-area box-l">
-                                                    <div className="img-box">
-                                                        <img src={require(`../Images/Products/freeze-sidebyside-1.png`)} alt="LG Refrigerator" />
+                                                        <div className="col-lg-3 ">
+                                                            <div className="products-area box">
+                                                                <div className="img-box">
+                                                                    <img src={require(`../Images/Products/${e.image[1]}`)} alt="Dell Alienware" />
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-5">
+                                                            <div className="products-area box">
+                                                                <h2 className="title mb-1">{e.name}</h2>
+                                                                <p className="sm-para">Brand : <span className="sm-title">{e.specification.brand}</span></p>
+                                                                <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
+                                                                <div className="price-offer md-title">
+                                                                    <del className='sm-para me-1'>{e.price}</del>
+                                                                    <span className='ms-1'>₹{e.price - e.price * 15 / 100}</span>
+                                                                    <span className="offer text-success ms-2">15% Off</span>
+                                                                    <span className="coupon ms-3 text-success">1 offer applied</span>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div className="col-lg-4">
+                                                            <div className="products-area box">
+                                                                <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <div className="box">
+                                                                <div className="counter">
+                                                                    <span className='calc' onClick={() => setCount(count - 1)}> - </span>
+                                                                    <input type='text' value={count} size={1} />
+                                                                    <span className='calc' onClick={() => setCount(count + 1)}> + </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-9">
+                                                            <div className="box">
+                                                                <button className=" title save-remove " onClick={saveLater.bind(this, e)}>Save For Later</button>
+                                                                <button className=" title save-remove ms-4" onClick={deleteItem.bind(this, e.id)}>Remove</button>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
 
                                                 </div>
                                             </div>
-                                            <div className="col-lg-5">
-                                                <div className="products-area box-m">
-                                                    <h2 className="md-title">Zelfo Back Cover for OnePlus 10R (5G)</h2>
-                                                    <p className="sm-para">Black, Silicon, Pack of: 1</p>
-                                                    <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
-                                                    <div className="price-offer md-title">
-                                                        <del className='sm-para'>999</del>
-                                                        <span>₹425</span>
-                                                        <span className="offer ">57% Off</span>
-                                                        <span className="coupon">1 offer applied</span>
-                                                    </div>
+                                        )
+                                    }
+                                    )
+                                }
 
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4">
-                                                <div className="products-area box-r">
-                                                    <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3">
-                                                <div className="counter">
-                                                    <span className='calc' onClick={() => setCount(count - 1)}> - </span>
-                                                    <input type='text' value={count} size={1} />
-                                                    <span className='calc' onClick={() => setCount(count + 1)}> + </span>
-                                                </div>
 
-                                            </div>
-                                            <div className="col-lg-9">
-                                                <a href="#" className=" title save-remove ">Save For Later</a>
-                                                <a href="#" className=" title save-remove ms-4">Remove</a>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div className="products-area box">
-                                    <div className="container">
-                                        <div className="row">
-
-                                            <div className="col-lg-3 ">
-                                                <div className="products-area box-l">
-                                                    <div className="img-box">
-                                                        <img src={require(`../Images/Products/dell-alienware-m16-1.png`)} alt="Dell Alienware" />
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-5">
-                                                <div className="products-area box-m">
-                                                    <h2 className="md-title">Zelfo Back Cover for OnePlus 10R (5G)</h2>
-                                                    <p className="sm-para">Black, Silicon, Pack of: 1</p>
-                                                    <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
-                                                    <div className="price-offer md-title">
-                                                        <del className='sm-para'>999</del>
-                                                        <span>₹425</span>
-                                                        <span className="offer ">57% Off</span>
-                                                        <span className="coupon">1 offer applied</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4">
-                                                <div className="products-area box-r">
-                                                    <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3">
-                                                <div className="counter">
-                                                    <span className='calc' onClick={() => setCount(count - 1)}> - </span>
-                                                    <input type='text' value={count} size={1} />
-                                                    <span className='calc' onClick={() => setCount(count + 1)}> + </span>
-                                                </div>
-
-                                            </div>
-                                            <div className="col-lg-9">
-                                                <a href="#" className=" title save-remove ">Save For Later</a>
-                                                <a href="#" className=" title save-remove ms-4">Remove</a>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div className="products-area box">
-                                    <div className="container">
-                                        <div className="row">
-
-                                            <div className="col-lg-3 ">
-                                                <div className="products-area box-l">
-                                                    <div className="img-box">
-                                                        <img src={require(`../Images/Products/iphone-15pro-max-1.png`)} alt="Iphone 15 Pro" />
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-5">
-                                                <div className="products-area box-m">
-                                                    <h2 className="md-title">Zelfo Back Cover for OnePlus 10R (5G)</h2>
-                                                    <p className="sm-para">Black, Silicon, Pack of: 1</p>
-                                                    <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
-                                                    <div className="price-offer md-title">
-                                                        <del className='sm-para'>999</del>
-                                                        <span>₹425</span>
-                                                        <span className="offer ">57% Off</span>
-                                                        <span className="coupon">1 offer applied</span>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4">
-                                                <div className="products-area box-r">
-                                                    <h2 className="md-title text-center">Delivery by Fri Dec 22</h2>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-3">
-                                                <div className="counter">
-                                                    <span className='calc' onClick={() => setCount(count - 1)}> - </span>
-                                                    <input type='text' value={count} size={1} />
-                                                    <span className='calc' onClick={() => setCount(count + 1)}> + </span>
-                                                </div>
-
-                                            </div>
-                                            <div className="col-lg-9">
-                                                <a href="#" className=" title save-remove ">Save For Later</a>
-                                                <a href="#" className=" title save-remove ms-4">Remove</a>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
                                 <div className="place-order">
                                     <span className='total-price'>₹34,291</span>
                                     <a href="#/payment" className='btns btn-red '>Place Order</a>
@@ -200,6 +189,44 @@ const Cart = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="container">
+                        <div className="box save-later-section">
+                            <div className="row g-2">
+
+                                <div className="box">
+
+                                    <div className="title">Save For Later</div>
+                                </div>
+                                {
+                                    ladterdata.map((e => {
+                                        return (
+                                            <div className="col-lg-2" key={e.id}>
+                                                <div className="card">
+                                                    <div className="box">
+                                                        <div className="img-box">
+                                                            <img src={require(`../Images/Products/${e.image[1]}`)} alt='' />
+                                                        </div>
+                                                        <div className="sm-para">{e.price}</div>
+                                                        <div className="boxs">
+                                                            <div className="star-box sm-title">3.5 <StarIcon className='star' /> </div>
+                                                            <span className='sm-para ps-2'> (13)</span>
+                                                        </div>
+
+                                                        <div className="xs-para mb-1">Free Delivery</div>
+                                                        <button className="save-remove btns btn-yellow w-100" onClick={addtocart.bind(this, e)}>Add To Cart</button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        )
+                                    }))
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section >
 
