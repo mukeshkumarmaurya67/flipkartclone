@@ -19,19 +19,21 @@
 
         .products-area {
             background: $white-bg;
-            padding: 24px;
 
-            .products-area-l {
-                .img-box {
-                    width: 112px;
-                    height: 112px;
 
-                    img {
-                        object-fit: contain;
-                    }
+
+            .img-box {
+                width: 150px;
+                height: 150px;
+                background: $faded-white;
+                padding: 4px;
+                border-radius: 4px;
+                img {
+                    object-fit: cover;
                 }
-
             }
+
+
 
             .products-area-m {
                 .price-offer {
@@ -95,7 +97,10 @@
         }
 
         .save-remove {
-            text-decoration: none;
+
+            border: none;
+            background: transparent;
+
         }
     }
 
@@ -147,6 +152,20 @@
                 border-left: 0;
                 border-right: 0;
                 margin: 8px 0;
+            }
+        }
+    }
+    .save-later-section{
+        .img-box{
+            height: 150px;
+            width: 150px;
+            background: $faded-white;
+            padding: 2px;
+            border-radius: 4px;
+            margin-bottom: 4px;
+            margin: auto;
+            img{
+                object-fit: contain;
             }
         }
     }
