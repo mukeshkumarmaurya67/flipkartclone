@@ -1,4 +1,6 @@
 .viewall-wrapper {
+    position: relative;
+
     .viewall-section {
         .viewall-l-section {
             .filter-section {
@@ -7,6 +9,7 @@
         }
 
         .viewall-r-section {
+            position: relative;
             .all-products-section {
                 .card {
                     position: relative;
@@ -78,4 +81,6 @@
             }
         }
     }
+
+
 }
