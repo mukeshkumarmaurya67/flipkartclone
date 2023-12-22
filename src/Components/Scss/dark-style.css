@@ -262,12 +262,15 @@
 .cart-wrapper .cart-left-content .delivery-area .del-address {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  align-items: center;
   padding-right: 4px;
   background-color: #393939;
 }
-.cart-wrapper .cart-left-content .products-area {
-  background: #393939;
+.cart-wrapper .cart-left-content .products-area .title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .cart-wrapper .cart-left-content .products-area .img-box {
   width: 150px;
@@ -325,6 +328,7 @@
   }
 }
 .cart-wrapper .cart-left-content .save-remove {
+  display: unset !important;
   border: none;
   background: transparent;
 }
@@ -351,12 +355,10 @@
 }
 .cart-wrapper .cart-right-content {
   background-color: #393939;
-  padding: 12px;
   position: sticky;
   top: 70px;
 }
 .cart-wrapper .cart-right-content .price-detail-title {
-  padding: 16px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .cart-wrapper .cart-right-content .price-detail-group {
@@ -372,18 +374,38 @@
   border-right: 0;
   margin: 8px 0;
 }
-.cart-wrapper .save-later-section .img-box {
-  height: 150px;
-  width: 150px;
+.cart-wrapper .save-later-section .card .box {
+  position: relative;
+}
+.cart-wrapper .save-later-section .card .box .icon-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 2px 4px;
+  z-index: 2;
+  cursor: pointer;
+}
+.cart-wrapper .save-later-section .card .box .icon-box:hover {
+  border-color: red;
+}
+.cart-wrapper .save-later-section .card .box .icon-box:hover svg {
+  fill: red;
+}
+.cart-wrapper .save-later-section .card .box .img-box {
+  height: 175px;
+  width: 100%;
   background: #b1b1b1;
   padding: 2px;
   border-radius: 4px;
   margin-bottom: 4px;
   margin: auto;
 }
-.cart-wrapper .save-later-section .img-box img {
+.cart-wrapper .save-later-section .card .box .img-box img {
   -o-object-fit: contain;
      object-fit: contain;
+  transform: unset;
 }
 
 .categogry-wrapper {
@@ -1144,10 +1166,6 @@
   color: #fdfdfd;
   font-size: 14px;
 }
-.card:hover img {
-  transform: scale(1.2, 1.2);
-}
-
 .form-control:focus {
   box-shadow: none !important;
   border-color: #86b7fe;
@@ -1234,6 +1252,17 @@ img {
 
 .dark-bg {
   background: #000000 !important;
+}
+
+.alert-section {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: none;
+  transition: 2s all linear;
 }
 
 .mobile-footer-menu-wrapper {
@@ -1836,6 +1865,12 @@ img {
      object-fit: contain;
 }
 
+.viewall-wrapper {
+  position: relative;
+}
+.viewall-wrapper .viewall-section .viewall-r-section {
+  position: relative;
+}
 .viewall-wrapper .viewall-section .viewall-r-section .all-products-section .card {
   position: relative;
 }

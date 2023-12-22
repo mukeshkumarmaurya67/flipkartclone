@@ -24,25 +24,25 @@ const SpecialOfTravel = () => {
                                     <div className="card">
                                     <div className="img-box"><img src={sot1} alt="" /></div>
                                         <div className="card-para">Book Flight Tickets</div>
-                                        <div className="card-title">Starting From 2999</div>
+                                        <div className="md-title text-center">Starting From 2999</div>
                                     </div>
 
                                     <div className="card">
                                         <div className="img-box"><img src={sot2} alt="" /></div>
                                         <div className="card-para">Train Tickets</div>
-                                        <div className="card-title">Agent Free Charge</div>
+                                        <div className="md-title text-center">Agent Free Charge</div>
                                     </div>
 
                                     <div className="card">
                                         <div className="img-box"><img src={sot3} alt="" /></div>
                                         <div className="card-para">Book Cab</div>
-                                        <div className="card-title">Book At Your Door</div>
+                                        <div className="md-title text-center">Book At Your Door</div>
                                     </div>
 
                                     <div className="card">
                                         <div className="img-box"><img src={sot4} alt="" /></div>
                                         <div className="card-para">Bus Tickets</div>
-                                        <div className="card-title">get 30% Discount </div>
+                                        <div className="md-title text-center">get 30% Discount </div>
                                     </div>
                                 </div>
                             </div>
@@ -54,22 +54,22 @@ const SpecialOfTravel = () => {
                                     <div className="card">
                                         <div className="img-box"><img src={soh1} alt="" /></div>
                                         <div className="card-para"></div>
-                                        <div className="card-title">Trending</div>
+                                        <div className="md-title text-center">Trending</div>
                                     </div>
                                     <div className="card">
                                         <div className="img-box"><img src={soh2} alt="" /></div>
                                         <div className="card-para">Footwear</div>
-                                        <div className="card-title">Starts from 1499</div>
+                                        <div className="md-title text-center">Starts from 1499</div>
                                     </div>
                                     <div className="card">
                                         <div className="img-box"><img src={soh3} alt="" /></div>
                                         <div className="card-para">Saree</div>
-                                        <div className="card-title">Party wear</div>
+                                        <div className="md-title text-center">Party wear</div>
                                     </div>
                                     <div className="card">
                                        <div className="img-box"><img src={soh4} alt="" /></div>
                                         <div className="card-para">Sweater</div>
-                                        <div className="card-title">Starts at 999</div>
+                                        <div className="md-title text-center">Starts at 999</div>
                                     </div>
                                 </div>
                             </div>

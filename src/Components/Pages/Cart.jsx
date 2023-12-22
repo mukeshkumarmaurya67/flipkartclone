@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Home Components/Header';
 import StarIcon from '@mui/icons-material/Star';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const Cart = () => {
 
@@ -58,6 +59,22 @@ const Cart = () => {
             .then(tempfile => {
                 fdata();
             })
+            
+    }
+
+    let delsavelater=(delslater)=>{
+       
+            var url = "http://localhost:10001/saveforlater/" + delslater; // change
+            var postData = {
+                headers: { 'Content-Type': 'application/json' },
+                method: "DELETE"
+            }
+            fetch(url, postData)
+                .then(response => response.json())
+                .then(serverres => {
+                    fdata();
+                })
+       
     }
 
     let addtocart = (addingc) => {
@@ -83,7 +100,7 @@ const Cart = () => {
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="cart-left-content">
-                                <div className="delivery-area">
+                                <div className="delivery-area box">
                                     <div className="del-address">
                                         <span className="sm-para">Deliver To: <span className="sm-title">Bangalore - 560048</span></span>
                                         <a href="#" className="btns btn-md">Change</a>
@@ -160,7 +177,7 @@ const Cart = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="cart-right-content">
-                                <div className="price-detail-title title">Price Details</div>
+                                <div className="price-detail-title  box title">Price Details</div>
                                 <div className="price-detail-group">
                                     <span className="para">Price (2 items)</span>
                                     <span className="md-title">₹77,997</span>
@@ -202,13 +219,17 @@ const Cart = () => {
                                         return (
                                             <div className="col-lg-2" key={e.id}>
                                                 <div className="card">
+
                                                     <div className="box">
-                                                        <div className="img-box">
+                                                        <div className="icon-box" onClick={delsavelater.bind(this,e.id)}>
+                                                            <DeleteIcon />
+                                                        </div>
+                                                        <div className="img-box mb-1">
                                                             <img src={require(`../Images/Products/${e.image[1]}`)} alt='' />
                                                         </div>
-                                                        <div className="sm-para">{e.price}</div>
+                                                        <div className="sm-para">₹ {e.price}</div>
                                                         <div className="boxs">
-                                                            <div className="star-box sm-title">3.5 <StarIcon className='star' /> </div>
+                                                            <span className="star-box sm-title">{e.rating} <StarIcon className='star' /> </span>
                                                             <span className='sm-para ps-2'> (13)</span>
                                                         </div>
 

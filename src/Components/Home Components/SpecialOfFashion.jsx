@@ -24,25 +24,25 @@ const SpecialOfFashion = () => {
                                     <div className="card">
                                     <div className="img-box"><img src={smf1} alt="" /></div>
                                         <div className="card-para">Leather Jacket</div>
-                                        <div className="card-title">Starting From 2999</div>
+                                        <div className="text-center md-title">Starting From 2999</div>
                                     </div>
 
                                     <div className="card">
                                         <div className="img-box"><img src={smf2} alt="" /></div>
                                         <div className="card-para">Printed Shirts</div>
-                                        <div className="card-title">Trending</div>
+                                        <div className="text-center md-title">Trending</div>
                                     </div>
 
                                     <div className="card">
                                         <div className="img-box"><img src={smf3} alt="" /></div>
                                         <div className="card-para">Loafer Shoes</div>
-                                        <div className="card-title">Trending</div>
+                                        <div className="text-center md-title">Trending</div>
                                     </div>
 
                                     <div className="card">
                                         <div className="img-box"><img src={smf4} alt="" /></div>
                                         <div className="card-para">Ethnick Wear</div>
-                                        <div className="card-title">Starting from 1999</div>
+                                        <div className="text-center md-title">Starting from 1999</div>
                                     </div>
                                 </div>
                             </div>
@@ -54,22 +54,22 @@ const SpecialOfFashion = () => {
                                     <div className="card">
                                         <div className="img-box"><img src={swf1} alt="" /></div>
                                         <div className="card-para">Lehanga</div>
-                                        <div className="card-title">Trending</div>
+                                        <div className="text-center md-title">Trending</div>
                                     </div>
                                     <div className="card">
                                         <div className="img-box"><img src={swf2} alt="" /></div>
                                         <div className="card-para">Footwear</div>
-                                        <div className="card-title">Starts from 1499</div>
+                                        <div className="text-center md-title">Starts from 1499</div>
                                     </div>
                                     <div className="card">
                                         <div className="img-box"><img src={swf3} alt="" /></div>
                                         <div className="card-para">Saree</div>
-                                        <div className="card-title">Party wear</div>
+                                        <div className="text-center md-title">Party wear</div>
                                     </div>
                                     <div className="card">
                                        <div className="img-box"><img src={swf4} alt="" /></div>
                                         <div className="card-para">Sweater</div>
-                                        <div className="card-title">Starts at 999</div>
+                                        <div className="text-center md-title">Starts at 999</div>
                                     </div>
                                 </div>
                             </div>

@@ -44,7 +44,8 @@
         "category": "Electronics",
         "subcategory": "mobile",
         "offer-type": "best-selling"
-      }
+      },
+      "rating": 4.7
     },
     {
       "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
@@ -89,7 +90,8 @@
         "color": "green",
         "category": "mobile",
         "offer-type": "best-selling"
-      }
+      },
+      "rating": 4.2
     },
     {
       "name": "DELL Alienware Intel Core i9 12th Gen 12900H (32 GB/1 TB HDD/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeForce RTX 3070 Ti/165 Hz)",
@@ -134,7 +136,8 @@
         "color": "black",
         "category": "laptop",
         "offer-type": "best-selling"
-      }
+      },
+      "rating": 3.8
     },
     {
       "name": "LG 655 L Frost Free Side by Side Refrigerator with Smart Inverter Compressor, Express Freeze & Multi Air-Flow  (Dazzle Steel, GL-B257HDSY)",
@@ -180,7 +183,8 @@
         "color": "silver",
         "category": "Freeze",
         "offer-type": "sale-offer"
-      }
+      },
+      "rating": 4.9
     },
     {
       "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
@@ -226,7 +230,8 @@
         "color": "gray",
         "category": "mobile",
         "offer-type": "sale-offer"
-      }
+      },
+      "rating": 4.1
     },
     {
       "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
@@ -274,7 +279,8 @@
         "category": "electronics",
         "offer-type": "best-off",
         "sub-category": "camera"
-      }
+      },
+      "rating": 3.8
     },
     {
       "name": "HP M22f 21.5-inches, 54.6 cm, FHD Monitor Eye Safe Certified Full HD IPS 3-Sided Micro-Edge Monitor, 75Hz, AMD Free Sync with 1xVGA, 1xHDMI 1.4 Ports, 300 nits (Silver, 1920 x 1080 Pixels)",
@@ -321,7 +327,8 @@
         "category": "electronics",
         "offer-type": "best-off",
         "sub-category": "Desktop"
-      }
+      },
+      "rating": 4.4
     },
     {
       "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
@@ -367,7 +374,8 @@
         "category": "electronics",
         "offer-type": "best-off",
         "sub-category": "Desktop"
-      }
+      },
+      "rating": 4
     },
     {
       "name": "DELL Wired Keyboard KB216 (Zb_03) ",
@@ -415,56 +423,11 @@
         "category": "electronics",
         "offer-type": "best-off",
         "sub-category": "keyboard"
-      }
+      },
+      "rating": 3.9
     }
   ],
   "cartproducts": [
-    {
-      "name": "LG 655 L Frost Free Side by Side Refrigerator with Smart Inverter Compressor, Express Freeze & Multi Air-Flow  (Dazzle Steel, GL-B257HDSY)",
-      "price": 72990,
-      "image": [
-        "freeze-sidebyside-1.png",
-        "freeze-sidebyside-2.png",
-        "freeze-sidebyside-3.png",
-        "freeze-sidebyside-4.png",
-        "freeze-sidebyside-5.png"
-      ],
-      "id": 4,
-      "description": "A refrigerator with multiple cooling features certainly adds to the pleasure of summer. Designed with a number of exciting features, you get to witness Express Freeze, which increases the amount of ice. You can easily adjust the humidity inside the fridge with a simple switch and quickly troubleshoot issues with the Smart Diagnosis mechanism. In addition to multiple air vents and an intelligent inverter compressor, you also get door alarm and child lock safety features integrated into this LG refrigerator. The bio-shield gasket and tempered-glass framework further enhance the durability of this appliance.",
-      "specification": {
-        "powersource": "120v -260v ",
-        "modelnumber": "Dazzle Steel, GL-B257HDSY",
-        "brand": "LG",
-        "color": "Silver gray",
-        "operatingsystem": "",
-        "storage": "655 L",
-        "ram": "",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
-        "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "4800 mAh"
-      },
-      "dimension": {
-        "Width": "1790 mm",
-        "Height": "735 mm",
-        "Depth": "913 mm",
-        "Weight": "103 kg"
-      },
-      "warranty": {
-        "Warrantysummary": "1 Year Warranty on Product and 10 Years Warranty on Compressor (T&C)",
-        "Warrantyservicetype": "Technician Visit",
-        "Coveredwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship",
-        "domesticwarranty": "3 Year",
-        "notwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship"
-      },
-      "filter": {
-        "color": "silver",
-        "category": "Freeze",
-        "offer-type": "sale-offer"
-      }
-    },
     {
       "name": "SAMSUNG Galaxy S22 5G (Phantom White, 128 GB)  (8 GB RAM)",
       "price": 39999,
@@ -509,104 +472,9 @@
         "category": "Electronics",
         "subcategory": "mobile",
         "offer-type": "best-selling"
-      }
+      },
+      "rating": 4.7
     },
-    {
-      "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
-      "price": 79990,
-      "image": [
-        "camera-1.png",
-        "camera-2.png",
-        "camera-3.png",
-        "camera-4.png",
-        "camera-5.png",
-        "camera-6.png"
-      ],
-      "id": 6,
-      "description": "Born from a desire for flagship performance and innovation in a more compact and streamlined connected camera, the D7500 delivers the game-changing resolution, ISO range, image processing and energy efficiency of the award-winning D500 in an enthusiast-level DSLR. Simply put, the D7500 is built to outperform any camera in its class with top-tier image quality, blazing speed, flawless autofocus, 4K Ultra HD video and pro-grade creative tools�all in a comfortable, rugged design. This is a camera for the new generation of creators.,suitable_for-Enthusiast,processor-EXPEED 5 Image processing,sensor_type-APS-C/Dx Format",
-      "specification": {
-        "powersource": "80 watt ",
-        "modelnumber": "D7500",
-        "brand": "Nikon",
-        "color": "Black",
-        "operatingsystem": "Tyzon",
-        "storage": "256 gb",
-        "ram": "2gb",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
-        "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "5000 mAh"
-      },
-      "dimension": {
-        "Width": "70.6 mm",
-        "Height": "146.6 mm",
-        "Depth": "8.25  mm",
-        "Weight": "187  g"
-      },
-      "warranty": {
-        "Warrantysummary": "2 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Technician Visit",
-        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on Camera Body and Lens",
-        "domesticwarranty": "1 Year",
-        "notwarranty": "Warranty Does Not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer"
-      },
-      "filter": {
-        "color": "Black",
-        "category": "electronics",
-        "offer-type": "best-off",
-        "sub-category": "camera"
-      }
-    },
-    {
-      "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
-      "price": 131990,
-      "image": [
-        "iphone-15pro-max-1.png",
-        "iphone-15pro-max-2.png",
-        "iphone-15pro-max-3.png",
-        "iphone-15pro-max-4.png",
-        "iphone-15pro-max-5.png"
-      ],
-      "id": 5,
-      "description": "iPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
-      "specification": {
-        "powersource": "80 watt ",
-        "modelnumber": "MTUX3HN/A",
-        "brand": "Apple",
-        "color": "Natural Titanium",
-        "operatingsystem": "iOS 17",
-        "storage": "256 gb",
-        "ram": "8gb",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
-        "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "4800 mAh"
-      },
-      "dimension": {
-        "Width": "70.6 mm",
-        "Height": "146.6 mm",
-        "Depth": "8.25  mm",
-        "Weight": "187  g"
-      },
-      "warranty": {
-        "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Technician Visit",
-        "Coveredwarranty": "",
-        "domesticwarranty": "1 Year",
-        "notwarranty": ""
-      },
-      "filter": {
-        "color": "gray",
-        "category": "mobile",
-        "offer-type": "sale-offer"
-      }
-    }
-  ],
-  "saveforlater": [
     {
       "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
       "price": 134999,
@@ -650,7 +518,55 @@
         "color": "green",
         "category": "mobile",
         "offer-type": "best-selling"
-      }
+      },
+      "rating": 4.2
+    },
+    {
+      "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
+      "price": 131990,
+      "image": [
+        "iphone-15pro-max-1.png",
+        "iphone-15pro-max-2.png",
+        "iphone-15pro-max-3.png",
+        "iphone-15pro-max-4.png",
+        "iphone-15pro-max-5.png"
+      ],
+      "id": 5,
+      "description": "iPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
+      "specification": {
+        "powersource": "80 watt ",
+        "modelnumber": "MTUX3HN/A",
+        "brand": "Apple",
+        "color": "Natural Titanium",
+        "operatingsystem": "iOS 17",
+        "storage": "256 gb",
+        "ram": "8gb",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "V5.3",
+        "musicplayer": "yes",
+        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "batterycapacity": "4800 mAh"
+      },
+      "dimension": {
+        "Width": "70.6 mm",
+        "Height": "146.6 mm",
+        "Depth": "8.25  mm",
+        "Weight": "187  g"
+      },
+      "warranty": {
+        "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+        "Warrantyservicetype": "Technician Visit",
+        "Coveredwarranty": "",
+        "domesticwarranty": "1 Year",
+        "notwarranty": ""
+      },
+      "filter": {
+        "color": "gray",
+        "category": "mobile",
+        "offer-type": "sale-offer"
+      },
+      "rating": 4.1
     },
     {
       "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
@@ -698,54 +614,58 @@
         "category": "electronics",
         "offer-type": "best-off",
         "sub-category": "camera"
-      }
+      },
+      "rating": 3.8
     },
     {
-      "name": "LG 655 L Frost Free Side by Side Refrigerator with Smart Inverter Compressor, Express Freeze & Multi Air-Flow  (Dazzle Steel, GL-B257HDSY)",
-      "price": 72990,
+      "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
+      "price": 429,
       "image": [
-        "freeze-sidebyside-1.png",
-        "freeze-sidebyside-2.png",
-        "freeze-sidebyside-3.png",
-        "freeze-sidebyside-4.png",
-        "freeze-sidebyside-5.png"
+        "pendrive-1.png",
+        "pendrive-2.png",
+        "pendrive-3.png",
+        "pendrive-4.png"
       ],
-      "id": 4,
-      "description": "A refrigerator with multiple cooling features certainly adds to the pleasure of summer. Designed with a number of exciting features, you get to witness Express Freeze, which increases the amount of ice. You can easily adjust the humidity inside the fridge with a simple switch and quickly troubleshoot issues with the Smart Diagnosis mechanism. In addition to multiple air vents and an intelligent inverter compressor, you also get door alarm and child lock safety features integrated into this LG refrigerator. The bio-shield gasket and tempered-glass framework further enhance the durability of this appliance.",
+      "id": 8,
+      "description": "Backing up, transferring, sharing, and storing files is convenient with this SanDisk Blade 64GB pendrive Easy to useCompact in design and with generous storage space, this flash drive lets you start storing and transferring files immediately.",
       "specification": {
-        "powersource": "120v -260v ",
-        "modelnumber": "Dazzle Steel, GL-B257HDSY",
-        "brand": "LG",
-        "color": "Silver gray",
-        "operatingsystem": "",
-        "storage": "655 L",
-        "ram": "",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
+        "powersource": "16 volt ",
+        "modelnumber": "Cruze Blade SDCZ50",
+        "brand": "Sandisk",
+        "color": "Silver Black",
+        "operatingsystem": "Na",
+        "storage": "64gb",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
         "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "4800 mAh"
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "5000 mAh"
       },
       "dimension": {
-        "Width": "1790 mm",
-        "Height": "735 mm",
-        "Depth": "913 mm",
-        "Weight": "103 kg"
+        "Width": "70.6 mm",
+        "Height": "46.6 mm",
+        "Depth": "12.25 mm",
+        "Weight": "2.87 gm"
       },
       "warranty": {
-        "Warrantysummary": "1 Year Warranty on Product and 10 Years Warranty on Compressor (T&C)",
-        "Warrantyservicetype": "Technician Visit",
-        "Coveredwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship",
-        "domesticwarranty": "3 Year",
-        "notwarranty": "All Parts Excluding Plastic Parts, Glassware, Bulb and Tube from the Date of Purchase Against Defective Material and Workmanship"
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "5 Year",
+        "notwarranty": "Physically Damaged"
       },
       "filter": {
-        "color": "silver",
-        "category": "Freeze",
-        "offer-type": "sale-offer"
-      }
-    },
+        "color": "Silver White",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Desktop"
+      },
+      "rating": 4
+    }
+  ],
+  "saveforlater": [
     {
       "name": "SAMSUNG Galaxy S22 5G (Phantom White, 128 GB)  (8 GB RAM)",
       "price": 39999,
@@ -790,53 +710,104 @@
         "category": "Electronics",
         "subcategory": "mobile",
         "offer-type": "best-selling"
-      }
+      },
+      "rating": 4.7
     },
     {
-      "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
-      "price": 131990,
+      "name": "DELL Wired Keyboard KB216 (Zb_03) ",
+      "price": 429,
       "image": [
-        "iphone-15pro-max-1.png",
-        "iphone-15pro-max-2.png",
-        "iphone-15pro-max-3.png",
-        "iphone-15pro-max-4.png",
-        "iphone-15pro-max-5.png"
+        "keyboard-1.png",
+        "keyboard-2.png",
+        "keyboard-3.png",
+        "keyboard-4.png",
+        "keyboard-5.png",
+        "keyboard-6.png"
       ],
-      "id": 5,
-      "description": "iPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
+      "id": 9,
+      "description": "Are you looking for a keyboard as well as a mouse? Take a look at the Dell keyboard and mouse combo. It is designed in such a way to keep you feeling comfortable as well as productive with durable keys on the keyboard for everyday use. The mouse provides accurate control of the cursor on all surfaces. This combo comes with a warranty of one year and is available at an affordable price.",
       "specification": {
-        "powersource": "80 watt ",
-        "modelnumber": "MTUX3HN/A",
-        "brand": "Apple",
-        "color": "Natural Titanium",
-        "operatingsystem": "iOS 17",
-        "storage": "256 gb",
-        "ram": "8gb",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
+        "powersource": "12 volts ",
+        "modelnumber": "KB216",
+        "brand": "Dell",
+        "color": "Black",
+        "operatingsystem": "Windows, Linux,Ios,Android",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
         "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "4800 mAh"
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "Na"
+      },
+      "dimension": {
+        "Width": "170.6 mm",
+        "Height": "6.6 mm",
+        "Depth": "28.25 mm",
+        "Weight": "208.87 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard"
+      },
+      "rating": 3.9
+    },
+    {
+      "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
+      "price": 429,
+      "image": [
+        "pendrive-1.png",
+        "pendrive-2.png",
+        "pendrive-3.png",
+        "pendrive-4.png"
+      ],
+      "id": 8,
+      "description": "Backing up, transferring, sharing, and storing files is convenient with this SanDisk Blade 64GB pendrive Easy to useCompact in design and with generous storage space, this flash drive lets you start storing and transferring files immediately.",
+      "specification": {
+        "powersource": "16 volt ",
+        "modelnumber": "Cruze Blade SDCZ50",
+        "brand": "Sandisk",
+        "color": "Silver Black",
+        "operatingsystem": "Na",
+        "storage": "64gb",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "5000 mAh"
       },
       "dimension": {
         "Width": "70.6 mm",
-        "Height": "146.6 mm",
-        "Depth": "8.25  mm",
-        "Weight": "187  g"
+        "Height": "46.6 mm",
+        "Depth": "12.25 mm",
+        "Weight": "2.87 gm"
       },
       "warranty": {
-        "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Technician Visit",
-        "Coveredwarranty": "",
-        "domesticwarranty": "1 Year",
-        "notwarranty": ""
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "5 Year",
+        "notwarranty": "Physically Damaged"
       },
       "filter": {
-        "color": "gray",
-        "category": "mobile",
-        "offer-type": "sale-offer"
-      }
+        "color": "Silver White",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Desktop"
+      },
+      "rating": 4
     }
   ],
   "profiledetails": {

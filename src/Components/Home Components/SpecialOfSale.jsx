@@ -26,25 +26,25 @@ const SpecialOfSale = () => {
                                         <div className="img-box">
                                         <img src={sbs1} alt="" /></div>
                                         <div className="card-para">10% Off Till 31st <b>T&C</b></div>
-                                        <div className="card-title">IDBI Bank</div>
+                                        <div className="md-title text-center">IDBI Bank</div>
                                     </div>
 
                                     <div className="card">
                                     <div className="img-box"> <img src={sbs2} alt="" /></div>
                                         <div className="card-para">15% Off Till 31st <b>T&C</b></div>
-                                        <div className="card-title">HDFC Bank</div>
+                                        <div className="md-title text-center">HDFC Bank</div>
                                     </div>
 
                                     <div className="card">
                                     <div className="img-box"><img src={sbs3} alt="" /></div>
                                         <div className="card-para">20% Off Till 31st <b>T&C</b></div>
-                                        <div className="card-title">SBI Bank</div>
+                                        <div className="md-title text-center">SBI Bank</div>
                                     </div>
 
                                     <div className="card">
                                     <div className="img-box"><img src={sbs4} alt="" /></div>
                                         <div className="card-para">12% Off Till 31st <b>T&C</b></div>
-                                        <div className="card-title">AXIS BANK</div>
+                                        <div className="md-title text-center">AXIS BANK</div>
                                     </div>
                                 </div>
                             </div>
@@ -56,22 +56,22 @@ const SpecialOfSale = () => {
                                     <div className="card">
                                     <div className="img-box">  <img src={sss1} alt="" /></div>
                                         <div className="card-para">Buy 1 Get 2</div>
-                                        <div className="card-title">By Marshall</div>
+                                        <div className="md-title text-center">By Marshall</div>
                                     </div>
                                     <div className="card">
                                     <div className="img-box"><img src={sss2} alt="" /></div>
                                         <div className="card-para">Buy 1 Get 1</div>
-                                        <div className="card-title">By Kelvin</div>
+                                        <div className="md-title text-center">By Kelvin</div>
                                     </div>
                                     <div className="card">
                                     <div className="img-box"><img src={sss3} alt="" /></div>
                                         <div className="card-para">Buy 1 Get 4</div>
-                                        <div className="card-title">By Saldon</div>
+                                        <div className="md-title text-center">By Saldon</div>
                                     </div>
                                     <div className="card">
                                     <div className="img-box"><img src={sss4} alt="" /></div>
                                         <div className="card-para">Buy 1 Get 3</div>
-                                        <div className="card-title">By Max</div>
+                                        <div className="md-title text-center">By Max</div>
                                     </div>
                                 </div>
                             </div>
