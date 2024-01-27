@@ -80,7 +80,7 @@ const ProductDetails = () => {
                   {/* <img id="main-img" alt="" src={require(`../Images/Products/${data.image[0]}`)} />
                   
                   */}
-                  <img
+                  <img 
                     id="main-img"
                     alt={data.image[0]}
                     src={
