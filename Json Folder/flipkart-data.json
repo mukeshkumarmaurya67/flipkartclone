@@ -425,149 +425,1513 @@
         "sub-category": "keyboard"
       },
       "rating": 3.9
-    }
-  ],
-  "cartproducts": [
-    {
-      "name": "SAMSUNG Galaxy S22 5G (Phantom White, 128 GB)  (8 GB RAM)",
-      "price": 39999,
-      "image": [
-        "samsung-s22-1.png",
-        "samsung-s22-2.png",
-        "samsung-s22-3.png",
-        "samsung-s22-4.png",
-        "samsung-s22-5.png"
-      ],
-      "id": 1,
-      "description": "Explore a new range of night photography features on this Samsung Galaxy S22 5G smartphone. You can click stunning images even in low light with the Nightography mode. It is designed with a pro-grade camera which comprises a big pixel sensor that welcomes more light for mind-blowing photography. Built with impressive software and hardware, this phone is a game-changer. With a 120 Hz refresh rate and dynamic AMOLED 2x display, you are going to experience immersive screen time. This phone operates on a Snapdragon 8 Gen 1 processor that delivers quick and hassle- free navigation. This device is protected by Corning Gorilla Glass Victus and has an IP68 waterproof rating.",
-      "specification": {
-        "powersource": "120 watt",
-        "modelnumber": "Galaxy S22 5G",
-        "brand": "Samsung",
-        "color": "White",
-        "operatingsystem": "Android 12",
-        "storage": "128gb",
-        "ram": "8gb",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.2",
-        "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "3700 mAh"
-      },
-      "dimension": {
-        "Width": "70.6 mm",
-        "Height": "146 mm",
-        "Depth": "7.6 mm",
-        "Weight": "167 gm"
-      },
-      "warranty": {
-        "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Manufacturer Defect Only",
-        "Coveredwarranty": "Manufacturing Defect",
-        "Domesticwarranty": "1 Year"
-      },
-      "filter": {
-        "color": "white",
-        "category": "Electronics",
-        "subcategory": "mobile",
-        "offer-type": "best-selling"
-      },
-      "rating": 4.7
     },
     {
-      "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
-      "price": 134999,
+      "name": "Jabra Elite 4 with Active Noise Cancellation, Multipoint, 4-mic call technology Bluetooth Headset  (Navy, In the Ear) ",
+      "price": 7999,
       "image": [
-        "samsung-s23-ultra-1.png",
-        "samsung-s23-ultra-2.png",
-        "samsung-s23-ultra-3.png",
-        "samsung-s23-ultra-4.png",
-        "samsung-s23-ultra-5.png"
+        "jabra-1.png",
+        "jabra-2.png",
+        "jabra-3.png",
+        "jabra-4.png",
+        "jabra-5.png"
       ],
-      "id": 2,
-      "description": "Get a smartphone for yourself that can detect your moods and react appropriately. The Samsung Galaxy Ultra's potent processor and advanced camera sensor can handle low light and noise reduction. The phone's Snapdragon 8 Gen 2 processor, which also provides a long battery life to carry you through even the busiest days, also enables quick gaming and video streaming. You can also launch Expert RAW to take high-resolution RAW photos that are vivid and packed with information. Moreover, Dynamic AMOLED 2X offers clear, brilliant details in both bright and low-light conditions. Additionally, to smooth up gaming and save power, the refresh rate is automatically optimised with 120 Hz technology.",
+      "id": 10,
+      "description": "Our Jabra Elite 4 True Wireless earbuds are ideal for navigating work and life with ease. They incorporate Jabra's renowned fit to keep them in your ears, and their ergonomic Danish design for all-day superior comfort. 4-microphone technology allows for clear conversations, and physical buttons give you more control and precision on the go. Seamlessly switch between 2 devices with Bluetooth Multipoint. HearThrough technology keeps you alert in busy environments, and Active Noise Cancellation (ANC) blocks unwanted noise. Fast Pair (OS 6.0 or later) lets you instantly pair your earbuds with your Android phone, and Swift Pair (Windows 10 or later) lets you connect seamlessly to your PC. You can use one earbud in Mono Mode while the other charges, and enjoy up to 5.5 hours of battery life per earbud and 22 hours with the case. They are water and dust-resistant and come with a 2-year warranty (registration via the Jabra Sound+ app is required).",
       "specification": {
-        "powersource": "160 watt",
-        "modelnumber": "Galaxy S23 Ultra 5G",
-        "brand": "Samsung",
-        "color": "Green",
-        "operatingsystem": "Android 13",
-        "storage": "256gb",
-        "ram": "12gb",
+        "powersource": "2 Amp ",
+        "modelnumber": "Elite-4",
+        "brand": "Jabra",
+        "color": "Blue",
+        "operatingsystem": "Na",
+        "storage": "Na",
+        "ram": "NA",
         "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
+        "bluetoothversion": "5.6",
         "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "4800 mAh"
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "800 Mah"
       },
       "dimension": {
-        "Width": "78.1 mm",
-        "Height": "163.4 mm",
-        "Depth": "8.9 mm",
-        "Weight": "233 g"
+        "Width": "100.6 mm",
+        "Height": "9.6 mm",
+        "Depth": "28.25 mm",
+        "Weight": "100.32 gm"
       },
       "warranty": {
-        "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Manufacturer Defect Only",
-        "Coveredwarranty": "Manufacturing Defect",
-        "Domesticwarranty": "1 Year"
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "earphone",
+        "discount": "25"
+      },
+      "rating": 3.9
+    },
+    {
+      "name": "Apple AirPods Pro (2nd generation) with MagSafe Case (USB-C) Bluetooth Headset  (White, True Wireless) ",
+      "price": 24999,
+      "image": [
+        "airpods-pro-1.png",
+        "airpods-pro-2.png",
+        "airpods-pro-3.png",
+        "airpods-pro-4.png",
+        "airpods-pro-5.png"
+      ],
+      "id": 11,
+      "description": "AirPods Pro (2nd generation) with USB-C deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you, and all-new Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you�re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker and lanyard loop.",
+      "specification": {
+        "powersource": "1.5 Amp ",
+        "modelnumber": "MTJV3HN/A",
+        "brand": "Apple",
+        "color": "White",
+        "operatingsystem": "Ios",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "1000 Mah"
+      },
+      "dimension": {
+        "Width": "97.6 mm",
+        "Height": "12.6 mm",
+        "Depth": "38.25 mm",
+        "Weight": "106.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "White",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "earphone",
+        "discount": "25"
+      },
+      "rating": 4.5
+    },
+    {
+      "name": "Skullcandy Rail TWS Wireless Earbuds, 42 Hr Battery, Skull-iQ, Alexa Enabled, Microphone Bluetooth Headset  (Ture Black, In the Ear, True Wireless)",
+      "price": 24999,
+      "image": [
+        "skullcandy-earbuds-1.png",
+        "skullcandy-earbuds-2.png",
+        "skullcandy-earbuds-3.png",
+        "skullcandy-earbuds-4.png"
+      ],
+      "id": 12,
+      "description": "Introducing Rail, our new flagship family of earbuds with Skull-iQ Smart Feature Technology. We created Rail with a simple set of design requirements-it had to be the best sounding, best looking, most comfortable, most intelligent family of earbuds ever made, and it had to get better with time. Welcome to the future of future-proof audio.Rail is built with Skull-iQ, a powerful technology that runs innovative voice features and enables new upgrades via the Skull-iQ App. Hands-Free Voice Controls are available in multiple languages. By simply starting a prompt with �Hey Skullcandy�,'' you can control media players, summon your assistant (including Alexa and iHeart), access Spotify� or even take a photo.Rail delivers big, detailed sound with premium drivers and ergonomically designed ear gels for a super-comfortable, noise-isolating fit. Personal Sound by Mimi fine-tunes the sound to your individual hearing, and Clear Voice Smart Mic uses artificial intelligence to isolate your voice and reduce background noise.Multipoint Pairing makes it possible to pair your earbuds to two devices at once, so if your phone rings while you're watching a movie on your laptop, your connection will automatically switch so you can take the call. Rail also comes with Tile finding technology built-in. If an earbud is misplaced, you can just ring'it from the free Tile app.",
+      "specification": {
+        "powersource": "1.7 Amp ",
+        "modelnumber": "S2RLW-Q740",
+        "brand": "Skullcandy",
+        "color": "Black",
+        "operatingsystem": "Na",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "1000 Mah"
+      },
+      "dimension": {
+        "Width": "97.6 mm",
+        "Height": "12.6 mm",
+        "Depth": "38.25 mm",
+        "Weight": "106.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "earphone",
+        "discount": "25"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "boAt 10000 mAh 22.5 W Wireless Power Bank  (Carbon Black, Lithium Polymer, Quick Charge 3.0 for Laptop, Mobile)",
+      "price": 3499,
+      "image": [
+        "boat-powerbank-1.png",
+        "boat-powerbank-2.png",
+        "boat-powerbank-3.png",
+        "boat-powerbank-4.png",
+        "boat-powerbank-5.png"
+      ],
+      "id": 13,
+      "description": "Meet the Energyshroom PB310 Wireless Pro, through which you can charge your wired and wireless devices simultaneously. It is a high-capacity, 10000 mAh Powerbank that uses a Li-polymer battery and is designed for a safe, quick, and effective user experience. With a 2-way Type C input port and 3 output ports (including 2-way Type C and 2 USB-A), it offers multiple connectivity options for your devices. Experience lightning-fast 2-way 22.5W Fast Charging with support for Quick Charge 3.0, Power Delivery, and PPS, ensuring your gadgets receive power in no time. Pass-through charging allows you to simultaneously charge and discharge devices, making it even more convenient. With a 10000mAh capacity and smart power management, you can rely on it to keep your devices running longer. The sleek aluminum casing not only looks stylish but also adds robustness to withstand everyday use.",
+      "specification": {
+        "powersource": "22.5W ",
+        "modelnumber": "EnergyShroom PB310 Wireless Pro",
+        "brand": "boAt",
+        "color": "Black",
+        "operatingsystem": "Na",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "10000 Mah"
+      },
+      "dimension": {
+        "Width": "97.6 mm",
+        "Height": "112.6 mm",
+        "Depth": "38.25 mm",
+        "Weight": "306.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Power Bank",
+        "discount": "35"
+      },
+      "rating": 4.3
+    },
+    {
+      "name": "DURACELL 20000 mAh 22.5 W Power Bank  (Multicolor, Lithium-ion, Fast Charging for Mobile)",
+      "price": 3499,
+      "image": [
+        "duracell-powerbank-1.png",
+        "duracell-powerbank-2.png",
+        "duracell-powerbank-3.png",
+        "duracell-powerbank-4.png",
+        "duracell-powerbank-5.png"
+      ],
+      "id": 14,
+      "description": " you can charge your wired and wireless devices simultaneously. It is a high-capacity, 10000 mAh Powerbank that uses a Li-polymer battery and is designed for a safe, quick, and effective user experience. With a 2-way Type C input port and 3 output ports (including 2-way Type C and 2 USB-A), it offers multiple connectivity options for your devices. Experience lightning-fast 2-way 22.5W Fast Charging with support for Quick Charge 3.0, Power Delivery, and PPS, ensuring your gadgets receive power in no time.",
+      "specification": {
+        "powersource": "22.5W ",
+        "modelnumber": "DU030",
+        "brand": "DURACELL",
+        "color": "Black",
+        "operatingsystem": "Na",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "20000 Mah"
+      },
+      "dimension": {
+        "Width": "99.6 mm",
+        "Height": "152.6 mm",
+        "Depth": "32.25 mm",
+        "Weight": "285.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Power Bank",
+        "discount": "35"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "Nothing Phone (2) (Dark Grey, 512 GB)  (12 GB RAM)",
+      "price": 24999,
+      "image": [
+        "nothing-1.png",
+        "nothing-2.png",
+        "nothing-3.png",
+        "nothing-4.png",
+        "nothing-5.png",
+        "nothing-6.png"
+      ],
+      "id": 15,
+      "description": "This phone is interesting to use as it is built with GLYPH INTERFACE, an improved technology where you are actually using your phone without being on your phone. You get to set different light and sound sequences for each and every contact you have. This light and sound sequence is also applicable for notifications. You can make use of the light for countdown, timer, metre indicator, volume checker in addition to the portable ring light. You also get Glyph composer where you can invoke different colours of light and sound combinations and create a unique Glyph ringtone.",
+      "specification": {
+        "powersource": " 80 watt",
+        "modelnumber": "nothing-2",
+        "brand": "Nothing",
+        "color": "Black",
+        "operatingsystem": "Android 13",
+        "storage": "256",
+        "ram": "8",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "audioformats": "MP3/AAC/AAC+/WMA/AMR-NB/AMR-WB/WAV/FLAC/APE/OGG/MID/M4A/IMY/AC3/EAC3/EAC3-JOC/AC4",
+        "videoformats": "MKV/MOV/MP4/H.265 (HEVC)/AVI/WMV/TS/3GP/FLV/WEBM",
+        "batterycapacity": "5000 Mah"
+      },
+      "dimension": {
+        "Width": "197.6 mm",
+        "Height": "230.6 mm",
+        "Depth": "10  mm",
+        "Weight": "196.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Mobile",
+        "discount": "35"
+      },
+      "rating": 3.1
+    },
+    {
+      "name": "vivo T2x 5G (Marine Blue, 128 GB)  (6 GB RAM)",
+      "price": 18999,
+      "image": [
+        "vivo-1.png",
+        "vivo-2.png",
+        "vivo-3.png",
+        "vivo-4.png"
+      ],
+      "id": 16,
+      "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience. With the Vivo T2x 5G, you can experience exceptional performance owing to its 7 nm 5G CPU, the octa-core Dimensity 6020, with a top clock speed of 2.2 GHz. Additionally, the 50 MP main camera on this smartphone beautifully catches every detail you see. Additionally, Super Night Selfie employs noise cancellation technology in conjunction with an Aura Screen Light to produce a calming light that is effective in low light. The pioneering Extended RAM 3.0 technology also uses ROM to expand RAM with a maximum capacity of 8 GB. This enables smooth app switching and allows up to 27 active applications to run in the background.",
+      "specification": {
+        "powersource": " 80 watt",
+        "modelnumber": "V2253|V2312",
+        "brand": "vivo T2x",
+        "color": "Marine Blue",
+        "operatingsystem": "Android 13",
+        "storage": "128",
+        "ram": "6",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "audioformats": "WAV, MP3, MP2, MP1, MIDI, Vorbis, APE, FLAC, AAC, OPUS",
+        "videoformats": "MP4, 3GP, MKV, FLV",
+        "batterycapacity": "6000 Mah"
+      },
+      "dimension": {
+        "Width": "75.6 mm",
+        "Height": "164.6 mm",
+        "Depth": "8  mm",
+        "Weight": "186.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Marine Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Mobile",
+        "discount": "36"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "OPPO Reno10 Pro+ 5G (Glossy Purple, 256 GB)  (12 GB RAM)",
+      "price": 59999,
+      "image": [
+        "oppo-1.png",
+        "oppo-2.png",
+        "oppo-3.png",
+        "oppo-4.png",
+        "oppo-5.png"
+      ],
+      "id": 17,
+      "description": "Create a plethora of possibilities with this Oppo Reno Pro+ 5G smartphone. Built with exceptional camera functionalities such as Pro Power mode, Telephoto Portrait Mode, Pro Portrait Mode, Pro XDR, laser-centric, and thin and light periscopic camera, this smartphone is a huge prospect for all your photography fascination. A 3D curved, 1.5K borderless display with 120 Hz refresh rates makes this an impressive smartphone to carry around. Powered with a 100 W SUPERVOOC flash charge, you can fully charge your phone in just 27 minutes. You get a 4700 mAh large battery capacity with a battery health engine. The SUPERVOOC S Power Management Chip supports efficient discharges of up to 99.5%. The presence of a powerful Snapdragon 8+ Gen 1 Processor improves performance and power efficiency. Ultra-conductive cooling, fast and fluid dynamic computing engine, IR remote control, Smart AOD, And Auto Pixelate, etc., are other notable features of this Oppo 5G smartphone.",
+      "specification": {
+        "powersource": " 70 watt",
+        "modelnumber": "CPH2521",
+        "brand": "OPPO Reno10 Pro",
+        "color": "Glossy Purple",
+        "operatingsystem": "Android 13",
+        "storage": "256",
+        "ram": "12",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "audioformats": "WAV, MP3, MP2, MP1, MIDI, Vorbis, APE, FLAC, AAC, OPUS",
+        "videoformats": "MP4, 3GP, MKV, FLV",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "75.6 mm",
+        "Height": "164.6 mm",
+        "Depth": "8.28  mm",
+        "Weight": "195.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Glossy Purple",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Mobile",
+        "discount": "25"
+      },
+      "rating": 4.6
+    },
+    {
+      "name": "WINGS Nuvobook V1 Aluminium Alloy Metal Body Intel Intel Core i5 11th Gen 1155G7 - (8 GB/512 GB SSD/Windows 11 Home) WL-Nuvobook V1-GRN Thin and Light Laptop  (15.6 Inch, Green, 1.60 Kg)",
+      "price": 59999,
+      "image": [
+        "wing-1.png",
+        "wing-2.png",
+        "wing-3.png",
+        "wing-4.png",
+        "wing-5.png"
+      ],
+      "id": 18,
+      "description": "Get yourself the Wings Lifestyle Nuvobook V1 laptop and stay ahead of your peers with incredible multitasking and mesmerising efficiency. Experience crisp visuals in Full HD with the Nuvobook and its huge 39.62 cm (15.6) screen. This FHD screen on the Nuvobook comes with the sRGB up to 100% and brightness up to 300 nits. Also, the 65 W Type-C charger has you covered - 2 hours of charge in 15 minutes and 60% in an hour. Watch a movie, finish debugging a bunch of code, edit a few reels, and finish your assignments and still have some juice left in the Nuvobook because of the immense 4825 mAh battery which gives users up to 10 hours of usage. Moreover, the Nuvobook laptops are powered by Intel Core processors which are perfect for all of your needs - productivity, entertainment, creative pursuits, or gaming. The PCIe 4.0 High-speed SSD NVMe Storage ensures faster load times for all your activities.",
+      "specification": {
+        "powersource": " 65 watt",
+        "modelnumber": "WL-Nuvobook V1-GRN",
+        "brand": "WL-Nuvobook V1",
+        "color": "green",
+        "operatingsystem": "Windows 11 Home",
+        "storage": "512",
+        "ram": "8",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "358 mm",
+        "Height": "238 mm",
+        "Depth": "18.4  mm",
+        "Weight": "1.60 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
       },
       "filter": {
         "color": "green",
-        "category": "mobile",
-        "offer-type": "best-selling"
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "41"
+      },
+      "rating": 3.6
+    },
+    {
+      "name": "ASUS Chromebook Intel Celeron Dual Core N4500 - (4 GB/128 GB EMMC Storage/Chrome OS) CX1400CKA-EK0335 Chromebook  (14 Inch, Transparent Silver, 1.47 Kg)",
+      "price": 15990,
+      "image": [
+        "asus-1.png",
+        "asus-2.png",
+        "asus-3.png",
+        "asus-4.png",
+        "asus-5.png",
+        "asus-6.png"
+      ],
+      "id": 19,
+      "description": "The Asus Chromebook CX1 is integrated with ChromeOS to elevate your productivity and creativity. You can access all the Google services on this laptop and get desired apps from Google Play. The Google Workspace allows you to get your work done seamlessly with the help of Google Workspace apps. Featuring an Intel Celeron N4500 processor, along with 8 GB of LPDDR4X memory, and 128 GB of storage, this laptop offers smooth performance and ample storage space. This lightweight laptop can easily fit in your bags and hands which makes it easy to carry around wherever you want. Equipped with a powerful battery, this laptop can last up to 11 hours on a single charge so you can get your work done without having to recharge the system.",
+      "specification": {
+        "powersource": " 50 watt",
+        "modelnumber": "CX1400CKA-EK0335",
+        "brand": "ASUS Chromebook ",
+        "color": "silver",
+        "operatingsystem": "Windows 11 Home",
+        "storage": "128",
+        "ram": "4",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.2",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "326.5 mm",
+        "Height": "228 mm",
+        "Depth": "18.7  mm",
+        "Weight": "1.47 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "41"
+      },
+      "rating": 3.3
+    },
+    {
+      "name": "Ultimus Pro Intel Celeron Dual Core N4020 - (4 GB/128 GB EMMC Storage/Windows 11 Home) NU14U3INC43BN-MB Thin and Light Laptop  (14.1 Inch, Matt Black)",
+      "price": 24990,
+      "image": [
+        "ultimus-1.png",
+        "ultimus-2.png",
+        "ultimus-3.png",
+        "ultimus-4.png"
+      ],
+      "id": 20,
+      "description": "The Ultimus Pro Celeron laptop is a blend of sophistication, performance, and versatility, designed to empower you in every aspect of life. Unleash your creativity, explore new horizons, and connect with the world like never before. With its vibrant display, flawless user interface, smart processor, fast data transfer, and boundless media adventure, it's the ultimate companion for work, play, and everything in between. Embrace a new era of computing with the Ultimus Pro Celeron Laptop.",
+      "specification": {
+        "powersource": " 45 watt",
+        "modelnumber": "NU14U3INC43BN-MB",
+        "brand": "Ultimus pro ",
+        "color": "matt black",
+        "operatingsystem": "Windows 11 Home",
+        "storage": "128",
+        "ram": "4",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v4.2",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "326.5 mm",
+        "Height": "228 mm",
+        "Depth": "18.7  mm",
+        "Weight": "1.2 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "matt black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "31"
+      },
+      "rating": 3.2
+    },
+    {
+      "name": "MSI Modern 14 Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) Modern 14 C11M-031IN Thin and Light Laptop  (14 Inch, Classic Black, 1.4 Kg)",
+      "price": 52990,
+      "image": [
+        "msi-1.png",
+        "msi-2.png",
+        "msi-3.png",
+        "msi-4.png"
+      ],
+      "id": 21,
+      "description": "You can enjoy fast processing with the 11th Gen Intel Core processor. It has a sleek and stylish design that makes it easy to carry. The 180-degree lay-flat hinge allows you to share contents more efficiently among colleagues. The backlit keyboard helps you to view the keys clearly even in the dark. It has numerous ports so that you can stay connected anytime. You can enjoy mesmerising audio through the Modern Series sound system as you watch your favourite movies",
+      "specification": {
+        "powersource": " 65 watt",
+        "modelnumber": "Modern 14 C11M-031IN",
+        "brand": "MSI Modern 14 ",
+        "color": "classic black",
+        "operatingsystem": "Windows 11 Home",
+        "storage": "512",
+        "ram": "8",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.2",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "Full HD, 60Hz 45%NTSC IPS-Level",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "319.9 mm",
+        "Height": "223 mm",
+        "Depth": "19.35  mm",
+        "Weight": "1.4 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "classic black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "41"
+      },
+      "rating": 3.2
+    },
+    {
+      "name": "Acer One Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) AO 14 Z 8-415 Thin and Light Laptop  (14 Inch, Silver, 1.49 Kg)",
+      "price": 43999,
+      "image": [
+        "acer-1.png",
+        "acer-2.png",
+        "acer-3.png",
+        "acer-4.png"
+      ],
+      "id": 22,
+      "description": "You can experience the power of the Intel Core processor and Intel Iris Graphics card to reign over the game world. The 8 GB of RAM with an upgradable RAM of 32 GB are featured in this laptop so that you have enough space to store for all your applications. The sleek and minimalist design of this laptop makes it classy and portable so that you can easily carry it with you wherever you want. The whooping 512 GB of M.2PCIe SSD ensures maximum storage capacity to this Acer laptop. With a wide range of ports you can easily connect multiple devices at the same time to enhance your productivity.",
+      "specification": {
+        "powersource": " 45 watt",
+        "modelnumber": "AO 14 Z 8-415",
+        "brand": "acer one ",
+        "color": "silver",
+        "operatingsystem": "Windows 11 Home",
+        "storage": "512",
+        "ram": "8",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.0",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "Full HD",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "323 mm",
+        "Height": "221mm",
+        "Depth": "21.6  mm",
+        "Weight": "1.49 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "38"
+      },
+      "rating": 3.5
+    },
+    {
+      "name": "Godrej 234 L Direct Cool Single Door 5 Star Refrigerator  (Marine Blue, RD EDGEPRO 255E TAI MN BL)",
+      "price": 28290,
+      "image": [
+        "godrej-1.png",
+        "godrej-2.png",
+        "godrej-3.png",
+        "godrej-4.png",
+        "godrej-5.png"
+      ],
+      "id": 23,
+      "description": "You can prevent food spoilage and prolong its freshness with the help of the Godrej RD EDGEPRO 255E TAI 234 L Single-door Refrigerator. It is designed with an energy-efficient, variable-speed inverter compressor that operates quietly and adjusts the cooling as per the refrigerator's requirements. Additionally, this refrigerator is integrated with Hygiene+ Inverter technology that heats and evaporates the defrost water to prevent spilling of water and breeding of germs or insects in the water. Also, this technology makes cleaning this refrigerator a hassle-free task.",
+      "specification": {
+        "powersource": " NA",
+        "modelnumber": "NA",
+        "brand": "GOdrej ",
+        "color": "marine blue",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "577 mm",
+        "Height": "1480 mm",
+        "Depth": "667  mm",
+        "Weight": "42.6 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "marine Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "32"
+      },
+      "rating": 3.4
+    },
+    {
+      "name": "Whirlpool 192 L Direct Cool Single Door 4 Star Refrigerator with Base Drawer with Laminar Airflow  (Blue, 215 MAGIC COOL ROY 4S Inv BLUE ABYSS-Z)",
+      "price": 21750,
+      "image": [
+        "whirl-1.png",
+        "whirl-2.png",
+        "whirl-3.png",
+        "whirl-4.png"
+      ],
+      "id": 24,
+      "description": "Experience a smart way of storing your food and beverages with the Whirlpool refrigerator. This 200 L single-door refrigerator allows you to effortlessly store all your fresh vegetables and fruits efficiently. Also, this refrigerator comes with the 6th sense QuickChill Technology so that your stored foods and vegetables remain fresh for up to twelve hours even during a sudden power outage. Moreover, it is equipped with features such as a chiller, large vegetable crisper, stabilizer-free operation and more thus ensuring effortless operation and long-lasting usability.",
+      "specification": {
+        "powersource": " 133 w",
+        "modelnumber": "NA",
+        "brand": "whirlpool ",
+        "color": " blue",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "66.5 cm",
+        "Height": "142.5 cm",
+        "Depth": "59.5  cm",
+        "Weight": "42.6 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": " Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "21"
+      },
+      "rating": 3.4
+    },
+    {
+      "name": "Hisense 564 L Frost Free Side by Side Inverter Technology Star Refrigerator  (Black, RS564N4SBNW)",
+      "price": 74990,
+      "image": [
+        "hisense-1.png",
+        "hisense-2.png",
+        "hisense-3.png",
+        "hisense-4.png",
+        "hisense-5.png"
+      ],
+      "id": 25,
+      "description": "You can keep your produce fresh, safe, and hygienic for an extended duration in the Hisense 564 L Refrigerator. It has inverter technology, which facilitates energy-efficient performance that can help reduce your electricity bills. This technology also monitors the temperature inside your refrigerator and adjusts the output accordingly, maintaining a stable temperature and long-term reliability. Moreover, this refrigerator has a sleek water dispenser that conveniently lets you get a glass of cold water.",
+      "specification": {
+        "powersource": " 210 w",
+        "modelnumber": "NA",
+        "brand": "Hisense ",
+        "color": " black",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "910 mm",
+        "Height": "1786 mm",
+        "Depth": "643 mm",
+        "Weight": "83 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": " black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "38"
+      },
+      "rating": 3.4
+    },
+    {
+      "name": "Lloyd by Havells 195 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer  (Gardenia Wine, GLDF215SS1LC)",
+      "price": 26990,
+      "image": [
+        "loyd-1.png",
+        "loyd-2.png",
+        "loyd-3.png",
+        "loyd-4.png",
+        "loyd-5.png"
+      ],
+      "id": 26,
+      "description": "This Lloyd refrigerator offers convenient operations with its smart features. It features a base stand with a drawer which allows you to store vegetables at room temperature. The inverter technology of this refrigerator reduces energy usage by offering a stable temperature to maintain the freshness of your food. The Fleximax Design allows you to adjust the height of the shelves according to your convenience. Thanks to ample bottle storage, you can easily store tall bottles in this refrigerator. The compressor of this refrigerator ensures quiet operations so you do not feel any disturbance or noise.",
+      "specification": {
+        "powersource": " NA",
+        "modelnumber": "NA",
+        "brand": "Lloyd",
+        "color": " gradenia wine",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "57.1 cm",
+        "Height": "128.5 cm",
+        "Depth": "64.4 cm",
+        "Weight": "34 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": " gradenia wine",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "37"
+      },
+      "rating": 4.3
+    },
+    {
+      "name": "SAMSUNG 363 L Frost Free Double Door 3 Star Convertible Refrigerator with Convertible5In1  (Luxe Black, RT39C553EBX/HL)",
+      "price": 65990,
+      "image": [
+        "samsung-1.png",
+        "samsung-2.png",
+        "samsung-3.png",
+        "samsung-4.png",
+        "samsung-5.png"
+      ],
+      "id": 27,
+      "description": "NA",
+      "specification": {
+        "powersource": " 50 Hz",
+        "modelnumber": "NA",
+        "brand": "samsung",
+        "color": " luxe black",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "675 mm",
+        "Height": "1725 mm",
+        "Depth": "665 mm",
+        "Weight": "64 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": " luxe black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "34"
+      },
+      "rating": 4.3
+    },
+    {
+      "name": "BAJAJ 410570 GX 1 500 W Juicer Mixer Grinder (3 Jars, Blue)#JustHere",
+      "price": 4125,
+      "image": [
+        "bajaj-1.png",
+        "bajaj-2.png",
+        "bajaj-3.png",
+        "bajaj-4.png",
+        "bajaj-5.png"
+      ],
+      "id": 28,
+      "description": "The Bajaj GX1 Mixer-grinder makes it easy to grind spices, purees, and other ingredients for your favourite recipes. It fulfils a variety of cooking requirements with its three jars of varying capacities. Additionally, the jars include easy-grip handles, adding to the convenience of use. This mixer-grinder functions within a voltage range ,safeguarding its motor from voltage fluctuations while ensuring effective performance. Furthermore, this mixer-grinder's overload protection safeguards this device from damage caused by motor overload.",
+      "specification": {
+        "powersource": " 500w",
+        "modelnumber": "NA",
+        "brand": "BAJAJ",
+        "color": " blue",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "19 cm",
+        "Height": "23.5 cm",
+        "Depth": "31.4 cm",
+        "Weight": "3.85 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": " blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mixer",
+        "discount": "41"
       },
       "rating": 4.2
     },
     {
-      "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
-      "price": 131990,
+      "name": "Butterfly Rapid - 4J / Rapid 750 W Juicer Mixer Grinder (4 Jars, Black)#JustHere",
+      "price": 5499,
       "image": [
-        "iphone-15pro-max-1.png",
-        "iphone-15pro-max-2.png",
-        "iphone-15pro-max-3.png",
-        "iphone-15pro-max-4.png",
-        "iphone-15pro-max-5.png"
+        "butter-1.png",
+        "butter-2.png",
+        "butter-3.png",
+        "butter-4.png"
       ],
-      "id": 5,
-      "description": "iPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
+      "id": 29,
+      "description": "Butterfly Rapid 4 jar mixer grinder comes with a powerful 750W overload protected motor. Whip up chutneys, grind masalas and prepare yummy shakes effortlessly with the Butterfly Rapid Mixer Grinder. This mixer grinder with its 4 multipurpose jars makes cooking easy and convenient",
       "specification": {
-        "powersource": "80 watt ",
-        "modelnumber": "MTUX3HN/A",
-        "brand": "Apple",
-        "color": "Natural Titanium",
-        "operatingsystem": "iOS 17",
-        "storage": "256 gb",
-        "ram": "8gb",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.3",
-        "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "4800 mAh"
+        "powersource": " 750w",
+        "modelnumber": "NA",
+        "brand": "butterfly",
+        "color": " blue",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
       },
       "dimension": {
-        "Width": "70.6 mm",
-        "Height": "146.6 mm",
-        "Depth": "8.25  mm",
-        "Weight": "187  g"
+        "Width": "24 cm",
+        "Height": "31 cm",
+        "Depth": "39 cm",
+        "Weight": "4.65 kg"
       },
       "warranty": {
-        "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Technician Visit",
-        "Coveredwarranty": "",
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
         "domesticwarranty": "1 Year",
-        "notwarranty": ""
+        "notwarranty": "Physically Damaged"
       },
       "filter": {
-        "color": "gray",
-        "category": "mobile",
-        "offer-type": "sale-offer"
+        "color": " black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mixer",
+        "discount": "49"
       },
       "rating": 4.1
     },
+    {
+      "name": "MAHARAJA WHITELINE ODACIO PLUS / JX1-157 Odacio Plus 550 W Juicer Mixer Grinder (3 Jars, Black, Silver)",
+      "price": 5099,
+      "image": [
+        "maharaja-1.png",
+        "maharaja-2.png",
+        "maharaja-3.png",
+        "maharaja-4.png",
+        "maharaja-5.png"
+      ],
+      "id": 30,
+      "description": "Grinding and blending ingredients to whip up your favourite food and drinks is hassle-free with the Maharaja Odacio Plus Juicer-mixer-grinder. Built with a 550 W motor, this juicer-mixer-grinder delivers efficient performance, making it apt for everyday use in the kitchen. In addition, the stainless steel juicer mesh completely extracts juice from different types of fruits and vegetables, minimising wastage. Moreover, featuring a chrome knob, this juicer-mixer-grinder not only looks stylish but is also easy to operate",
+      "specification": {
+        "powersource": " 550",
+        "modelnumber": "NA",
+        "brand": "maharaja whiteline",
+        "color": "black silver",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "31.75 cm",
+        "Height": "19.5 cm",
+        "Depth": "27.8 cm",
+        "Weight": "3.97 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mixer",
+        "discount": "33"
+      },
+      "rating": 4
+    },
+    {
+      "name": "Gridlab USB Electric Portable Fruit Juicer Extractors Multifunction Juice Maker Machine Portable Mini Juicer 300 Juicer Mixer Grinder (1 Jar, Multicolor)",
+      "price": 899,
+      "image": [
+        "gridlab-1.png",
+        "gridlab-2.png",
+        "gridlab-3.png",
+        "gridlab-4.png"
+      ],
+      "id": 31,
+      "description": "Portable & Convenient to Charge: This little body light weight design is easy for you carry it to school,office,parks,camping, anywhere you want to. and it also convenient for charge by power bank, laptop, computer, car or other usb devices",
+      "specification": {
+        "powersource": " NA",
+        "modelnumber": "NA",
+        "brand": "gridlab",
+        "color": "white transperent",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "12 cm",
+        "Height": "4 cm",
+        "Depth": "18cm",
+        "Weight": "0.35 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "white",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mixer",
+        "discount": "44"
+      },
+      "rating": 2
+    },
+    {
+      "name": "Virth Portable Rechargeable USB Juicer Bottle Blender with Charging Cable Muti functional juicer 200 Juicer (1 Jar, Multicolor",
+      "price": 990,
+      "image": [
+        "virth-1.png",
+        "virth-2.png",
+        "virth-3.png",
+        "virth-4.png"
+      ],
+      "id": 32,
+      "description": "Portable Juicer Blender Make Delicious Nutritious Drink For you and your Family. Carry juice/shake ingredients for later use(avoid carrying liquid). Make Drinks Like Milkshake: Banana/Strawberry/Vanilla/Chocolate/Mango-Yogurt etc.",
+      "specification": {
+        "powersource": " NA",
+        "modelnumber": "NA",
+        "brand": "virth portable",
+        "color": "NA",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "7.5 cm",
+        "Height": "5.5 cm",
+        "Depth": "22.6 cm",
+        "Weight": "0.2 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "NA",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mixer",
+        "discount": "50"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "Bastron Transparent Touch Glass Keyboard with Mouse & Gesture Function Biggest Technological Innovation New Ver.3(Silver)",
+      "price": 37364,
+      "image": [
+        "bastron-1.png",
+        "bastron-2.png",
+        "bastron-3.png",
+        "bastron-4.png"
+      ],
+      "id": 33,
+      "description": "NA",
+      "specification": {
+        "powersource": " Battery Powered",
+        "modelnumber": "CMS-333",
+        "brand": "Bastron",
+        "color": "silver",
+        "operatingsystem": "mac os x",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 16 cm",
+        "Height": "1.3 cm",
+        "Depth": "NA",
+        "Weight": "2.43 pounds"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "32"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "Cosmic Byte CB-GK-14 Sirius Bluetooth, Wired USB Gaming Keyboard  (Black)",
+      "price": 5699,
+      "image": [
+        "cosmic-1.png",
+        "cosmic-2.png",
+        "cosmic-3.png",
+        "cosmic-4.png"
+      ],
+      "id": 34,
+      "description": "NA",
+      "specification": {
+        "powersource": "usb",
+        "modelnumber": "CB-GK-14 Sirius",
+        "brand": "cosmic",
+        "color": "black",
+        "operatingsystem": "Windows, Mac, Android, iOS",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "1000 mah"
+      },
+      "dimension": {
+        "Width": " NA ",
+        "Height": "NA",
+        "Depth": "NA",
+        "Weight": "0.9 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "7"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "Logitech POP Keys Mechanical Bluetooth Multi-device Keyboard  (Blast)",
+      "price": 9995,
+      "image": [
+        "logitech-1.png",
+        "logitech-2.png",
+        "logitech-3.png",
+        "logitech-4.png"
+      ],
+      "id": 35,
+      "description": "Featuring a quirky design combined with high performance, the Logitech POP Key Bluetooth Keyboard is ideal for day-to-day use. It has an emoji menu key that lets you choose from a variety of emojis when chatting with friends. This keyboard provides a catchy experience with its old typewriter-like keys that crackle and pop as you type. Its mechanical switches also make typing a lively and satisfying experience. Moreover, this keyboard can connect to up to three devices at the same time and you can switch between them while typing using the easy-switch buttons",
+      "specification": {
+        "powersource": "battery",
+        "modelnumber": "POP Keys Mechanical",
+        "brand": "logitech",
+        "color": "blast",
+        "operatingsystem": "Mac OS 10.15 or Later, Chrome OS, Windows 10 or Later, iPad OS 13.4 or Later, iOS 11 or Later, Android 8 or Later",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 138.47 mm",
+        "Height": "321.2 mm",
+        "Depth": "35.4 mm",
+        "Weight": "799 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "blast",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "2"
+      },
+      "rating": 4.7
+    },
+    {
+      "name": "Apple MQ052HN/A Bluetooth Multi-device Keyboard  (Silver)",
+      "price": 11900,
+      "image": [
+        "apple-1.png",
+        "apple-2.png",
+        "apple-3.png",
+        "apple-4.png"
+      ],
+      "id": 36,
+      "description": "NA",
+      "specification": {
+        "powersource": "NA",
+        "modelnumber": "MQ052HN/A",
+        "brand": "apple",
+        "color": "silver",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 418.7 mm",
+        "Height": "10.9 mm",
+        "Depth": "114.9 mm",
+        "Weight": "390 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "3"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "Razer RZ03-03541800-R3M1 Wired USB Gaming Keyboard  (pink)",
+      "price": 12999,
+      "image": [
+        "razer-1.png",
+        "razer-2.png",
+        "razer-3.png",
+        "razer-4.png"
+      ],
+      "id": 37,
+      "description": "Razer BlackWidow V3 - Mechanical Gaming Keyboard (Green Switch) - Quartz Edition - US Layout FRML Packaging",
+      "specification": {
+        "powersource": "NA",
+        "modelnumber": "RZ03-03541800-R3M1",
+        "brand": "razer",
+        "color": "pink",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "no",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 451.1 mm",
+        "Height": "245.4 mm",
+        "Depth": "42.2 mm",
+        "Weight": "1.3 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "pink",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "31"
+      },
+      "rating": 3.4
+    },
+    {
+      "name": "HP OMEN Photon Wireless Gaming Custom RGB Lighting Wireless Hybrid Gaming Mouse with Bluetooth  (Black)",
+      "price": 8499,
+      "image": [
+        "hp-1.png",
+        "hp-2.png",
+        "hp-3.png",
+        "hp-4.png"
+      ],
+      "id": 38,
+      "description": "Qi wireless charging allows you to fully charge this mouse with ease. Simply place the mouse in an area on the outpost Mousepad which supports Qi charging and fully recharge the battery without wires. Play all day with an energy saving system that allows a battery life of up to 50 hours, while the OMEN Command Center keeps you informed about the level of the battery in real time. The industry leading optical-mechanical switch technology, light beam detection allows a 0.2 ms response time, 3 times faster than a traditional mechanical mouse switch.Make use of the E-sport grade immediate DPI control and 11 programmable buttons through the OMEN Command Center, you can execute commands and attacks with a single click. The built-in pivot hinges help in providing clean and consistent clicks, no matter how you play. Completely configurable ambidextrous design helps you customize the mouse to find your perfect fit and the removable finger supports and side buttons are designed to offer a comfortable and ergonomic feel. Designed to fit all hand sizes with different grips, including claw, palm and tip.",
+      "specification": {
+        "powersource": "NA",
+        "modelnumber": "NA",
+        "brand": "hp",
+        "color": "black",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " NA",
+        "Height": "NA",
+        "Depth": "NA",
+        "Weight": "NA"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Balck",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mouse",
+        "discount": "11"
+      },
+      "rating": 3.3
+    },
+    {
+      "name": "Logitech MX Master 3s Wireless Touch Mouse  (2.4GHz Wireless, Bluetooth, Graphite)",
+      "price": 10995,
+      "image": [
+        "logitech-mouse-1.png",
+        "logitech-mouse-2.png",
+        "logitech-mouse-3.png",
+        "logitech-mouse-4.png"
+      ],
+      "id": 39,
+      "description": "You can work, play games, and do more effortlessly with the help of the Logitech MX Master 3S Wireless Mouse. Thanks to its high performance, this mouse offers optimal results. With up to 8k DPI tracking, this mouse can function smoothly on any surface including glass. In addition, owing to its MagSpeed control, this mouse can work at high speeds with utmost accuracy as it scrolls up to 1,000 lines per second and stops at a pixel.",
+      "specification": {
+        "powersource": "NA",
+        "modelnumber": "NA",
+        "brand": "logitech",
+        "color": "graphite",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "84.3 mm",
+        "Height": "124.9 mm",
+        "Depth": "51 mm",
+        "Weight": "141 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "graphite",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mouse",
+        "discount": "4"
+      },
+      "rating": 4.6
+    },
+    {
+      "name": "APPLE MLA02ZM/A Magic 2 Wireless Touch Mouse with Bluetooth  (White)",
+      "price": 7500,
+      "image": [
+        "apple-mouse-1.png",
+        "apple-mouse-2.png",
+        "apple-mouse-3.png",
+        "apple-mouse-4.png"
+      ],
+      "id": 40,
+      "description": "NA",
+      "specification": {
+        "powersource": "NA",
+        "modelnumber": "NA",
+        "brand": "apple",
+        "color": "white",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "NA",
+        "Height": "NA",
+        "Depth": "NA",
+        "Weight": "NA"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "white",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "mouse",
+        "discount": "16"
+      },
+      "rating": 4.6
+    }
+  ],
+  "cartproducts": [
     {
       "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
       "price": 79990,
@@ -616,200 +1980,9 @@
         "sub-category": "camera"
       },
       "rating": 3.8
-    },
-    {
-      "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
-      "price": 429,
-      "image": [
-        "pendrive-1.png",
-        "pendrive-2.png",
-        "pendrive-3.png",
-        "pendrive-4.png"
-      ],
-      "id": 8,
-      "description": "Backing up, transferring, sharing, and storing files is convenient with this SanDisk Blade 64GB pendrive Easy to useCompact in design and with generous storage space, this flash drive lets you start storing and transferring files immediately.",
-      "specification": {
-        "powersource": "16 volt ",
-        "modelnumber": "Cruze Blade SDCZ50",
-        "brand": "Sandisk",
-        "color": "Silver Black",
-        "operatingsystem": "Na",
-        "storage": "64gb",
-        "ram": "NA",
-        "bluetoothsupport": "NA",
-        "bluetoothversion": "NA",
-        "musicplayer": "yes",
-        "audioformats": "NA",
-        "videoformats": "NA",
-        "batterycapacity": "5000 mAh"
-      },
-      "dimension": {
-        "Width": "70.6 mm",
-        "Height": "46.6 mm",
-        "Depth": "12.25 mm",
-        "Weight": "2.87 gm"
-      },
-      "warranty": {
-        "Warrantysummary": "Manufacturing Defects only",
-        "Warrantyservicetype": "Carry-in",
-        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
-        "domesticwarranty": "5 Year",
-        "notwarranty": "Physically Damaged"
-      },
-      "filter": {
-        "color": "Silver White",
-        "category": "electronics",
-        "offer-type": "best-off",
-        "sub-category": "Desktop"
-      },
-      "rating": 4
     }
   ],
-  "saveforlater": [
-    {
-      "name": "SAMSUNG Galaxy S22 5G (Phantom White, 128 GB)  (8 GB RAM)",
-      "price": 39999,
-      "image": [
-        "samsung-s22-1.png",
-        "samsung-s22-2.png",
-        "samsung-s22-3.png",
-        "samsung-s22-4.png",
-        "samsung-s22-5.png"
-      ],
-      "id": 1,
-      "description": "Explore a new range of night photography features on this Samsung Galaxy S22 5G smartphone. You can click stunning images even in low light with the Nightography mode. It is designed with a pro-grade camera which comprises a big pixel sensor that welcomes more light for mind-blowing photography. Built with impressive software and hardware, this phone is a game-changer. With a 120 Hz refresh rate and dynamic AMOLED 2x display, you are going to experience immersive screen time. This phone operates on a Snapdragon 8 Gen 1 processor that delivers quick and hassle- free navigation. This device is protected by Corning Gorilla Glass Victus and has an IP68 waterproof rating.",
-      "specification": {
-        "powersource": "120 watt",
-        "modelnumber": "Galaxy S22 5G",
-        "brand": "Samsung",
-        "color": "White",
-        "operatingsystem": "Android 12",
-        "storage": "128gb",
-        "ram": "8gb",
-        "bluetoothsupport": "Yes",
-        "bluetoothversion": "V5.2",
-        "musicplayer": "yes",
-        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
-        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
-        "batterycapacity": "3700 mAh"
-      },
-      "dimension": {
-        "Width": "70.6 mm",
-        "Height": "146 mm",
-        "Depth": "7.6 mm",
-        "Weight": "167 gm"
-      },
-      "warranty": {
-        "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
-        "Warrantyservicetype": "Manufacturer Defect Only",
-        "Coveredwarranty": "Manufacturing Defect",
-        "Domesticwarranty": "1 Year"
-      },
-      "filter": {
-        "color": "white",
-        "category": "Electronics",
-        "subcategory": "mobile",
-        "offer-type": "best-selling"
-      },
-      "rating": 4.7
-    },
-    {
-      "name": "DELL Wired Keyboard KB216 (Zb_03) ",
-      "price": 429,
-      "image": [
-        "keyboard-1.png",
-        "keyboard-2.png",
-        "keyboard-3.png",
-        "keyboard-4.png",
-        "keyboard-5.png",
-        "keyboard-6.png"
-      ],
-      "id": 9,
-      "description": "Are you looking for a keyboard as well as a mouse? Take a look at the Dell keyboard and mouse combo. It is designed in such a way to keep you feeling comfortable as well as productive with durable keys on the keyboard for everyday use. The mouse provides accurate control of the cursor on all surfaces. This combo comes with a warranty of one year and is available at an affordable price.",
-      "specification": {
-        "powersource": "12 volts ",
-        "modelnumber": "KB216",
-        "brand": "Dell",
-        "color": "Black",
-        "operatingsystem": "Windows, Linux,Ios,Android",
-        "storage": "Na",
-        "ram": "NA",
-        "bluetoothsupport": "NA",
-        "bluetoothversion": "NA",
-        "musicplayer": "yes",
-        "audioformats": "NA",
-        "videoformats": "NA",
-        "batterycapacity": "Na"
-      },
-      "dimension": {
-        "Width": "170.6 mm",
-        "Height": "6.6 mm",
-        "Depth": "28.25 mm",
-        "Weight": "208.87 gm"
-      },
-      "warranty": {
-        "Warrantysummary": "Manufacturing Defects only",
-        "Warrantyservicetype": "Carry-in",
-        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
-        "domesticwarranty": "1 Year",
-        "notwarranty": "Physically Damaged"
-      },
-      "filter": {
-        "color": "black",
-        "category": "electronics",
-        "offer-type": "best-off",
-        "sub-category": "keyboard"
-      },
-      "rating": 3.9
-    },
-    {
-      "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
-      "price": 429,
-      "image": [
-        "pendrive-1.png",
-        "pendrive-2.png",
-        "pendrive-3.png",
-        "pendrive-4.png"
-      ],
-      "id": 8,
-      "description": "Backing up, transferring, sharing, and storing files is convenient with this SanDisk Blade 64GB pendrive Easy to useCompact in design and with generous storage space, this flash drive lets you start storing and transferring files immediately.",
-      "specification": {
-        "powersource": "16 volt ",
-        "modelnumber": "Cruze Blade SDCZ50",
-        "brand": "Sandisk",
-        "color": "Silver Black",
-        "operatingsystem": "Na",
-        "storage": "64gb",
-        "ram": "NA",
-        "bluetoothsupport": "NA",
-        "bluetoothversion": "NA",
-        "musicplayer": "yes",
-        "audioformats": "NA",
-        "videoformats": "NA",
-        "batterycapacity": "5000 mAh"
-      },
-      "dimension": {
-        "Width": "70.6 mm",
-        "Height": "46.6 mm",
-        "Depth": "12.25 mm",
-        "Weight": "2.87 gm"
-      },
-      "warranty": {
-        "Warrantysummary": "Manufacturing Defects only",
-        "Warrantyservicetype": "Carry-in",
-        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
-        "domesticwarranty": "5 Year",
-        "notwarranty": "Physically Damaged"
-      },
-      "filter": {
-        "color": "Silver White",
-        "category": "electronics",
-        "offer-type": "best-off",
-        "sub-category": "Desktop"
-      },
-      "rating": 4
-    }
-  ],
+  "saveforlater": [],
   "profiledetails": {
     "pimage": "profile.jpg",
     "fname": "Mukesh",

@@ -148,7 +148,7 @@
 
         img {
             transition: 0.7s all;
-            transform: scale(1.1, 1.1);
+            // transform: scale(1.1, 1.1);
         }
     }
 
@@ -199,33 +199,54 @@
 }
 
 
-// Custome Scrollbar Start From Here 
+// Custom Scrollbar Start From Here 
 /* width */
 ::-webkit-scrollbar {
-    width: 4px;
-    height: 2px;
-    margin-left: 5px;
-    padding-left: 5px;
+    width: 3px;
+    height: 4px;
+    // margin-left: 5px;
+    // padding-left: 5px;
     margin-top: 13px;
+    padding-right: 5px;
+    margin-right: 5px;
 }
+
+// /* Track */
+// ::-webkit-scrollbar-track {
+//     background-color: #000000;
+//     background-image: linear-gradient(326deg, #313030 0%, #cf3c55 74%);
+
+// }
+
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//     background-color: #310e68;
+//     background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//     background-color: #166d3b;
+//     background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+// }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background-color: #000000;
-    background-image: linear-gradient(326deg, #313030 0%, #cf3c55 74%);
+    background-color: #e8e7e7 !important;
+    background-image: linear-gradient(326deg, #7d8aed 0%, #89b9e0 74%);
 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background-color: #310e68;
-    background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+    background-color: #cab6eb;
+    background-image: linear-gradient(316deg, #c6b2e9 0%, #d191f9 74%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #166d3b;
-    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    background-color: #c7e3d3;
+    background-image: linear-gradient(147deg, #d4eee0 0%, #8c8888 74%);
 }
 
 img {
@@ -275,7 +296,7 @@ img {
 .box {
     background: $white-bg;
     padding: 16px 12px;
-    bax-shadow: $gray-shadow;
+    box-shadow: $gray-shadow;
     border-radius: 3px;
 
     @media(max-width: 767px) {

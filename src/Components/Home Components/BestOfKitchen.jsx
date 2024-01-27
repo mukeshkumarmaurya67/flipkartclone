@@ -17,15 +17,39 @@ import boc8 from '../Images/boc8.png';
 
 
 const BestOfKitchen = () => {
-    let itemlenght=7;
-    if(window.screen.width<991){
-      itemlenght=4;
-       
-    }
-    if(window.screen.width<767){
-        itemlenght=3;
-         
-      }
+    const options = {
+        // loop: true,
+        margin: 4,
+        autoplay: false,
+        dots: false,
+        // autoplayTimeout: 8500,
+        // smartSpeed: 450,
+        nav: true,
+        navText:['<svg width="24px" height="24px" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 2px;stroke: #d588cf;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="24px" height="24px" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 2px;stroke: #d588cf;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            425: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            991: {
+                items: 4
+            },
+           1024: {
+                items: 5
+            },
+            1199: {
+                items: 6
+            },
+            1224: {
+                items: 7
+            },
+        }
+    };
   return (
     <>
             <div className="best-of-wrapper box">
@@ -33,10 +57,10 @@ const BestOfKitchen = () => {
                     <div className="row">
                         <h2 className="best-of-title title">Best of kitchen</h2>
                         <div className="col-12">
-                            <OwlCarousel items={itemlenght}
+                            <OwlCarousel 
                                 className="owl-theme"
-                                nav
-                                margin={8} >
+                                {...options}
+                                >
                                 <div className="item card">
                                     <div className="img-box"><img src={boc1} alt="boc1" /></div>
                                     <p className='para w-100 text-center'>Hotpots</p>

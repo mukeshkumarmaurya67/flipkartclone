@@ -3,13 +3,36 @@
 
     .viewall-section {
         .viewall-l-section {
+            margin-top: 12px;
+            height: calc(100vh - 90px - 12px);
+            position: sticky;
+            top: calc(86px + 12px);
+
             .filter-section {
-                .filter-section-title {}
+                .filter-section-title {
+                    margin-bottom: 12px;
+                }
+
+                .clrall {
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-bottom: 12px;
+                }
+
+                form {
+                    .box {
+                        height: calc(100vh - 90px - 75px);
+                        overflow-y: auto;
+                    }
+                }
             }
         }
-
         .viewall-r-section {
-            position: relative;
+            margin-top: 12px;
+            position: sticky;
+            top: calc(86px + 12px);
+
             .all-products-section {
                 .card {
                     position: relative;
@@ -84,3 +107,4 @@
 
 
 }
+
