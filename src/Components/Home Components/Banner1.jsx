@@ -4,10 +4,10 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 import banner1 from '../Images/banner1.png';
-import banner2 from '../Images/banner2.jpg';
-import banner3 from '../Images/banner3.jpg';
-import banner4 from '../Images/banner4.jpg';
-import banner5 from '../Images/banner5.jpg';
+import banner2 from '../Images/banner2.png';
+import banner3 from '../Images/banner3.png';
+import banner4 from '../Images/banner4.png';
+import banner5 from '../Images/banner5.png';
 import banner6 from '../Images/banner1.jpg';
 
 const Banner1 = () => {
