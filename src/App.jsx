@@ -7,42 +7,91 @@ import SeprateCategoryPage from "./Components/Pages/SeprateCategoryPage";
 import Cart from "./Components/Pages/Cart";
 import Paymentpage from "./Components/Pages/Paymentpage";
 import ViewAllPage from "./Components/Pages/ViewAllPage";
+import Chatboat from "./Components/Home Components/Chatboat";
+import Contactus from "./Components/Pages/Contactus";
+import Header from "./Components/Home Components/Header";
 let globalContext = createContext();
+
+
+// import '../src/Components/Scss/'
 const App = () => {
-    let x = document.querySelector("body").classList.contains("light-mode");
-    if (x == true) {
-        require("././Components/Scss/style.css");
-    } else {
-        require("././Components/Scss/dark-style.css");
-    }
-    let [data, setData] = useState([]);
-    let fetchData = () => {
-        fetch("http://localhost:10001/product")
-            .then((r) => r.json())
-            .then((server) => {
-                setData(server);
-            });
-    };
-    useEffect(() => {
-        fetchData();
-    }, [0]);
-    return (
-        <>
-            <globalContext.Provider value={data}>
-                <HashRouter>
-                    <Routes>
-                        <Route exact path="/" element={<Home />}></Route>
-                        <Route exact path="/profile" element={<Profilepage />}></Route>
-                        <Route exact path="/product-details/:id" element={<ProductDetails />}></Route>
-                        <Route exact path="/seprate-category" element={<SeprateCategoryPage />}></Route>
-                        <Route exact path="/cart" element={<Cart />}></Route>
-                        <Route exact path="/payment" element={<Paymentpage />}></Route>
-                        <Route exact path="/viewallpage" element={<ViewAllPage />}></Route>
-                    </Routes>
-                </HashRouter>
-            </globalContext.Provider>
-        </>
-    );
+  // import("././Components/Scss/dark-style.css");
+
+
+let [dkmode,setDkmode]=useState(false)
+
+  // let x = document.querySelector("body").classList.contains("dark-mode");
+  // if (dkmode) {
+   
+  // }
+  
+  
+  
+  
+  
+  
+  // else {
+
+    import("././Components/Scss/style.css");
+  // }
+
+
+
+
+function updateDkmode(){
+  setDkmode(!dkmode);
+}
+
+
+
+
+
+  let [data, setData] = useState([]);
+  let fetchData = () => {
+    fetch("http://localhost:10001/product")
+      .then((r) => r.json())
+      .then((server) => {
+        setData(server);
+      });
+  };
+  useEffect(() => {
+    fetchData();
+  }, [0]);
+  
+
+
+  return (
+    <>
+  
+      <globalContext.Provider value={data}>
+        <HashRouter>
+          <Routes>
+            <Route exact path="/" element={<Home  dkmode={updateDkmode} />}></Route>
+            <Route exact path="/profile" element={<Profilepage />}></Route>
+            <Route
+              exact
+              path="/product-details/:id"
+              element={<ProductDetails />}
+            ></Route>
+            <Route
+              exact
+              path="/seprate-category"
+              element={<SeprateCategoryPage />}
+            ></Route>
+            <Route exact path="/cart" element={<Cart />}></Route>
+            <Route exact path="/payment" element={<Paymentpage />}></Route>
+            <Route exact path="/viewallpage" element={<ViewAllPage />}></Route>
+            <Route exact path="/contactus" element={<Contactus />}></Route>
+
+          </Routes>
+        </HashRouter>
+      </globalContext.Provider>
+      <div className="chat">
+      
+        <Chatboat />
+      </div>
+    </>
+  );
 };
 export default App;
 export { globalContext };
