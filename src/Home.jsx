@@ -14,13 +14,16 @@ import Chatboat from "./Components/Home Components/Chatboat";
 import { useContext } from "react";
 import { globalContext } from "./App";
 
-function Home() {
-  // let name = useContext(globalContext);
-  //console.log(name.valid);
+function Home({dkmode}) {
+
+
+
+
+
   return (
     <>
       <div className="wrapper">
-        <Header />
+        <Header dkmode={dkmode} />
         <div className="inner-wrapper">
           <Category />
           <Banner1 />
@@ -33,9 +36,7 @@ function Home() {
         </div>
         <Footer />
         <MobileFooterMenu />
-        <div className="chat">
-          <Chatboat />
-        </div>
+
       </div>
       {/* <p>Hi {name.valid}</p> */}
     </>

@@ -48,7 +48,7 @@
       "rating": 4.7
     },
     {
-      "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM)",
+      "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM) hello world",
       "price": 134999,
       "image": [
         "samsung-s23-ultra-1.png",
@@ -1929,9 +1929,725 @@
         "discount": "16"
       },
       "rating": 4.6
+    },
+    {
+      "name": "Toreto 10000 mAh 22.5 W Power Bank  (Blue, Lithium Polymer, Quick Charge 3.0 for Mobile)",
+      "price": 1022,
+      "image": [
+        "toreto-1.png",
+        "toreto-2.png"
+      ],
+      "id": 41,
+      "description": "Get yourself the Wings Lifestyle toreto power bank and stay ahead of your peers with incredible multitasking and mesmerising efficiency. Experience crisp visuals in Full HD with the toreto and its huge 39.62 cm (15.6) screen. This FHD screen on the toreto comes with the sRGB up to 100% and brightness up to 300perfect for all of your needs - productivity, entertainment, creative pursuits, or gaming. The PCIe 4.0 High-speed SSD NVMe Storage ensures faster load times for all your activities.",
+      "specification": {
+        "powersource": " 22.5 watt",
+        "modelnumber": "Trinity Pro",
+        "brand": "toreto",
+        "color": "blue",
+        "operatingsystem": "NA",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "10000 Mah"
+      },
+      "dimension": {
+        "Width": "358 mm",
+        "Height": "238 mm",
+        "Depth": "18.4  mm",
+        "Weight": "400 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "power Bank",
+        "discount": "65"
+      },
+      "rating": 3.6
+    },
+    {
+      "name": "True Desire 10000 mAh Wireless Power Bank  (White, Lithium Polymer, Fast Charging for Mobile)",
+      "price": 3189,
+      "image": [
+        "true-1.png",
+        "true-2.png",
+        "true-3.png",
+        "true-4.png"
+      ],
+      "id": 42,
+      "description": "True Desire 10000mAh 3 in 1 Wireless Charging Power Bank with USB-A | USB-C 20W fast charging. Green LED light shows the charging status. Simultaneously charge the battery pack and device at once [Made in India]",
+      "specification": {
+        "powersource": " 21.5 watt",
+        "modelnumber": "Trinity Pro",
+        "brand": "true desier",
+        "color": "white",
+        "operatingsystem": "NA",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "10000 Mah"
+      },
+      "dimension": {
+        "Width": "118 mm",
+        "Height": "138 mm",
+        "Depth": "11.4  mm",
+        "Weight": "300 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "white",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "power Bank",
+        "discount": "46"
+      },
+      "rating": 3.6
+    },
+    {
+      "name": "Mi 10000 mAh 22.5 W Pocket Size Power Bank  (Black, Lithium Polymer, Fast Charging for Mobile)",
+      "price": 1599,
+      "image": [
+        "mi-1.png",
+        "mi-2.png",
+        "mi-3.png",
+        "mi-4.png"
+      ],
+      "id": 43,
+      "description": "Whether you are off to travel to an exotic location or just commuting to work, you can carry the Mi 10000 mAh Pocket Power Bank Pro to ensure that your smartphones, tablets, smart accessories, and other devices can power through long and busy days. Thanks to its triple output ports, this power bank can replenish the charge of up to three devices simultaneously. Moreover, its 12-layer circuit-protection design safeguards your devices from short circuits, overheating, and over-current scenarios.",
+      "specification": {
+        "powersource": " 22.5 watt",
+        "modelnumber": "Pocket Pro",
+        "brand": "MI",
+        "color": "black",
+        "operatingsystem": "NA",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "10000 Mah"
+      },
+      "dimension": {
+        "Width": "63.9 mm",
+        "Height": "90 mm",
+        "Depth": "24.4 mm",
+        "Weight": "200 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "power Bank",
+        "discount": "36"
+      },
+      "rating": 3.9
+    },
+    {
+      "name": "Callmate 20000 mAh 15 W Wireless Power Bank  (Green, Lithium Polymer, Fast Charging for Mobile)",
+      "price": 1910,
+      "image": [
+        "callmate-1.png",
+        "callmate-2.png",
+        "callmate-3.png",
+        "callmate-4.png"
+      ],
+      "id": 44,
+      "description": "Built-in 4 cables + 10W wireless charging?Wireless portable charger supports 5W, 7.5W, and 10W MAX wireless fast charging; Built-in 3 5V2.1A output cables, for iPhone, Type-C, Micro, and1 USB input cable. • ?Wireless Portable Charger 20000mAh Capacity?: 20000mAh external phone battery with huge capacity can charge iPhone 8 around 4 times, iPhone X 3.5 times, SAMSUNG S9 3 times, iPad air 1.5 times, and other Android Devices multiple times. Its compact and smooth design fits comfortably into the palm of your hand and the minimalist LED indicator shows the remaining power at a glance. Suitable for a business trip or other outdoor activities. • ?",
+      "specification": {
+        "powersource": " 15 watt",
+        "modelnumber": "Wireless 20000mAh With 4 in 1 inbuilt cable",
+        "brand": "callmate",
+        "color": "green",
+        "operatingsystem": "NA",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "20000 Mah"
+      },
+      "dimension": {
+        "Width": "70 mm",
+        "Height": "34 mm",
+        "Depth": "24.4 mm",
+        "Weight": "300 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "green",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "power Bank",
+        "discount": "30"
+      },
+      "rating": 4.5
+    },
+    {
+      "name": "vismac 20000 mAh Power Bank  (Yellow, Lithium-ion, Fast Charging for Mobile)",
+      "price": 2184,
+      "image": [
+        "vismac-1.png",
+        "vismac-2.png",
+        "vismac-3.png",
+        "vismac-4.png"
+      ],
+      "id": 45,
+      "description": "The Vismac Amaze 20000mAh Fast Powerbank is a premium and versatile portable charging solution designed to meet all your power needs on the go. With its high-capacity battery, multiple output ports, inbuilt charging cable (Type-C, Lightning), transparent design, four-mode emergency light, and convenient inbuilt lanyard, this powerbank combines functionality, convenience, and a touch of elegance.",
+      "specification": {
+        "powersource": " 16 watt",
+        "modelnumber": "Taurus [ Yellow ]",
+        "brand": "vismac",
+        "color": "yellow",
+        "operatingsystem": "NA",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "20000 Mah"
+      },
+      "dimension": {
+        "Width": "2.5 inch",
+        "Height": "2.5 inch",
+        "Depth": "2.5 inch",
+        "Weight": "450 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "yellow",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "power Bank",
+        "discount": "35"
+      },
+      "rating": 4.2
+    },
+    {
+      "name": "ONIDA 165 cm (65 inch) Ultra HD (4K) LED Smart Google TV 2023 Edition with Dolby Atmos Vision & HDR10  (65UIG)",
+      "price": 64990,
+      "image": [
+        "onida-1.png",
+        "onida-2.png",
+        "onida-3.png",
+        "onida-4.png"
+      ],
+      "id": 46,
+      "description": "You can indulge in the 4K Ultra HD Display of this Onida TV and experience your favourite characters coming to life. With the Dolby Audio system, you can elevate your viewing experience through this TV. The HDR10 and HLG allow you to stream content at high quality by producing 1 billion colours and maximum brightness. The Nexg processor from Onida enables you with smooth processing, fast connectivity, and easy multi-tasking. Its Eye Protect Plus Mode allows you to view the screen for prolonged periods without straining your eyes. The built-in Chromecast makes it easy for you to mirror content from your smartphone or other devices to view them on the big screen",
+      "specification": {
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "modelnumber": "65UIG",
+        "brand": "onida",
+        "color": "black",
+        "operatingsystem": "Google TV",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "yes",
+        "audioformats": " Dolby Audio system ",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "1450 mm",
+        "Height": "827 mm",
+        "Depth": "79.5 mm",
+        "Weight": "18 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "27"
+      },
+      "rating": 3.2
+    },
+    {
+      "name": "KODAK 164 cm (65 inch) Ultra HD (4K) LED Smart Google TV 2023 Edition with With Dolby Atmos and Dolby Vision  (65CAPRO5099)",
+      "price": 6999,
+      "image": [
+        "kodak-1.png",
+        "kodak-2.png",
+        "kodak-3.png",
+        "kodak-4.png"
+      ],
+      "id": 47,
+      "description": "Sporting a sleek design and aesthetic look, the Kodak 165.1 cm (65) CA-PRO Series Smart Google TV can add a sophisticated touch to your living room or any other space. With HDR10+ and Dolby Vision support, this TV offers bright theatre-like pictures. Additionally, thanks to its inbuilt Google Assistant and Google TV support, this TV can cater to your different entertainment needs. Moreover, you can easily stream movies or surf the internet with this TV.",
+      "specification": {
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "modelnumber": "65CAPRO5099",
+        "brand": "kodak",
+        "color": "black",
+        "operatingsystem": "Google TV,Android, iOS, Windows, Blackberry",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "audioformats": " Dolby Audio system ",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "batterycapacity": "2 AAA Batteries"
+      },
+      "dimension": {
+        "Width": "1470 mm",
+        "Height": "830 mm",
+        "Depth": "70.5 mm",
+        "Weight": "25.7 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "0"
+      },
+      "rating": 3.9
+    },
+    {
+      "name": "MOTOROLA EnvisionX 165 cm (65 inch) QLED Ultra HD (4K) Smart Google TV QuantumGlow Technology, Dolby Vision & Dolby Atmos (2023 Range)  (65UHDGQMWS5Q)",
+      "price": 70290,
+      "image": [
+        "moto-1.png",
+        "moto-2.png",
+        "moto-3.png",
+        "moto-4.png"
+      ],
+      "id": 48,
+      "description": "You can enjoy crystal-clear and vibrant colours on this Motorola QLED TV. The QuantumGlow tech ensures you with bright and captivating visuals. The Dolby Vision and bezel-less design of this TV allow you to engage in your favourite entertainment, be it watching movies or playing games. With Dolby Atmos technology you can enjoy different audio modes at top-quality on its 20 W speakers. It has an in-built graphics unit that ensures you with fast and smooth processing to make multi-tasking more easy and effective. Thanks to the Android 11 featured in this Google TV, you can use your voice to command and access this TV to view your favourite content.",
+      "specification": {
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "modelnumber": "65UHDGQMWS5Q",
+        "brand": "motorola",
+        "color": "black",
+        "operatingsystem": "Google TV,Android, iOS, Windows, Blackberry",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "audioformats": " Dolby Audio system ",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "batterycapacity": "2 AAA Batteries"
+      },
+      "dimension": {
+        "Width": "1445 mm",
+        "Height": "832 mm",
+        "Depth": "272 mm",
+        "Weight": "25.7 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "36"
+      },
+      "rating": 4.2
+    },
+    {
+      "name": "SONY A80L 163.9 cm (65 inch) OLED Ultra HD (4K) Smart Google TV  (XR-65A80L)",
+      "price": 349900,
+      "image": [
+        "sony-1.png",
+        "sony-2.png",
+        "sony-3.png"
+      ],
+      "id": 49,
+      "description": "soney Atmos technology you can enjoy different audio modes at top-quality on its 20 W speakers. It has an in-built graphics unit that ensures you with fast and smooth processing to make multi-tasking more easy and effective. Thanks to the Android 11 featured in this Google TV, you can use your voice to command and access this TV to view your favourite content.",
+      "specification": {
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "modelnumber": "XR-65A80L",
+        "brand": "sony",
+        "color": "black",
+        "operatingsystem": "Google TV,Android, iOS, Windows, Blackberry",
+        "storage": "Na",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "audioformats": " Dolby Audio system ",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "batterycapacity": "2 AAA Batteries"
+      },
+      "dimension": {
+        "Width": "1448 mm",
+        "Height": "345 mm",
+        "Depth": "272 mm",
+        "Weight": "25.7 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "26"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "SAMSUNG The Frame 2020 Series 163 cm (65 inch) QLED Ultra HD (4K) Smart Tizen TV  (QA65LS03TAKXXL)",
+      "price": 222900,
+      "image": [
+        "sam-1.png",
+        "sam-2.png",
+        "sam-3.png",
+        "sam-4.png"
+      ],
+      "id": 50,
+      "description": "With the Samsung QA65LS03TAKXXL Television, your home entertainment experience and artistic sensibility will come together in your living room or bedroom. This Frame TV features Samsung Quantum Dot Technology for mesmerizing full-color volume, an Art Mode to create your art gallery at home, and a Multi-view Option to view TV and your smartphone screen simultaneously.",
+      "specification": {
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "modelnumber": "QA65LS03TAKXXL",
+        "brand": "samsung",
+        "color": "black",
+        "operatingsystem": "Tizen",
+        "storage": "8 gb",
+        "ram": "2.5 gb",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "audioformats": "Active Voice Amplifier, Adaptive Sound+, Dolby Digital Plus",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "batterycapacity": "2 AAA Batteries"
+      },
+      "dimension": {
+        "Width": "1448 mm",
+        "Height": "345 mm",
+        "Depth": "272 mm",
+        "Weight": "25.7 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "26"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "Seashot with Google, Alexa & Siri Assistant Smart Speaker  (M-3 Boost Speaker Best Quality)",
+      "price": 1890,
+      "image": [
+        "mz-1.png",
+        "mz-2.png",
+        "mz-3.png"
+      ],
+      "id": 51,
+      "description": "MZ M3 (PORTABLE BLUETOOTH MINI SPEAKER) Dynamic Thunder Sound with High Bass 5 W Bluetooth Speaker. Its splash-proof features let you to enjoy your music anywhere indoor/outdoor. You can match it to your style quotient ,eye-catching contrast wherever it goes and easily compliments anyone’s style Portable Wireless Speaker Echo and noise cancelling features for calls Easy to operate; with volume and play/pause buttons for convenience Advanced wireless audio decoder chip, support all wireless devices connected. Soft, clear and dynamic sound all levels clear, Support line in audio input, provide you with computer speakers can be connected to mobile phone tablet computer and TV wireless pairing playing music IN BUILT MIC FOR CALLING High Bass Sound Quality High Sound Bright colours help you pick one that fits your style and a built-in rechargeable battery keeps music pumping wherever and whenever you take it. Wireless Bluetooth Streaming Wirelessly stream high",
+      "specification": {
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "modelnumber": "Matka Speaker Boost -3",
+        "brand": "mz",
+        "color": "blue",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "audioformats": "Active Voice Amplifier, Adaptive Sound+, Dolby Digital Plus",
+        "videoformats": "NA",
+        "batterycapacity": "6 hours"
+      },
+      "dimension": {
+        "Width": "4 cm",
+        "Height": "6 cm",
+        "Depth": "6  cm",
+        "Weight": "300 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "80"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "ZIPTON Z6 Party Speaker 130 W Bluetooth Party Speaker (Black, Stereo Channel) 10 W Bluetooth Home Audio Speaker  (Black, 2.0 Channel)",
+      "price": 4599,
+      "image": [
+        "zipton-1.png",
+        "zipton-2.png",
+        "zipton-3.png",
+        "zipton-4.png"
+      ],
+      "id": 52,
+      "description": "Zipton portable wireless bluetooh speaker is high quality unbeatable sound and deep bass with RGB multicolor lights. It is used for home entertainment, party, function, music listening and enhancing TV sound.Portable wireless speakers for outdoor activities, picnics and travel etc. and You can enjoy your playlists via multiple connectivity modes namely Bluetooth, USB, Micro SD, AUX and IF Card.Bluetooth 5.0 provides authentic wireless sound at a range of up to 100 feet while maintaining connectivity.Powerful Flashlight For Enhance Your Night Music Party.and Easy to carry wherever you go",
+      "specification": {
+        "powersource": "10 w",
+        "modelnumber": "Z6 Party Speaker 130 W Bluetooth Party Speaker (Black, Stereo Channel)",
+        "brand": "zipton",
+        "color": "balck",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "Bluetooth, USB, Micro SD, AUX and IF Card.",
+        "bluetoothversion": "3.5",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "1200 mah"
+      },
+      "dimension": {
+        "Width": "20 cm",
+        "Height": "5 cm",
+        "Depth": "15  cm",
+        "Weight": "500 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "40"
+      },
+      "rating": 3.1
+    },
+    {
+      "name": "ZIPTON Vintage Card Portable to wireless Bluetooth 10w Speaker 10 W Bluetooth Home Audio Speaker  (Brown, 4.1 Channel)",
+      "price": 5490,
+      "image": [
+        "vintage-1.png",
+        "vintage-2.png"
+      ],
+      "id": 53,
+      "description": "Product Name: Vintage Car portable to wireless Bluetooth Speaker 10w Class -9 mini Home theatre| Speaker Support TF/USB/Pen Drive/AUX Slot 10w Bluetooth Car Speaker (Brown Stereo Channel) Material: ABS Plastic Type: Wireless Compatibility: Audio Player Net Quantity (N): 5 Color: Brown Warranty Period: 1 Month Warranty Type: On Site Operating voltage: 10 Volts Bluetooth Range: 15 Mtr Charging Type: Type C Aux: both indoors and outdoors as well Powerful connectivity speakers for enhanced Stereo sound Dynamic Sound effect which is extremely powerful & loud.",
+      "specification": {
+        "powersource": "12 w",
+        "modelnumber": "Vintage Card Portable to wireless Bluetooth 10w Speaker",
+        "brand": "zipton",
+        "color": "brown",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "Bluetooth, USB, Micro SD, AUX and IF Card.",
+        "bluetoothversion": "3.5",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "2000 mah"
+      },
+      "dimension": {
+        "Width": "25 cm",
+        "Height": "14 cm",
+        "Depth": "11  cm",
+        "Weight": "600 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "brown",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "30"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "artis BT12 Retro 5 W Bluetooth Speaker  (Brown, Stereo Channel)",
+      "price": 2599,
+      "image": [
+        "artist-1.png",
+        "artist-2.png",
+        "artist-3.png",
+        "artist-4.png"
+      ],
+      "id": 54,
+      "description": "Wireless Bluetooth Classic Retro speaker with the additional functionality of a FM radio, TF Card Reader, Aux input ,USB input And Mic. for hands free calling. It is a retro speaker. Stylish Retro appearance . Vintage Style Look and Design .This speaker has a 10 Meter operating Range. Get in touch with us via email/toll-free number:Email:inquiry@artis.in /1800 123 8195 (Mon-Sat: 10am-6pm)",
+      "specification": {
+        "powersource": "5 v",
+        "modelnumber": "BT12 Classic Retro Wireless BT Speaker wire free music and calls",
+        "brand": "artist bt 12",
+        "color": "brown",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "Bluetooth, USB, Micro SD, AUX and IF Card.",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "3000 mah"
+      },
+      "dimension": {
+        "Width": "10.7 cm",
+        "Height": "17 cm",
+        "Depth": "8.5  cm",
+        "Weight": "600 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "brown",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "25"
+      },
+      "rating": 3.1
+    },
+    {
+      "name": "Ezerio with Google Assistant Smart Speaker  (Multiclor)",
+      "price": 6999,
+      "image": [
+        "ezerio-1.png",
+        "ezerio-2.png",
+        "ezerio-3.png",
+        "ezerio-4.png",
+        "ezerio-5.png"
+      ],
+      "id": 55,
+      "description": "Product Description • We are Local Seller • Ships out within 24 hours ?? FOLLOW us for FREE Voucher ?? All products will be Quality Checked and Well Packed. - FREE Replacement if damaged in shipment With the continuous advancement of technology, we present to you a groundbreaking product: the Wireless Multi-Function Charging Ambient Lamp. It's not just a lamp; it's an integration of multiple innovative functions in one masterpiece. Whether you're seeking to add a cozy ambiance to your space or bring convenience and entertainment to your life, it excels at both. Key Features at a Glance: ",
+      "specification": {
+        "powersource": "5 v",
+        "modelnumber": "3IN1 TWS Speaker LED Table Lamp Wireless Charger Atmosphere For Smart Home Decor",
+        "brand": "ezerio",
+        "color": "white multicolor",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "Bluetooth, USB, Micro SD, AUX and IF Card.",
+        "bluetoothversion": "5.1",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "2000 mah"
+      },
+      "dimension": {
+        "Width": "15.7 cm",
+        "Height": "15 cm",
+        "Depth": "4.5  cm",
+        "Weight": "368 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "white multicolor",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "35"
+      },
+      "rating": 4.2
     }
   ],
-  "cartproducts": [
+  "cartproducts": [],
+  "saveforlater": [
     {
       "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
       "price": 79990,
@@ -1980,9 +2696,151 @@
         "sub-category": "camera"
       },
       "rating": 3.8
+    },
+    {
+      "name": "SAMSUNG Galaxy S23 Ultra 5G (Green, 512 GB)  (12 GB RAM) hello world",
+      "price": 134999,
+      "image": [
+        "samsung-s23-ultra-1.png",
+        "samsung-s23-ultra-2.png",
+        "samsung-s23-ultra-3.png",
+        "samsung-s23-ultra-4.png",
+        "samsung-s23-ultra-5.png"
+      ],
+      "id": 2,
+      "description": "Get a smartphone for yourself that can detect your moods and react appropriately. The Samsung Galaxy Ultra's potent processor and advanced camera sensor can handle low light and noise reduction. The phone's Snapdragon 8 Gen 2 processor, which also provides a long battery life to carry you through even the busiest days, also enables quick gaming and video streaming. You can also launch Expert RAW to take high-resolution RAW photos that are vivid and packed with information. Moreover, Dynamic AMOLED 2X offers clear, brilliant details in both bright and low-light conditions. Additionally, to smooth up gaming and save power, the refresh rate is automatically optimised with 120 Hz technology.",
+      "specification": {
+        "powersource": "160 watt",
+        "modelnumber": "Galaxy S23 Ultra 5G",
+        "brand": "Samsung",
+        "color": "Green",
+        "operatingsystem": "Android 13",
+        "storage": "256gb",
+        "ram": "12gb",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "V5.3",
+        "musicplayer": "yes",
+        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "batterycapacity": "4800 mAh"
+      },
+      "dimension": {
+        "Width": "78.1 mm",
+        "Height": "163.4 mm",
+        "Depth": "8.9 mm",
+        "Weight": "233 g"
+      },
+      "warranty": {
+        "Warrantysummary": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+        "Warrantyservicetype": "Manufacturer Defect Only",
+        "Coveredwarranty": "Manufacturing Defect",
+        "Domesticwarranty": "1 Year"
+      },
+      "filter": {
+        "color": "green",
+        "category": "mobile",
+        "offer-type": "best-selling"
+      },
+      "rating": 4.2
+    },
+    {
+      "name": "Acer One Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) AO 14 Z 8-415 Thin and Light Laptop  (14 Inch, Silver, 1.49 Kg)",
+      "price": 43999,
+      "image": [
+        "acer-1.png",
+        "acer-2.png",
+        "acer-3.png",
+        "acer-4.png"
+      ],
+      "id": 22,
+      "description": "You can experience the power of the Intel Core processor and Intel Iris Graphics card to reign over the game world. The 8 GB of RAM with an upgradable RAM of 32 GB are featured in this laptop so that you have enough space to store for all your applications. The sleek and minimalist design of this laptop makes it classy and portable so that you can easily carry it with you wherever you want. The whooping 512 GB of M.2PCIe SSD ensures maximum storage capacity to this Acer laptop. With a wide range of ports you can easily connect multiple devices at the same time to enhance your productivity.",
+      "specification": {
+        "powersource": " 45 watt",
+        "modelnumber": "AO 14 Z 8-415",
+        "brand": "acer one ",
+        "color": "silver",
+        "operatingsystem": "Windows 11 Home",
+        "storage": "512",
+        "ram": "8",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.0",
+        "musicplayer": "yes",
+        "audioformats": "NA",
+        "videoformats": "Full HD",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "323 mm",
+        "Height": "221mm",
+        "Depth": "21.6  mm",
+        "Weight": "1.49 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "38"
+      },
+      "rating": 3.5
+    },
+    {
+      "name": "Godrej 234 L Direct Cool Single Door 5 Star Refrigerator  (Marine Blue, RD EDGEPRO 255E TAI MN BL)",
+      "price": 28290,
+      "image": [
+        "godrej-1.png",
+        "godrej-2.png",
+        "godrej-3.png",
+        "godrej-4.png",
+        "godrej-5.png"
+      ],
+      "id": 23,
+      "description": "You can prevent food spoilage and prolong its freshness with the help of the Godrej RD EDGEPRO 255E TAI 234 L Single-door Refrigerator. It is designed with an energy-efficient, variable-speed inverter compressor that operates quietly and adjusts the cooling as per the refrigerator's requirements. Additionally, this refrigerator is integrated with Hygiene+ Inverter technology that heats and evaporates the defrost water to prevent spilling of water and breeding of germs or insects in the water. Also, this technology makes cleaning this refrigerator a hassle-free task.",
+      "specification": {
+        "powersource": " NA",
+        "modelnumber": "NA",
+        "brand": "GOdrej ",
+        "color": "marine blue",
+        "operatingsystem": "NA",
+        "storage": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "audioformats": "NA",
+        "videoformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "577 mm",
+        "Height": "1480 mm",
+        "Depth": "667  mm",
+        "Weight": "42.6 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "marine Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "32"
+      },
+      "rating": 3.4
     }
   ],
-  "saveforlater": [],
   "profiledetails": {
     "pimage": "profile.jpg",
     "fname": "Mukesh",

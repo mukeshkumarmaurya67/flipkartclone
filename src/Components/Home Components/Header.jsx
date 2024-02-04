@@ -20,7 +20,7 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { Link } from 'react-router-dom';
 
 
-const Header = () => {
+const Header = ({dkmode}) => {
 
 
   let loginfun = () => {
@@ -56,6 +56,8 @@ const Header = () => {
   let darkmodeToggle = () => {
     let x = document.querySelector("body");
     x.classList.toggle("dark-bg");
+
+    dkmode();
   }
 
 
@@ -95,6 +97,8 @@ const Header = () => {
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><FavoriteIcon /></div> Wishlist</a></li>
                   <li className='dropdown-item'><a href='#/seprate-category'><div className="icon-box"><EmojiEventsIcon /></div> Rewards</a></li>
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><LocalOfferIcon /></div> Giftcards</a></li>
+                  <li className='dropdown-item'><a href='#/contactus' target='_blank'><div className="icon-box"><ManageAccountsIcon /></div> Contact Us</a></li>
+
                   <li className='dropdown-item'><a href='#'><div className="icon-box"><LogoutIcon /></div> Logout</a></li>
                 </ul>
               </li>
