@@ -10,7 +10,7 @@ const Paymentpage = () => {
             <section className="payment-wrapper">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-9">
                             <div className="payment-section">
                                 <div className="payment-title">
                                     <h2 className="title">Payment Option</h2>
@@ -71,7 +71,7 @@ const Paymentpage = () => {
                                                 <div className="icon-box">
                                                     <img src={require(`../Images/Icons/cash-on-delivery.png`)} alt="" />
                                                 </div>
-                                                <div className="sm-title">Cash On Delivery</div>
+                                                <div className="sm-title">C O D</div>
                                             </button>
                                         </li>
                                     </ul>
@@ -184,7 +184,7 @@ const Paymentpage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-3">
                             <div className="cart-right-content">
                                 <div className="price-detail-title title">Price Details</div>
                                 <div className="price-detail-group">
@@ -215,7 +215,7 @@ const Paymentpage = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-8 mt-2">
+                        <div className="col-lg-9 mt-2">
                             <div className="place-order">
                                 <a href="#/payment" className='btns bg-dark'> {` Pay ₹34,291`}</a>
                             </div>

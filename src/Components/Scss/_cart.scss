@@ -28,8 +28,11 @@
 
 
             .img-box {
-                width: 150px;
-                height: 150px;
+                width: 100%;
+                max-width: 195px;
+                min-height: 150px;
+                max-height: 195px;
+                height: auto;
                 background: $faded-white;
                 padding: 4px;
                 border-radius: 4px;

@@ -44,9 +44,19 @@ const ViewAllPage = () => {
   let incpagination = (e) => {
     setS(() => (e.target.textContent - 1) * 12);
     setL(() => (e.target.textContent - 1) * 12 + 12);
-
-    console.log(s, l);
   };
+
+  let activepagination = document.querySelectorAll(".pagination-num");
+
+  for (let i = 0; i < activepagination.length; i++) {
+    activepagination[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+      }
+      this.className += " active";
+    });
+  }
 
   return (
     <>
@@ -123,26 +133,18 @@ const ViewAllPage = () => {
                             <input type="checkbox" name="brand" id="" />
                             <span className="xs-title ms-2">All</span>
                           </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="brand" id="" />
-                            <span className="xs-title ms-2">Samsung</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="brand" id="" />
-                            <span className="xs-title ms-2">Apple</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="brand" id="" />
-                            <span className="xs-title ms-2">Lg</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="brand" id="" />
-                            <span className="xs-title ms-2">Sandisk</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="brand" id="" />
-                            <span className="xs-title ms-2">Dell</span>
-                          </div>
+
+                          {data.map((e) => {
+                            return (
+                              <div className="form-group" key={e.id}>
+                                <input type="checkbox" name="brand" id="" />
+
+                                <span className="xs-title ms-2">
+                                  {e.specification.brand}
+                                </span>
+                              </div>
+                            );
+                          })}
                         </div>
 
                         {/* Color Filter  */}
@@ -158,34 +160,18 @@ const ViewAllPage = () => {
                           <div className="form-group">
                             <input type="checkbox" name="color" id="" />
                             <span className="xs-title ms-2">All</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">Red</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">Green</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">Purple</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">Orange</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">Pink</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">White</span>
-                          </div>
-                          <div className="form-group">
-                            <input type="checkbox" name="color" id="" />
-                            <span className="xs-title ms-2">Black</span>
+
+                            {data.map((e) => {
+                              return (
+                                <div className="form-group" key={e.id}>
+                                  <input type="checkbox" name="brand" id="" />
+
+                                  <span className="xs-title ms-2">
+                                    {(e.specification.color)}
+                                  </span>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
                       </div>
@@ -193,6 +179,7 @@ const ViewAllPage = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-10">
                 <div className="viewall-r-section box">
                   <div className="alert-section" id="alert-section">
@@ -252,11 +239,15 @@ const ViewAllPage = () => {
                       })}
 
                       {totalPage > 1 ? (
-                        <ul>
+                        <ul className="pagination-list">
                           {Array(totalPage)
                             .fill(1)
                             .map((e, index) => (
-                              <li key={index + 1} onClick={incpagination}>
+                              <li
+                                className=" pagination-num"
+                                key={index + 1}
+                                onClick={incpagination}
+                              >
                                 {index + 1}
                               </li>
                             ))}

@@ -10,6 +10,7 @@ import ViewAllPage from "./Components/Pages/ViewAllPage";
 import Chatboat from "./Components/Home Components/Chatboat";
 import Contactus from "./Components/Pages/Contactus";
 import Header from "./Components/Home Components/Header";
+import Thankyou from "./Components/Pages/Thankyou";
 let globalContext = createContext();
 
 
@@ -82,6 +83,8 @@ function updateDkmode(){
             <Route exact path="/payment" element={<Paymentpage />}></Route>
             <Route exact path="/viewallpage" element={<ViewAllPage />}></Route>
             <Route exact path="/contactus" element={<Contactus />}></Route>
+            <Route exact path="/thankyou" element={<Thankyou />}></Route>
+
 
           </Routes>
         </HashRouter>
