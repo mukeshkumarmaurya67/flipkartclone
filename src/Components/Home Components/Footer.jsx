@@ -14,9 +14,9 @@ const Footer = () => {
         "Contact Us",
         "About Us",
         "Careers",
-        "Dumikart Stories",
+        "BlinkBasket Stories",
         "Press",
-        "Dumikart Wholesale",
+        "BlinkBasket Wholesale",
         "Cleartrip",
         "Corporate Information",
       ],
@@ -81,7 +81,7 @@ const Footer = () => {
             <div className="footer-content-t-r-l">
               <li className="footer-title">Mail Us:</li>
               <li className="footer-para">
-                Dumikart Internet Private Limited, Buildings Alyssa, Begonia &
+                BlinkBasket Internet Private Limited, Buildings Alyssa, Begonia &
                 Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
                 Village, Bengaluru, 560103, Karnataka, India
               </li>
@@ -90,7 +90,7 @@ const Footer = () => {
               <li className="footer-title">Registered Office Address:</li>
 
               <li className="footer-para">
-                Dumikart Internet Private Limited, Buildings Alyssa, Begonia &
+                BlinkBasket Internet Private Limited, Buildings Alyssa, Begonia &
                 Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
                 Village, Bengaluru, 560103, Karnataka, India CIN :
                 U51109KA2012PTC066107 Telephone:{" "}
@@ -131,7 +131,7 @@ const Footer = () => {
                 <CopyrightIcon
                   style={{ width: " 16px", height: "16px", color: "red" }}
                 />{" "}
-                2023-25 Dumikart.com
+                2023-25 BlinkBasket.com
               </div>
             </li>
             <li className="fcb">

@@ -19,6 +19,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { Link } from "react-router-dom";
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+import BrandLogo from "./brandlogo";
 
 const Header = ({ dkmode }) => {
   let [search, setSearch] = useState("");
@@ -74,9 +75,10 @@ const Header = ({ dkmode }) => {
     <>
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
-          <a class="navbar-brand" href="#/">
-            <img src={logo} alt="Brand Logo" />
-          </a>
+          <Link class="navbar-brand" to="/">
+            {/* <img src={logo} alt="Brand Logo" /> */}
+            <BrandLogo/>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -115,7 +117,7 @@ const Header = ({ dkmode }) => {
                   .map((file, index) => {
                     return (
                       <Link className="products-link" to={`/product-details/${file.id}`}>
-                      <div className="listed-products" key={index}>
+                      <div className="listed-products" key={index} onClick={()=>{setSearch("")}}>
                         <div className="img-box">
                           <img src={require(`../Images/Products/${file.image[0]}`)} alt="" />
                        
@@ -180,45 +182,45 @@ const Header = ({ dkmode }) => {
                     </Link>
                   </li>
                   <li className="dropdown-item">
-                    <a href="#">
+                    <Link to="/">
                       <div className="icon-box">
                         <FavoriteIcon />
                       </div>{" "}
                       Wishlist
-                    </a>
+                    </Link>
                   </li>
                   <li className="dropdown-item">
-                    <a href="#/seprate-category">
+                    <Link to="/seprate-category">
                       <div className="icon-box">
                         <EmojiEventsIcon />
                       </div>{" "}
                       Rewards
-                    </a>
+                    </Link>
                   </li>
                   <li className="dropdown-item">
-                    <a href="#">
+                    <Link to="/">
                       <div className="icon-box">
                         <LocalOfferIcon />
                       </div>{" "}
                       Giftcards
-                    </a>
+                    </Link>
                   </li>
                   <li className="dropdown-item">
-                    <a href="#/contactus">
+                    <Link to="/contactus">
                       <div className="icon-box">
                         <ManageAccountsIcon />
                       </div>{" "}
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="dropdown-item">
-                    <a href="#/thankyou">
+                    <Link to="/thankyou">
                       <div className="icon-box">
                         <LogoutIcon />
                       </div>{" "}
                       Logout
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -295,9 +297,9 @@ const Header = ({ dkmode }) => {
                           <div class="d-flex align-items-start">
                             <input type="checkbox" required />
                             <span className="tnc">
-                              By continuing, you agree to Dumikart's{" "}
-                              <a href="#"> Terms of Use </a> and{" "}
-                              <a href="#"> Privacy Policy</a>.
+                              By continuing, you agree to BlinkBasket's{" "}
+                              <Link to="/"> Terms of Use </Link> and{" "}
+                              <Link to="/"> Privacy Policy</Link>.
                             </span>
                           </div>
                           <input
@@ -315,10 +317,10 @@ const Header = ({ dkmode }) => {
                         <form action="">
                           <p>
                             OTP send To 7019138442{" "}
-                            <a href="#" onClick={hideBeforeOtp}>
+                            <Link to="/" onClick={hideBeforeOtp}>
                               {" "}
                               Inccorect ?
-                            </a>
+                            </Link>
                           </p>
                           <div className="input-grp form-group">
                             <input
@@ -371,7 +373,7 @@ const Header = ({ dkmode }) => {
                             value="Verify "
                           />
                           <p className="pt-4">
-                            Not received OTP ? <a href="#"> Resend Now</a>
+                            Not received OTP ? <Link to="/"> Resend Now</Link>
                           </p>
                         </form>
                       </div>
@@ -381,7 +383,7 @@ const Header = ({ dkmode }) => {
                         className="existing-cstmr"
                         onClick={signupfun}
                       >
-                        New to Dumikart? Create an account
+                        New to BlinkBasket? Create an account
                       </a>
                     </div>
                   </div>
@@ -424,9 +426,9 @@ const Header = ({ dkmode }) => {
                         <div class="d-flex align-items-start">
                           <input type="checkbox" required />
                           <span className="tnc">
-                            By continuing, you agree to Dumikart's{" "}
-                            <a href="#"> Terms of Use </a> and{" "}
-                            <a href="#"> Privacy Policy</a>.
+                            By continuing, you agree to BlinkBasket's{" "}
+                            <Link to="/"> Terms of Use </Link> and{" "}
+                            <Link to="/"> Privacy Policy</Link>.
                           </span>
                         </div>
                         <a

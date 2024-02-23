@@ -744,8 +744,7 @@
   z-index: 2;
 }
 .navbar .navbar-brand {
-  width: 100px;
-  height: 70px;
+  width: auto;
   padding-left: 34px;
 }
 .navbar .navbar-brand img {
@@ -1637,6 +1636,7 @@ img {
 .payment-wrapper .payment-section .tab-content #card .forms .form-group .form-label {
   font-size: 14px;
   font-weight: 500;
+  padding-left: 12px;
 }
 .payment-wrapper .payment-section .tab-content #card .forms .form-group .form-control {
   border-radius: 4px;
