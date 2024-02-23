@@ -15,7 +15,7 @@ const Banner1 = () => {
     return (
         <>
             <div className="banner-wrapper">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 p-0">
                             <OwlCarousel items={1}

@@ -1,0 +1,120 @@
+.contact-us-form {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $green-gradient;
+  .title {
+  }
+  .form-contents {
+    background: $headerbg-linear-gradient;
+    padding: 7%;
+    border-radius: 8px;
+    display: flex;
+    gap: 8%;
+    @media (max-width: 767px) {
+      padding: 4%;
+      border-radius: 4px;
+    }
+
+    .left-content {
+      flex: 0 0 65%;
+      padding: 28px 24px;
+      box-shadow: 1px 0px 7px 4px #755079;
+      border-radius: 12px;
+      position: relative;
+      @media (max-width: 767px) {
+        padding: 8px;
+        border-radius: 4px;
+      }
+      .icon-box {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+      
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .xl-title {
+        text-align: center;
+        margin-bottom: 32px;
+        color: rgb(180, 13, 113);
+        font-size: clamp(24px, 4vw, 32px);
+      }
+      .form-group {
+        margin-bottom: 16px;
+        @media (max-width: 767px) {
+          margin-bottom: 8px;
+        }
+        label {
+          margin-bottom: 8px;
+          color: $faded-white;
+          @media (max-width: 767px) {
+            margin-bottom: 4px;
+            font-size: 14px;
+          }
+        }
+        &.drpdown {
+          //   label {
+          //     white-space: nowrap;
+          //   }
+        }
+        .form-control {
+          caret-color: rgb(180, 13, 113);
+          background: linear-gradient(178deg, #c2dcf6 0%, #ffffff 100%);
+          @media (max-width: 767px) {
+            font-size: 16px;
+            padding: 4px 8px;
+          }
+          &.country-flag {
+            padding: 0;
+            .form-control {
+              padding-left: 42px;
+              border: none;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .right-content {
+      flex: 0 0 25%;
+      padding: 28px 24px;
+      .inner-contents {
+        padding-right: 12%;
+        color: $white-text;
+        font-size: 14px;
+        font-weight: 500;
+        h3 {
+          color: rgb(180, 13, 113);
+          font-size: clamp(20px, 4vw, 24px);
+          font-weight: 500;
+        }
+        .channel-type {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          a {
+            text-decoration: none;
+            color: $faded-white;
+            font-weight: 600;
+            &:hover {
+              color: rgb(187, 39, 189);
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+}

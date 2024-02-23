@@ -123,7 +123,7 @@ const Cart = () => {
                                                         </div>
                                                         <div className="col-lg-5">
                                                             <div className="products-area box">
-                                                                <h2 className="title mb-1">{e.name}</h2>
+                                                                <h2 className="md-title mb-1">{e.name}</h2>
                                                                 <p className="sm-para">Brand : <span className="sm-title">{e.specification.brand}</span></p>
                                                                 <p className="sm-para">Seller:RoyalCommunicationsIndia</p>
                                                                 <div className="price-offer md-title">
@@ -217,7 +217,7 @@ const Cart = () => {
                                 {
                                     ladterdata.map((e => {
                                         return (
-                                            <div className="col-lg-2" key={e.id}>
+                                            <div className="col-lg-2 col-md-4 col-sm-12" key={e.id}>
                                                 <div className="card">
 
                                                     <div className="box">

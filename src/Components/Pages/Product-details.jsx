@@ -54,7 +54,7 @@ const ProductDetails = () => {
   // console.log(data)
   useEffect(() => {
     fetchData();
-  },[]);
+  },[id]);
   let addcls = (event) => {
     let x = document.getElementById("main-img");
     for (const i of document.querySelectorAll(".img-box")) {
@@ -150,7 +150,7 @@ const ProductDetails = () => {
          Object.keys(data).map((e,index)=>
            typeof data[e] == "object" && e !== "image" && e !== "filter"  ? <div className="product-details-section-part"><h2 className="products-details-type title">{e}</h2>
            
-          {data[e]? Object.keys(data[e]).map((x,index)=> <p className="spescific sm-title">{x}<span className="specific-value sm-para">{data[e][x]}</span></p> ): "not comming" }
+          {data[e]? Object.keys(data[e]).map((x,index)=> <p className="spescific md-title"><span className="spescific-type">{x}</span><span className="specific-value sm-para">{data[e][x]}</span></p> ): "not comming" }
                
         
      
