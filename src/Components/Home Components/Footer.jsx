@@ -43,10 +43,10 @@ const Footer = () => {
         "EPR Compliance",
       ],
     },
-    {
-      title: "Social",
-      list: ["Facebook", "Twitter", "YouTube", "Instagram"],
-    },
+    // {
+    //   title: "Social",
+    //   list: ["Facebook", "Twitter", "YouTube", "Instagram"],
+    // },
   ];
 
   return (
@@ -75,26 +75,48 @@ const Footer = () => {
                 ))}
               </ul>
             ))}
+
+            <div className="social-media">
+              <h3 className="text-light">Follow Us</h3>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/share/3YTwywWfUFoKhk5z/?mibextid=hu50Ix" target="_blank">
+                  <img src={require(`../Images/Icons/facebook.png`)} alt="facebook" title="Follow Us On Facebook" /></a>
+                </li>
+                <li>
+                <a href="https://youtube.com/@mukeshkumarmaurya70?si=nH_h0V-XYLQ6byCJ" target="_blank">
+                  <img src={require(`../Images/Icons/youtube.png`)} alt="youtube" title="Follow Us On Youtube" /></a>
+                </li>
+                <li>
+                <a href="https://twitter.com/Mukeshkuma46545" target="_blank">
+                  <img src={require(`../Images/Icons/twitter.png`)} alt="twitter" title="Follow Us On Twitter" /></a>
+                </li>
+                <li>
+                <a href="https://www.instagram.com/mukeshkumar.maurya.96?igsh=azhydXBmbmpsODc1&utm_source=qr" target="_blank">
+                  <img src={require(`../Images/Icons/instagram.png`)} alt="instagram" title="Follow Us On Instagram"/></a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="footer-content-t-r">
             <div className="footer-content-t-r-l">
               <li className="footer-title">Mail Us:</li>
               <li className="footer-para">
-                BlinkBasket Internet Private Limited, Buildings Alyssa, Begonia &
-                Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
-                Village, Bengaluru, 560103, Karnataka, India
+                BlinkBasket Internet Private Limited, Buildings Alyssa, Begonia
+                & Clove Embassy Tech Village, Outer Ring Road,
+                Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India
               </li>
             </div>
             <ul>
               <li className="footer-title">Registered Office Address:</li>
 
               <li className="footer-para">
-                BlinkBasket Internet Private Limited, Buildings Alyssa, Begonia &
-                Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
-                Village, Bengaluru, 560103, Karnataka, India CIN :
-                U51109KA2012PTC066107 Telephone:{" "}
-                <a href="tel:044-45614700">044-45614700</a>{" "}
+                BlinkBasket Internet Private Limited, Buildings Alyssa, Begonia
+                & Clove Embassy Tech Village, Outer Ring Road,
+                Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India
+                CIN : U51109KA2012PTC066107 Telephone:{" "}
+                <a href="tel:+91-7019138442">044-45614700</a>{" "}
               </li>
             </ul>
           </div>

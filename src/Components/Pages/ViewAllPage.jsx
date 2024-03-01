@@ -140,7 +140,7 @@ const ViewAllPage = () => {
                                 <input type="checkbox" name="brand" id="" />
 
                                 <span className="xs-title ms-2">
-                                  {e.specification.brand}
+                                  {[...new Set(e.specification.brand)]}
                                 </span>
                               </div>
                             );
