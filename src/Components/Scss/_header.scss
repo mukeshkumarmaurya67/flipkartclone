@@ -19,6 +19,9 @@
   }
 
   .navbar-toggler {
+    @media(max-width:767px) {
+      // display: none;
+    }
     .navbar-toggler-icon {
     }
   }
@@ -47,6 +50,9 @@
         &:focus {
           box-shadow: none;
           border-color: transparent;
+        }
+        @media(max-width: 767px){
+          width: 100%;
         }
       }
       .search-icon {
@@ -113,7 +119,9 @@
 
     .navbar-nav {
       gap: 20px;
-
+@media(max-width:767px){
+  gap: 2px;
+}
       .nav-item {
         .nav-link {
           display: flex;

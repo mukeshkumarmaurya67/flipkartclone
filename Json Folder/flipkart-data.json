@@ -2788,6 +2788,826 @@
         "offer-type": "best-selling"
       },
       "rating": 4.7
+    },
+    {
+      "name": "SanDisk Cruze Blade SDCZ50 64 GB Pen Drive  (Red, Black)",
+      "price": 429,
+      "image": [
+        "pendrive-1.png",
+        "pendrive-2.png",
+        "pendrive-3.png",
+        "pendrive-4.png"
+      ],
+      "id": 8,
+      "description": "Backing up, transferring, sharing, and storing files is convenient with this SanDisk Blade 64GB pendrive Easy to useCompact in design and with generous storage space, this flash drive lets you start storing and transferring files immediately.",
+      "specification": {
+        "brand": "Sandisk",
+        "color": "Silver Black",
+        "storage": "64gb",
+        "ram": "NA",
+        "powersource": "16 volt ",
+        "modelnumber": "Cruze Blade SDCZ50",
+        "operatingsystem": "Na",
+        "bluetoothsupport": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "5000 mAh"
+      },
+      "dimension": {
+        "Width": "70.6 mm",
+        "Height": "46.6 mm",
+        "Depth": "12.25 mm",
+        "Weight": "2.87 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "5 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Silver White",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Desktop"
+      },
+      "rating": 4
+    },
+    {
+      "name": "HP M22f 21.5-inches, 54.6 cm, FHD Monitor Eye Safe Certified Full HD IPS 3-Sided Micro-Edge Monitor, 75Hz, AMD Free Sync with 1xVGA, 1xHDMI 1.4 Ports, 300 nits (Silver, 1920 x 1080 Pixels)",
+      "price": 59990,
+      "image": [
+        "descktop-1.png",
+        "descktop-2.png",
+        "descktop-3.png",
+        "descktop-4.png",
+        "descktop-5.png"
+      ],
+      "id": 7,
+      "description": "IPS Display: 21.5-inch (54.6 cm) Full HD (1920 x 1080) IPS Anti Glare Display, 300 nits Brightness, upto 75Hz Refresh Rate|Aspect Ratio: 16:9.Brightness 300 nits. Not VESA mount compatible. HP Eye Ease with Eyesafe Certication: An always-on blue light fllter that keeps your eyes comfortable with zero impact on color accuracy. Sustainable design: Designed with sustainability in mind, the plastic enclosures are made with 85% recycled materials and 5% recycled ocean bound plastics. Other Features: 5ms Response Time, 1000:1 Contrast Ratio, On-screen controls; AMD FreeSync; Low blue light mode; Anti-glare | Ports: 1 VGA; 1 HDMI 1.4 (with HDCP support)| Viewing Angle: 178°| Power Supply required:100 - 240 VAC 50/60 Hz| One year manufacturer warranty",
+      "specification": {
+        "brand": "HP",
+        "color": "Silver White",
+        "storage": "1 Tb",
+        "ram": "16gb",
+        "powersource": "120 watt ",
+        "modelnumber": "HP M22f FHD Monitor",
+        "operatingsystem": "Windows",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "V5.3",
+        "musicplayer": "yes",
+        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "batterycapacity": "5000 mAh"
+      },
+      "dimension": {
+        "Width": "270.6 mm",
+        "Height": "346.6 mm",
+        "Depth": "18.25 mm",
+        "Weight": "2.87 Kg"
+      },
+      "warranty": {
+        "Warrantysummary": "One year manufacturer warranty",
+        "Warrantyservicetype": "Technician Visit",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Warranty Does Not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer"
+      },
+      "filter": {
+        "color": "Silver White",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Desktop"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "NIKON D7500 DSLR Camera Body with 18-140 mm Lens  (Black)",
+      "price": 79990,
+      "image": [
+        "camera-1.png",
+        "camera-2.png",
+        "camera-3.png",
+        "camera-4.png",
+        "camera-5.png",
+        "camera-6.png"
+      ],
+      "id": 6,
+      "description": "Born from a desire for flagship performance and innovation in a more compact and streamlined connected camera, the D7500 delivers the game-changing resolution, ISO range, image processing and energy efficiency of the award-winning D500 in an enthusiast-level DSLR. Simply put, the D7500 is built to outperform any camera in its class with top-tier image quality, blazing speed, flawless autofocus, 4K Ultra HD video and pro-grade creative tools�all in a comfortable, rugged design. This is a camera for the new generation of creators.,suitable_for-Enthusiast,processor-EXPEED 5 Image processing,sensor_type-APS-C/Dx Format",
+      "specification": {
+        "brand": "Nikon",
+        "color": "Black",
+        "storage": "256 gb",
+        "ram": "2gb",
+        "powersource": "80 watt ",
+        "modelnumber": "D7500",
+        "operatingsystem": "Tyzon",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "V5.3",
+        "musicplayer": "yes",
+        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "batterycapacity": "5000 mAh"
+      },
+      "dimension": {
+        "Width": "70.6 mm",
+        "Height": "146.6 mm",
+        "Depth": "8.25  mm",
+        "Weight": "187  g"
+      },
+      "warranty": {
+        "Warrantysummary": "2 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+        "Warrantyservicetype": "Technician Visit",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on Camera Body and Lens",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Warranty Does Not Cover Any External Accessories (Such as Battery, Cable, Carrying Bag), Damage Caused to the Product due to Improper Installation by Customer"
+      },
+      "filter": {
+        "color": "Black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "camera"
+      },
+      "rating": 3.8
+    },
+    {
+      "name": "APPLE iPhone 15 Pro (Natural Titanium, 128 GB)",
+      "price": 131990,
+      "image": [
+        "iphone-15pro-max-1.png",
+        "iphone-15pro-max-2.png",
+        "iphone-15pro-max-3.png",
+        "iphone-15pro-max-4.png",
+        "iphone-15pro-max-5.png"
+      ],
+      "id": 5,
+      "description": "iPhone 15 Pro, a titanium marvel, boasts an aerospace-grade build, making it the lightest Pro model ever. The A17 Pro Chip marks a historic leap in Apple GPUs, delivering unparalleled graphics performance and immersive gaming experiences. The camera system shines with a 48MP Main camera, offering remarkable detail and automatic portrait enhancements. Convenience is key with the Action button for quick tasks and Focus filters. Plus, it's USB 3 compatible, revolutionizing data transfer speeds. This iPhone even shares its charging cable with your Mac or iPad. Embrace innovation, cut cable clutter, and elevate your mobile experience with the iPhone 15 Pro.",
+      "specification": {
+        "brand": "Apple",
+        "color": "Natural Titanium",
+        "storage": "256 gb",
+        "ram": "8gb",
+        "powersource": "80 watt ",
+        "modelnumber": "MTUX3HN/A",
+        "operatingsystem": "iOS 17",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "V5.3",
+        "musicplayer": "yes",
+        "videoformats": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "audioformats": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "batterycapacity": "4800 mAh"
+      },
+      "dimension": {
+        "Width": "70.6 mm",
+        "Height": "146.6 mm",
+        "Depth": "8.25  mm",
+        "Weight": "187  g"
+      },
+      "warranty": {
+        "Warrantysummary": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+        "Warrantyservicetype": "Technician Visit",
+        "Coveredwarranty": "",
+        "domesticwarranty": "1 Year",
+        "notwarranty": ""
+      },
+      "filter": {
+        "color": "gray",
+        "category": "mobile",
+        "offer-type": "sale-offer"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "Jabra Elite 4 with Active Noise Cancellation, Multipoint, 4-mic call technology Bluetooth Headset  (Navy, In the Ear) ",
+      "price": 7999,
+      "image": [
+        "jabra-1.png",
+        "jabra-2.png",
+        "jabra-3.png",
+        "jabra-4.png",
+        "jabra-5.png"
+      ],
+      "id": 10,
+      "description": "Our Jabra Elite 4 True Wireless earbuds are ideal for navigating work and life with ease. They incorporate Jabra's renowned fit to keep them in your ears, and their ergonomic Danish design for all-day superior comfort. 4-microphone technology allows for clear conversations, and physical buttons give you more control and precision on the go. Seamlessly switch between 2 devices with Bluetooth Multipoint. HearThrough technology keeps you alert in busy environments, and Active Noise Cancellation (ANC) blocks unwanted noise. Fast Pair (OS 6.0 or later) lets you instantly pair your earbuds with your Android phone, and Swift Pair (Windows 10 or later) lets you connect seamlessly to your PC. You can use one earbud in Mono Mode while the other charges, and enjoy up to 5.5 hours of battery life per earbud and 22 hours with the case. They are water and dust-resistant and come with a 2-year warranty (registration via the Jabra Sound+ app is required).",
+      "specification": {
+        "brand": "Jabra",
+        "color": "Blue",
+        "storage": "Na",
+        "ram": "NA",
+        "powersource": "2 Amp ",
+        "modelnumber": "Elite-4",
+        "operatingsystem": "Na",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "800 Mah"
+      },
+      "dimension": {
+        "Width": "100.6 mm",
+        "Height": "9.6 mm",
+        "Depth": "28.25 mm",
+        "Weight": "100.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "earphone",
+        "discount": "25"
+      },
+      "rating": 3.9
+    },
+    {
+      "name": "Apple AirPods Pro (2nd generation) with MagSafe Case (USB-C) Bluetooth Headset  (White, True Wireless) ",
+      "price": 24999,
+      "image": [
+        "airpods-pro-1.png",
+        "airpods-pro-2.png",
+        "airpods-pro-3.png",
+        "airpods-pro-4.png",
+        "airpods-pro-5.png"
+      ],
+      "id": 11,
+      "description": "AirPods Pro (2nd generation) with USB-C deliver up to 2x more Active Noise Cancellation than the previous generation, with Transparency mode that enables you to hear the world around you, and all-new Adaptive Audio that dynamically tailors noise control to your environment. Conversation Awareness helps lower media volume and enhance the voices in front of you while you�re interacting with others. A single charge delivers up to 6 hours of battery life. And Touch control lets you easily adjust volume with a swipe. The MagSafe Charging Case is a marvel on its own with Precision Finding, built-in speaker and lanyard loop.",
+      "specification": {
+        "brand": "Apple",
+        "color": "White",
+        "storage": "Na",
+        "ram": "NA",
+        "powersource": "1.5 Amp ",
+        "modelnumber": "MTJV3HN/A",
+        "operatingsystem": "Ios",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "1000 Mah"
+      },
+      "dimension": {
+        "Width": "97.6 mm",
+        "Height": "12.6 mm",
+        "Depth": "38.25 mm",
+        "Weight": "106.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "White",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "earphone",
+        "discount": "25"
+      },
+      "rating": 4.5
+    },
+    {
+      "name": "Skullcandy Rail TWS Wireless Earbuds, 42 Hr Battery, Skull-iQ, Alexa Enabled, Microphone Bluetooth Headset  (Ture Black, In the Ear, True Wireless)",
+      "price": 24999,
+      "image": [
+        "skullcandy-earbuds-1.png",
+        "skullcandy-earbuds-2.png",
+        "skullcandy-earbuds-3.png",
+        "skullcandy-earbuds-4.png"
+      ],
+      "id": 12,
+      "description": "Introducing Rail, our new flagship family of earbuds with Skull-iQ Smart Feature Technology. We created Rail with a simple set of design requirements-it had to be the best sounding, best looking, most comfortable, most intelligent family of earbuds ever made, and it had to get better with time. Welcome to the future of future-proof audio.Rail is built with Skull-iQ, a powerful technology that runs innovative voice features and enables new upgrades via the Skull-iQ App. Hands-Free Voice Controls are available in multiple languages. By simply starting a prompt with �Hey Skullcandy�,'' you can control media players, summon your assistant (including Alexa and iHeart), access Spotify� or even take a photo.Rail delivers big, detailed sound with premium drivers and ergonomically designed ear gels for a super-comfortable, noise-isolating fit. Personal Sound by Mimi fine-tunes the sound to your individual hearing, and Clear Voice Smart Mic uses artificial intelligence to isolate your voice and reduce background noise.Multipoint Pairing makes it possible to pair your earbuds to two devices at once, so if your phone rings while you're watching a movie on your laptop, your connection will automatically switch so you can take the call. Rail also comes with Tile finding technology built-in. If an earbud is misplaced, you can just ring'it from the free Tile app.",
+      "specification": {
+        "brand": "Skullcandy",
+        "color": "Black",
+        "storage": "Na",
+        "ram": "NA",
+        "powersource": "1.7 Amp ",
+        "modelnumber": "S2RLW-Q740",
+        "operatingsystem": "Na",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "1000 Mah"
+      },
+      "dimension": {
+        "Width": "97.6 mm",
+        "Height": "12.6 mm",
+        "Depth": "38.25 mm",
+        "Weight": "106.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "earphone",
+        "discount": "25"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "Logitech POP Keys Mechanical Bluetooth Multi-device Keyboard  (Blast)",
+      "price": 9995,
+      "image": [
+        "logitech-1.png",
+        "logitech-2.png",
+        "logitech-3.png",
+        "logitech-4.png"
+      ],
+      "id": 35,
+      "description": "Featuring a quirky design combined with high performance, the Logitech POP Key Bluetooth Keyboard is ideal for day-to-day use. It has an emoji menu key that lets you choose from a variety of emojis when chatting with friends. This keyboard provides a catchy experience with its old typewriter-like keys that crackle and pop as you type. Its mechanical switches also make typing a lively and satisfying experience. Moreover, this keyboard can connect to up to three devices at the same time and you can switch between them while typing using the easy-switch buttons",
+      "specification": {
+        "modelnumber": "POP Keys Mechanical",
+        "brand": "logitech",
+        "color": "blast",
+        "storage": "NA",
+        "powersource": "battery",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "operatingsystem": "Mac OS 10.15 or Later, Chrome OS, Windows 10 or Later, iPad OS 13.4 or Later, iOS 11 or Later, Android 8 or Later",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 138.47 mm",
+        "Height": "321.2 mm",
+        "Depth": "35.4 mm",
+        "Weight": "799 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "blast",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "2"
+      },
+      "rating": 4.7
+    },
+    {
+      "name": "Bastron Transparent Touch Glass Keyboard with Mouse & Gesture Function Biggest Technological Innovation New Ver.3(Silver)",
+      "price": 37364,
+      "image": [
+        "bastron-1.png",
+        "bastron-2.png",
+        "bastron-3.png",
+        "bastron-4.png"
+      ],
+      "id": 33,
+      "description": "NA",
+      "specification": {
+        "modelnumber": "CMS-333",
+        "brand": "Bastron",
+        "color": "silver",
+        "storage": "NA",
+        "powersource": " Battery Powered",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "operatingsystem": "mac os x",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 16 cm",
+        "Height": "1.3 cm",
+        "Depth": "NA",
+        "Weight": "2.43 pounds"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "32"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "Apple MQ052HN/A Bluetooth Multi-device Keyboard  (Silver)",
+      "price": 11900,
+      "image": [
+        "apple-1.png",
+        "apple-2.png",
+        "apple-3.png",
+        "apple-4.png"
+      ],
+      "id": 36,
+      "description": "NA",
+      "specification": {
+        "modelnumber": "MQ052HN/A",
+        "brand": "apple",
+        "color": "silver",
+        "storage": "NA",
+        "powersource": "NA",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "operatingsystem": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": " 418.7 mm",
+        "Height": "10.9 mm",
+        "Depth": "114.9 mm",
+        "Weight": "390 g"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "keyboard",
+        "discount": "3"
+      },
+      "rating": 4.4
+    },
+    {
+      "name": "Acer One Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) AO 14 Z 8-415 Thin and Light Laptop  (14 Inch, Silver, 1.49 Kg)",
+      "price": 43999,
+      "image": [
+        "acer-1.png",
+        "acer-2.png",
+        "acer-3.png",
+        "acer-4.png"
+      ],
+      "id": 22,
+      "description": "You can experience the power of the Intel Core processor and Intel Iris Graphics card to reign over the game world. The 8 GB of RAM with an upgradable RAM of 32 GB are featured in this laptop so that you have enough space to store for all your applications. The sleek and minimalist design of this laptop makes it classy and portable so that you can easily carry it with you wherever you want. The whooping 512 GB of M.2PCIe SSD ensures maximum storage capacity to this Acer laptop. With a wide range of ports you can easily connect multiple devices at the same time to enhance your productivity.",
+      "specification": {
+        "brand": "acer one ",
+        "color": "silver",
+        "storage": "512",
+        "ram": "8",
+        "powersource": " 45 watt",
+        "modelnumber": "AO 14 Z 8-415",
+        "operatingsystem": "Windows 11 Home",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.0",
+        "musicplayer": "yes",
+        "videoformats": "Full HD",
+        "audioformats": "NA",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "323 mm",
+        "Height": "221mm",
+        "Depth": "21.6  mm",
+        "Weight": "1.49 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "38"
+      },
+      "rating": 3.5
+    },
+    {
+      "name": "MSI Modern 14 Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB SSD/Windows 11 Home) Modern 14 C11M-031IN Thin and Light Laptop  (14 Inch, Classic Black, 1.4 Kg)",
+      "price": 52990,
+      "image": [
+        "msi-1.png",
+        "msi-2.png",
+        "msi-3.png",
+        "msi-4.png"
+      ],
+      "id": 21,
+      "description": "You can enjoy fast processing with the 11th Gen Intel Core processor. It has a sleek and stylish design that makes it easy to carry. The 180-degree lay-flat hinge allows you to share contents more efficiently among colleagues. The backlit keyboard helps you to view the keys clearly even in the dark. It has numerous ports so that you can stay connected anytime. You can enjoy mesmerising audio through the Modern Series sound system as you watch your favourite movies",
+      "specification": {
+        "brand": "MSI Modern 14 ",
+        "color": "classic black",
+        "storage": "512",
+        "ram": "8",
+        "powersource": " 65 watt",
+        "modelnumber": "Modern 14 C11M-031IN",
+        "operatingsystem": "Windows 11 Home",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.2",
+        "musicplayer": "yes",
+        "videoformats": "Full HD, 60Hz 45%NTSC IPS-Level",
+        "audioformats": "NA",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "319.9 mm",
+        "Height": "223 mm",
+        "Depth": "19.35  mm",
+        "Weight": "1.4 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "classic black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "41"
+      },
+      "rating": 3.2
+    },
+    {
+      "name": "OPPO Reno10 Pro+ 5G (Glossy Purple, 256 GB)  (12 GB RAM)",
+      "price": 59999,
+      "image": [
+        "oppo-1.png",
+        "oppo-2.png",
+        "oppo-3.png",
+        "oppo-4.png",
+        "oppo-5.png"
+      ],
+      "id": 17,
+      "description": "Create a plethora of possibilities with this Oppo Reno Pro+ 5G smartphone. Built with exceptional camera functionalities such as Pro Power mode, Telephoto Portrait Mode, Pro Portrait Mode, Pro XDR, laser-centric, and thin and light periscopic camera, this smartphone is a huge prospect for all your photography fascination. A 3D curved, 1.5K borderless display with 120 Hz refresh rates makes this an impressive smartphone to carry around. Powered with a 100 W SUPERVOOC flash charge, you can fully charge your phone in just 27 minutes. You get a 4700 mAh large battery capacity with a battery health engine. The SUPERVOOC S Power Management Chip supports efficient discharges of up to 99.5%. The presence of a powerful Snapdragon 8+ Gen 1 Processor improves performance and power efficiency. Ultra-conductive cooling, fast and fluid dynamic computing engine, IR remote control, Smart AOD, And Auto Pixelate, etc., are other notable features of this Oppo 5G smartphone.",
+      "specification": {
+        "brand": "OPPO Reno10 Pro",
+        "color": "Glossy Purple",
+        "storage": "256",
+        "ram": "12",
+        "powersource": " 70 watt",
+        "modelnumber": "CPH2521",
+        "operatingsystem": "Android 13",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "5.6",
+        "musicplayer": "yes",
+        "videoformats": "MP4, 3GP, MKV, FLV",
+        "audioformats": "WAV, MP3, MP2, MP1, MIDI, Vorbis, APE, FLAC, AAC, OPUS",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "75.6 mm",
+        "Height": "164.6 mm",
+        "Depth": "8.28  mm",
+        "Weight": "195.32 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "Glossy Purple",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Mobile",
+        "discount": "25"
+      },
+      "rating": 4.6
+    },
+    {
+      "name": "ASUS Chromebook Intel Celeron Dual Core N4500 - (4 GB/128 GB EMMC Storage/Chrome OS) CX1400CKA-EK0335 Chromebook  (14 Inch, Transparent Silver, 1.47 Kg)",
+      "price": 15990,
+      "image": [
+        "asus-1.png",
+        "asus-2.png",
+        "asus-3.png",
+        "asus-4.png",
+        "asus-5.png",
+        "asus-6.png"
+      ],
+      "id": 19,
+      "description": "The Asus Chromebook CX1 is integrated with ChromeOS to elevate your productivity and creativity. You can access all the Google services on this laptop and get desired apps from Google Play. The Google Workspace allows you to get your work done seamlessly with the help of Google Workspace apps. Featuring an Intel Celeron N4500 processor, along with 8 GB of LPDDR4X memory, and 128 GB of storage, this laptop offers smooth performance and ample storage space. This lightweight laptop can easily fit in your bags and hands which makes it easy to carry around wherever you want. Equipped with a powerful battery, this laptop can last up to 11 hours on a single charge so you can get your work done without having to recharge the system.",
+      "specification": {
+        "brand": "ASUS Chromebook ",
+        "color": "silver",
+        "storage": "128",
+        "ram": "4",
+        "powersource": " 50 watt",
+        "modelnumber": "CX1400CKA-EK0335",
+        "operatingsystem": "Windows 11 Home",
+        "bluetoothsupport": "Yes",
+        "bluetoothversion": "v5.2",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "4070 Mah"
+      },
+      "dimension": {
+        "Width": "326.5 mm",
+        "Height": "228 mm",
+        "Depth": "18.7  mm",
+        "Weight": "1.47 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "silver",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "laptop",
+        "discount": "41"
+      },
+      "rating": 3.3
+    },
+    {
+      "name": "Whirlpool 192 L Direct Cool Single Door 4 Star Refrigerator with Base Drawer with Laminar Airflow  (Blue, 215 MAGIC COOL ROY 4S Inv BLUE ABYSS-Z)",
+      "price": 21750,
+      "image": [
+        "whirl-1.png",
+        "whirl-2.png",
+        "whirl-3.png",
+        "whirl-4.png"
+      ],
+      "id": 24,
+      "description": "Experience a smart way of storing your food and beverages with the Whirlpool refrigerator. This 200 L single-door refrigerator allows you to effortlessly store all your fresh vegetables and fruits efficiently. Also, this refrigerator comes with the 6th sense QuickChill Technology so that your stored foods and vegetables remain fresh for up to twelve hours even during a sudden power outage. Moreover, it is equipped with features such as a chiller, large vegetable crisper, stabilizer-free operation and more thus ensuring effortless operation and long-lasting usability.",
+      "specification": {
+        "modelnumber": "NA",
+        "brand": "whirlpool ",
+        "color": " blue",
+        "storage": "NA",
+        "powersource": " 133 w",
+        "ram": "NA",
+        "bluetoothsupport": "No",
+        "operatingsystem": "NA",
+        "bluetoothversion": "NA",
+        "musicplayer": "NA",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "NA"
+      },
+      "dimension": {
+        "Width": "66.5 cm",
+        "Height": "142.5 cm",
+        "Depth": "59.5  cm",
+        "Weight": "42.6 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": " Blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "Refrigerator",
+        "discount": "21"
+      },
+      "rating": 3.4
+    },
+    {
+      "name": "Ezerio with Google Assistant Smart Speaker  (Multiclor)",
+      "price": 6999,
+      "image": [
+        "ezerio-1.png",
+        "ezerio-2.png",
+        "ezerio-3.png",
+        "ezerio-4.png",
+        "ezerio-5.png"
+      ],
+      "id": 55,
+      "description": "Product Description • We are Local Seller • Ships out within 24 hours ?? FOLLOW us for FREE Voucher ?? All products will be Quality Checked and Well Packed. - FREE Replacement if damaged in shipment With the continuous advancement of technology, we present to you a groundbreaking product: the Wireless Multi-Function Charging Ambient Lamp. It's not just a lamp; it's an integration of multiple innovative functions in one masterpiece. Whether you're seeking to add a cozy ambiance to your space or bring convenience and entertainment to your life, it excels at both. Key Features at a Glance: ",
+      "specification": {
+        "modelnumber": "3IN1 TWS Speaker LED Table Lamp Wireless Charger Atmosphere For Smart Home Decor",
+        "brand": "ezerio",
+        "color": "white multicolor",
+        "storage": "NA",
+        "powersource": "5 v",
+        "ram": "NA",
+        "bluetoothsupport": "Bluetooth, USB, Micro SD, AUX and IF Card.",
+        "operatingsystem": "NA",
+        "bluetoothversion": "5.1",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "2000 mah"
+      },
+      "dimension": {
+        "Width": "15.7 cm",
+        "Height": "15 cm",
+        "Depth": "4.5  cm",
+        "Weight": "368 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "white multicolor",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "35"
+      },
+      "rating": 4.2
+    },
+    {
+      "name": "SONY A80L 163.9 cm (65 inch) OLED Ultra HD (4K) Smart Google TV  (XR-65A80L)",
+      "price": 349900,
+      "image": [
+        "sony-1.png",
+        "sony-2.png",
+        "sony-3.png"
+      ],
+      "id": 49,
+      "description": "soney Atmos technology you can enjoy different audio modes at top-quality on its 20 W speakers. It has an in-built graphics unit that ensures you with fast and smooth processing to make multi-tasking more easy and effective. Thanks to the Android 11 featured in this Google TV, you can use your voice to command and access this TV to view your favourite content.",
+      "specification": {
+        "modelnumber": "XR-65A80L",
+        "brand": "sony",
+        "color": "black",
+        "storage": "Na",
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "operatingsystem": "Google TV,Android, iOS, Windows, Blackberry",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "audioformats": " Dolby Audio system ",
+        "batterycapacity": "2 AAA Batteries"
+      },
+      "dimension": {
+        "Width": "1448 mm",
+        "Height": "345 mm",
+        "Depth": "272 mm",
+        "Weight": "25.7 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "26"
+      },
+      "rating": 4.1
     }
   ],
   "saveforlater": [
@@ -2982,6 +3802,53 @@
         "discount": "32"
       },
       "rating": 3.4
+    },
+    {
+      "name": "Seashot with Google, Alexa & Siri Assistant Smart Speaker  (M-3 Boost Speaker Best Quality)",
+      "price": 1890,
+      "image": [
+        "mz-1.png",
+        "mz-2.png",
+        "mz-3.png"
+      ],
+      "id": 51,
+      "description": "MZ M3 (PORTABLE BLUETOOTH MINI SPEAKER) Dynamic Thunder Sound with High Bass 5 W Bluetooth Speaker. Its splash-proof features let you to enjoy your music anywhere indoor/outdoor. You can match it to your style quotient ,eye-catching contrast wherever it goes and easily compliments anyone’s style Portable Wireless Speaker Echo and noise cancelling features for calls Easy to operate; with volume and play/pause buttons for convenience Advanced wireless audio decoder chip, support all wireless devices connected. Soft, clear and dynamic sound all levels clear, Support line in audio input, provide you with computer speakers can be connected to mobile phone tablet computer and TV wireless pairing playing music IN BUILT MIC FOR CALLING High Bass Sound Quality High Sound Bright colours help you pick one that fits your style and a built-in rechargeable battery keeps music pumping wherever and whenever you take it. Wireless Bluetooth Streaming Wirelessly stream high",
+      "specification": {
+        "modelnumber": "Matka Speaker Boost -3",
+        "brand": "mz",
+        "color": "blue",
+        "storage": "NA",
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "operatingsystem": "NA",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "Active Voice Amplifier, Adaptive Sound+, Dolby Digital Plus",
+        "batterycapacity": "6 hours"
+      },
+      "dimension": {
+        "Width": "4 cm",
+        "Height": "6 cm",
+        "Depth": "6  cm",
+        "Weight": "300 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "blue",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "80"
+      },
+      "rating": 4.1
     }
   ],
   "profiledetails": {
