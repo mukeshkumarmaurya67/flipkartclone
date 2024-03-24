@@ -3849,6 +3849,102 @@
         "discount": "80"
       },
       "rating": 4.1
+    },
+    {
+      "name": "SONY A80L 163.9 cm (65 inch) OLED Ultra HD (4K) Smart Google TV  (XR-65A80L)",
+      "price": 349900,
+      "image": [
+        "sony-1.png",
+        "sony-2.png",
+        "sony-3.png"
+      ],
+      "id": 49,
+      "description": "soney Atmos technology you can enjoy different audio modes at top-quality on its 20 W speakers. It has an in-built graphics unit that ensures you with fast and smooth processing to make multi-tasking more easy and effective. Thanks to the Android 11 featured in this Google TV, you can use your voice to command and access this TV to view your favourite content.",
+      "specification": {
+        "modelnumber": "XR-65A80L",
+        "brand": "sony",
+        "color": "black",
+        "storage": "Na",
+        "powersource": "AC 100 - 240 V, 50/60 Hz",
+        "ram": "NA",
+        "bluetoothsupport": "yes",
+        "operatingsystem": "Google TV,Android, iOS, Windows, Blackberry",
+        "bluetoothversion": "4.5",
+        "musicplayer": "yes",
+        "videoformats": "Ultra HD (4K), 3840 x 2160",
+        "audioformats": " Dolby Audio system ",
+        "batterycapacity": "2 AAA Batteries"
+      },
+      "dimension": {
+        "Width": "1448 mm",
+        "Height": "345 mm",
+        "Depth": "272 mm",
+        "Weight": "25.7 kg"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "black",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "television",
+        "discount": "26"
+      },
+      "rating": 4.1
+    },
+    {
+      "name": "Ezerio with Google Assistant Smart Speaker  (Multiclor)",
+      "price": 6999,
+      "image": [
+        "ezerio-1.png",
+        "ezerio-2.png",
+        "ezerio-3.png",
+        "ezerio-4.png",
+        "ezerio-5.png"
+      ],
+      "id": 55,
+      "description": "Product Description • We are Local Seller • Ships out within 24 hours ?? FOLLOW us for FREE Voucher ?? All products will be Quality Checked and Well Packed. - FREE Replacement if damaged in shipment With the continuous advancement of technology, we present to you a groundbreaking product: the Wireless Multi-Function Charging Ambient Lamp. It's not just a lamp; it's an integration of multiple innovative functions in one masterpiece. Whether you're seeking to add a cozy ambiance to your space or bring convenience and entertainment to your life, it excels at both. Key Features at a Glance: ",
+      "specification": {
+        "modelnumber": "3IN1 TWS Speaker LED Table Lamp Wireless Charger Atmosphere For Smart Home Decor",
+        "brand": "ezerio",
+        "color": "white multicolor",
+        "storage": "NA",
+        "powersource": "5 v",
+        "ram": "NA",
+        "bluetoothsupport": "Bluetooth, USB, Micro SD, AUX and IF Card.",
+        "operatingsystem": "NA",
+        "bluetoothversion": "5.1",
+        "musicplayer": "yes",
+        "videoformats": "NA",
+        "audioformats": "NA",
+        "batterycapacity": "2000 mah"
+      },
+      "dimension": {
+        "Width": "15.7 cm",
+        "Height": "15 cm",
+        "Depth": "4.5  cm",
+        "Weight": "368 gm"
+      },
+      "warranty": {
+        "Warrantysummary": "Manufacturing Defects only",
+        "Warrantyservicetype": "Carry-in",
+        "Coveredwarranty": "Warranty of the Product is Limited to Only Manufacturing Defect on screen",
+        "domesticwarranty": "1 Year",
+        "notwarranty": "Physically Damaged"
+      },
+      "filter": {
+        "color": "white multicolor",
+        "category": "electronics",
+        "offer-type": "best-off",
+        "sub-category": "speakers",
+        "discount": "35"
+      },
+      "rating": 4.2
     }
   ],
   "profiledetails": {

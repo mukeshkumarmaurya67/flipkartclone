@@ -1,234 +1,214 @@
-import React, { useEffect, useState } from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import React, { useState } from "react";
+
 import Footer from "../Home Components/Footer";
 import Header from "../Home Components/Header";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { useFormik } from "formik";
+import { ContactFormSchemas } from "../Form Schemas";
 
 const Contactus = () => {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [valid, setValid] = useState(true);
+  // const [isSubmitted, setIsSubmitted] = useState(false);
+  // const [phoneNumber, setPhoneNumber] = useState("");
+  // const [valid, setValid] = useState(true);
+
   const initialValues = {
     name: "",
+    orderno: "",
     email: "",
     message: "",
-    orderno: "",
+    concern: "",
+    file: "",
+    // Phoneno: "",
   };
+  const {
+    handleSubmit,
+    handleChange,
+    handleBlur,
+    touched,
+    errors,
+    values,
+  } = useFormik({
+    initialValues,
+    validationSchema: ContactFormSchemas,
+    handleChange: true,
+    handleBlur: false,
+    onSubmit: (values, action) => {
+      console.log(values);
+      action.resetForm();
+    },
+  });
 
-  const onSubmits = (values) => {
-   
-    console.log(values.file);
-  };
-
-  const validate = (values) => {
-    const errors = {};
-// console.log(values);
-    if (!values.name) {
-      errors.name = "name is required";
-    }
-    if (!values.orderno) {
-      errors.orderno = "order number is required";
-    }
-    if (!values.email) {
-      errors.email = "email is required";
-    }
-    
-    if (!values.message) {
-      errors.message = "please write your concern here !";
-    }
-    // if (!values.Phoneno) {
-    //   errors.message = "please enter phone number !";
-    // }
-    return errors;
-  };
-
-  const handleChange = (e) => {
-    setPhoneNumber(e);
-    setValid(validatePhoneNumber(e));
-  };
-
-  const validatePhoneNumber = (phoneNumber) => {
-    const numPattern = /^\d.*$/;
-    return numPattern.test(phoneNumber);
-  };
   return (
     <>
       <Header />
       <section className="contact-us-form">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-lg-10 col-md-12 col-sm-12">
+            <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="form-contents">
-
                 <div className="left-content">
-                <div className="icon-box">
-                  {/* <img
+                  <div className="icon-box">
+                    {/* <img
                     src={require(`../Images/Icons/customer-support.png`)}
                     alt=""
                     srcset=""
                   /> */}
-                </div>
+                  </div>
                   <h3 className="xl-title">Write your concern here ...</h3>
 
-
-
-
-
-
-
-                  <Formik
-                    initialValues={initialValues}
-                    onSubmit={onSubmits}
-                    validate={validate}
-                  >
-                    <Form>
-                      <div className="row">
-                        <div className="col-lg-6 col-sm-12">
-                          <div className="form-group">
-                            <label for="name">Name:</label>
-                            <Field
-                              type="text"
-                              id="name"
-                              name="name"
-                              className="form-control"
-                              placeholder="Enter your name here ..."
-                            />
-                            <ErrorMessage
-                              name="name"
-                              component="div"
-                              className="text-danger"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-sm-12">
-                          <div className="form-group">
-                            <label for="orderno">Order No:</label>
-                            <Field
-                              type="text"
-                              id="orderno"
-                              name="orderno"
-                              className="form-control"
-                              placeholder="Order no "
-                            />
-                            <ErrorMessage
-                              name="orderno"
-                              component="div"
-                              className="text-danger"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-8 col-sm-12">
-                          <div className="form-group">
-                            <label htmlFor="email">Email:</label>
-                            <Field
-                              type="email"
-                              id="email"
-                              name="email"
-                              className="form-control"
-                              placeholder="Enter your mail id ..."
-                            />
-                            <ErrorMessage
-                              name="email"
-                              component="div"
-                              className="text-danger"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-4 col-sm-12">
-                          <div className="form-group drpdown">
-                            <label for="">Choose your concern</label>
-                            <select name="" id="" className="form-control">
-                              <option value="">Select here</option>
-                              <option value="product-related">
-                                Product related
-                              </option>
-                              <option value="delhivery-related">
-                                Delhivery related
-                              </option>
-                              <option value="return-related">
-                                Product return related
-                              </option>
-                              <option value="other-concern">
-                                Other Concern
-                              </option>
-                            </select>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-sm-12">
-                          <div className="form-group">
-                            <label for="Phoneno">Phone Number:</label>
-                            <PhoneInput
-                              country={"in"}
-                              id="Phoneno"
-                              value={phoneNumber}
-                              name="Phoneno"
-                              onChange={handleChange}
-                              inputProps={{ required: true }}
-                              className="form-control country-flag"
-                              placeholder="Enter your phone number ..."
-                            />
-                            <ErrorMessage
-                              name="Phoneno"
-                              component="div"
-                              className="text-danger"
-                            />
-                            {!valid && (
-                              <p className="text-danger">
-                                Please enter a valid number
-                              </p>
-                            )}
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-sm-12">
-                          <div className="form-group">
-                            <label for="file">Choose Your File:</label>
-                            <Field
-                              type="file"
-                              id="file"
-                              name="file"
-                              className="form-control"
-                              placeholder="Select images ..."
-                              multiple="true"
-                              accept="image/png, image/jpeg"
-                            />
-                            <ErrorMessage
-                              name="file"
-                              component="div"
-                              className="text-danger"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-12">
-                          <div className="form-group textara">
-                            <label for="message">Message:</label>
-                            <Field
-                              as="textarea"
-                              id="message"
-                              name="message"
-                              className="form-control"
-                              placeholder="Write your concern here...."
-                            />
-                        
-                            <ErrorMessage
-                              name="message"
-                              component="div"
-                              className="text-danger"
-                            />
-                          </div>
+                  <form onSubmit={handleSubmit}>
+                    <div className="row">
+                      <div className="col-lg-6 col-sm-12">
+                        <div className="form-group">
+                          <label for="name">Name:</label>
+                          <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            className="form-control"
+                            placeholder="Enter your name here ..."
+                            value={values.name}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                          />
+                          {touched.name && errors.name ? (
+                            <p className="form-error">{errors.name}</p>
+                          ) : null}
                         </div>
                       </div>
-
-                      <div className="col-lg-5 col-md-6 col-sm-12">
-                        <button
-                          type="submit"
-                          className="form-control mt-4 btn-red"
-                        >
-                          Submit
-                        </button>
+                      <div className="col-lg-6 col-sm-12">
+                        <div className="form-group">
+                          <label for="orderno">Order No:</label>
+                          <input
+                            type="text"
+                            id="orderno"
+                            name="orderno"
+                            className="form-control"
+                            placeholder="Order no "
+                            value={values.orderno}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                          />
+                          {touched.orderno && errors.orderno ? (
+                            <p className="form-error">{errors.orderno}</p>
+                          ) : null}
+                        </div>
                       </div>
-                    </Form>
-                  </Formik>
+                      <div className="col-lg-6 col-md-8 col-sm-12">
+                        <div className="form-group">
+                          <label htmlFor="email">Email:</label>
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            className="form-control"
+                            placeholder="Enter your mail id ..."
+                            value={values.email}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                          />
+                          {touched.email && errors.email ? (
+                            <p className="form-error">{errors.email}</p>
+                          ) : null}
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-4 col-sm-12">
+                        <div className="form-group drpdown">
+                          <label for="">Choose your concern</label>
+                          <select
+                            name="concern"
+                            id=""
+                            className="form-control"
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            value={values.concern}
+                          >
+                            <option value="">Select here</option>
+                            <option value="product-related">
+                              Product related
+                            </option>
+                            <option value="delhivery-related">
+                              Delhivery related
+                            </option>
+                            <option value="return-related">
+                              Product return related
+                            </option>
+                            <option value="other-concern">Other Concern</option>
+                          </select>
+                          {touched.concern && errors.concern ? (
+                            <p className="form-error">{errors.concern}</p>
+                          ) : null}
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-sm-12">
+                        <div className="form-group">
+                          <label for="Phoneno">Phone Number:</label>
+                          <PhoneInput
+                            country={"in"}
+                            id="Phoneno"
+                            // value={phoneNumber}
+                            name="Phoneno"
+                            className="form-control country-flag"
+                            placeholder="Enter your phone number ..."
+                            // onChange={handleChange}
+                            // onBlur={handleBlur}
+                            // value={values.Phoneno}
+                          />
+                          {/* {touched.Phoneno && errors.Phoneno ? (
+                            <p className="form-error">{errors.Phoneno}</p>
+                          ) : null} */}
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-sm-12">
+                        <div className="form-group">
+                          <label for="file">Choose Your File:</label>
+                          <input
+                            type="file"
+                            id="file"
+                            name="file"
+                            className="form-control"
+                            placeholder="Select images ..."
+                            multiple="true"
+                            accept="image/png, image/jpeg"
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                            value={values.file}
+                          />
+                          {touched.file && errors.file ? (
+                            <p className="form-error">{errors.file}</p>
+                          ) : null}
+                        </div>
+                      </div>
+                      <div className="col-12">
+                        <div className="form-group textara">
+                          <label for="message">Message:</label>
+                          <input
+                            as="textarea"
+                            id="message"
+                            name="message"
+                            className="form-control"
+                            placeholder="Write your concern here...."
+                            value={values.message}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                          />
+                          {touched.message && errors.message ? (
+                            <p className="form-error">{errors.message}</p>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-5 col-md-6 col-sm-12">
+                      <button
+                        type="submit"
+                        className="form-control mt-4 btn-red"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </form>
                 </div>
                 <div className="right-content">
                   {/* <h2 className="title">Contact Us</h2> */}
@@ -258,7 +238,7 @@ const Contactus = () => {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

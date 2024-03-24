@@ -229,9 +229,11 @@ const ViewAllPage = () => {
                                 >
                                   Add To Cart
                                 </button>
-                                <button className="btns btn-red w-50">
+                                {/* <button className="btns btn-red w-50"> */}
+                                <Link className="btns btn-red w-50" to={`/product-details/${e.id}`}>
                                   Buy Now
-                                </button>
+                                </Link>
+                                {/* </button> */}
                               </div>
                             </div>
                           </div>
